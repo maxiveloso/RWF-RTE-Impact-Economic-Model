@@ -1,0 +1,2223 @@
+Policy Research Working Paper                  8752
+
+
+
+
+             Equivalent Years of Schooling
+           A Metric to Communicate Learning Gains
+                       in Concrete Terms
+
+                              David K. Evans
+                                Fei Yuan
+
+
+
+
+Africa Region
+Office of the Chief Economist
+  &
+World Development Report 2018 Team
+February 2019
+Policy Research Working Paper 8752
+
+
+  Abstract
+ In the past decade, hundreds of impact evaluation studies                          words, over the course of a business-as-usual school year,
+ have measured the learning outcomes of education inter-                            students learn between 0.15 and 0.21 standard deviation of
+ ventions in developing countries. The impact magnitudes                            literacy ability. Using that metric to translate the impact of
+ are often reported in terms of “standard deviations,” making                       interventions, a median structured pedagogy intervention
+ them difficult to communicate to policy makers beyond                              increases learning by the equivalent of between 0.6 and
+ education specialists. This paper proposes two approaches                          0.9 year of business-as-usual schooling. The results further
+ to demonstrate the effectiveness of learning interventions,                        show that even modest gains in standard deviations of learn-
+ one in “equivalent years of schooling” and another in the                          ing—if sustained over time—may have sizeable impacts on
+ net present value of potential increased lifetime earnings.                        individual earnings and poverty reduction, and that conver-
+ The results show that in a sample of low- and middle-in-                           sion into a non-education metric should help policy makers
+ come countries, one standard deviation gain in literacy skill                      and non-specialists better understand the potential benefits
+ is associated with between 4.7 and 6.8 additional years of                         of increased learning.
+ schooling, depending on the estimation method. In other
+
+
+
+
+ This paper is a product of the Office of the Chief Economist, Africa Region and the World Development Report 2018
+ Team. It is part of a larger effort by the World Bank to provide open access to its research and make a contribution to
+ development policy discussions around the world. Policy Research Working Papers are also posted on the Web at http://
+ www.worldbank.org/research. The authors may be contacted at devans2@worldbank.org and fyuan@g.harvard.edu.
+
+
+
+
+         The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development
+         issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the
+         names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those
+         of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and
+         its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.
+
+
+                                                       Produced by the Research Support Team
+                                                         Equivalent Years of Schooling:  
+                   A Metric to Communicate Learning Gains in Concrete Terms 
+                                                                         
+                                  David K. Evans                                        Fei Yuan1 
+
+                                                                         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JEL Classification: O1, I25, I26 
+Keywords: Education, Impact evaluation, learning outcomes, measurement                                                          
+
+                                                            
+1
+  This study was prepared as a background paper for the World Bank’s “World Development Report 2018: Learning 
+to  Realize  Education’s  Promise,”  with  support  from  the  Bill  and  Melinda  Gates  Foundation.  It  benefitted  from 
+guidance from Rafael de Hoyos, Alex Eble, Deon Filmer, Michael Kremer, Owen Ozier, Lant Pritchett, Jonah Rockoff, 
+Halsey Rogers, and participants at various seminars. David Evans (devans2@worldbank.org) is at the World Bank, 
+and Fei Yuan (fyuan@g.harvard.edu) is at the Harvard Graduate School of Education.   
+1. Introduction 
+The past 25 years have witnessed an unprecedented educational expansion in developing countries. Most 
+children in the world now have access to school. By 2015, enrollment in primary education in low‐income 
+countries reached 80 percent, compared to 42 percent in 1990 (World Bank 2017).2 Children also stay in 
+school longer. Average years of schooling among adults almost doubled, from 3.9 years in 1980 to 7.5 
+years  in  2010  (Lee  and  Lee  2016).  However,  increased  schooling  does  not  automatically  translate  into 
+better  learning  outcomes  for  all  children.  In  many  places  in  Africa,  Latin  American,  and  South  Asia, 
+students who have completed primary education still cannot read or add two‐digit numbers (Majgaard 
+and Mingat 2012; Dundar et al. 2014; Pritchett, Banerji, and Kenny 2013). Even in middle‐income countries, 
+students  learn  much  less  than  their  peers  in  rich  countries  (World  Bank  2018).  The  Programme  for 
+International Student Assessment (PISA) 2015 survey shows that the 15‐year‐old top performers (above 
+the 75th percentile) in mathematics in the Dominican Republic, Algeria, Kosovo and Tunisia scored lower 
+than  those  at  the  25th  percentile  of  the  OECD  average  (Figure  1)  (OECD  2016).  Other  international 
+assessments show similar trends (Mullis et al. 2016; PASEC 2015; Pizarro et al. 2016).  
+Governments are searching for more innovative and effective ways to improve learning.  This not only 
+translates into ongoing efforts to try new education interventions, but also increased use of experimental 
+or quasi‐experimental methods to measure the impacts of these interventions. By 2016, there were more 
+than 350 impact evaluation studies with learning outcomes from low‐ and middle‐income countries; in 
+2000, there were only about 32 (Evans and Popova 2016; World Bank 2018). Indeed, there is a wide range 
+of possible education interventions, from providing school meals to students to offering cash transfers 
+conditional on school attendance; from giving free learning materials to students to training teachers in 
+new instructional techniques; from constructing new schools to strengthening school management; and 
+from increasing parental engagement to promoting community‐based monitoring. Recent syntheses seek 
+to evaluate the relative impact of these types of interventions.3  
+This  paper  has  two  objectives.  The  first  objective  is  to  propose  widely  comprehensible  metrics  for 
+reporting the impact of interventions that seek to improve learning. Education economists and specialists 
+generally  report  the  effectiveness  of  an  intervention  in  term  of  “standard  deviations,”  which  may  be 
+difficult  for  non‐specialists  to  understand.  For  the  vast  majority  of  the  population,  from  a  Minister  of 
+Finance to a rural parent, what does it mean that a new educational policy increases student learning by 
+0.2 standard deviation? Not much. In this paper, we use two alternative approaches to quantify the impact 
+sizes of different interventions. The first approach is to compare gains to learning in business‐as‐usual 
+schooling,  as  above.  We  call  these  equivalent  years  of  schooling  (EYOS),  as  in,  “A  given  learning 
+intervention  delivers  the  equivalent  of  1.5  years  of  ‘business‐as‐usual’  schooling”  in  terms  of  learning 
+outcomes. The second approach is to put a dollar amount on increased learning by estimating the long‐
+term  labor  market  returns,  an  approach  often  adopted  in  the  cost‐effectiveness  analysis  of  health 
+
+                                                            
+2
+   This is net enrollment, which is the percentage of children who are of primary‐school age that are enrolled in 
+primary school. Gross enrollment – the number of children of any age that are enrolled in primary school divided 
+by the number of children of primary‐school age – rose from 61 percent to 103 percent over the same period. Net 
+enrollment numbers extend back to 1999, so previous years are a simple extrapolation relative to gross 
+enrollment; however, that relationship was steady between 1999 and 2015.  
+3
+   There have been many syntheses of evidence to improve learning in recent years. Evans and Popova (2016) 
+synthesize six of these synthesis studies. A recent synthesis which covers a wide range of recent interventions is 
+Snilstveit et al. (2015), summarized in Snilstveit et al. (2016).  
+
+                                                                                                                     2 
+ 
+interventions.  If  an  intervention  increases  learning  and  the  effects  can  be  sustained  in  human  capital 
+accumulation, we can calculate the lifelong wage gains from that increased learning. We use the returns 
+to cognitive skills among adults to project the effects of improved learning on lifetime earnings.4 The net 
+present value (NPV) of lifetime earnings is – on the one hand – a reductive way to think about the value 
+of improved learning, but it has the distinct advantage of allowing concrete discussion of the potential 
+returns to education interventions, which may facilitate discussions of education investments relative to 
+other investments with non‐education experts, such as Ministers of Finance.  
+The second objective is to characterize the size of the impacts of these interventions relative to learning 
+in  a  business‐as‐usual  setting.  The  motivation  for  the  first  objective  is  that  a  common  critique  of  the 
+learning interventions characterized above is that the average effect is inadequate to make a substantive 
+difference (Alkire et al. 2018). For example, the median effect of pedagogical interventions from a recent 
+review – including experimental and quasi‐experimental studies – was 0.13 standard deviation in learning 
+(Snilstveit et al. 2015). The median effect across randomized controlled trials in a recent systematic review 
+(McEwan 2015) was 0.07 standard deviation. But how much do students learn in their education systems 
+normally? Are these effects small or big next to a realistic counterfactual of education in low‐ and middle‐
+income countries? This paper characterizes the size of a range of learning interventions relative to what 
+students normally learn in school in low‐ and middle‐income countries. 
+Of  course,  knowing  the  returns  is  only  one  side  of  the  equation:  adding  cost  data  would  allow  policy 
+makers not only to understand the metric by which the benefits  are measured, but also to make fully 
+informed  decisions.  Unfortunately,  cost  data  are  reported  far  less  systematically  and  less  often  than 
+impact estimates. However, recent work has provided estimates across a range of studies (J‐PAL 2014). 
+We use those estimates to demonstrate how our method – of translating learning gains into equivalent 
+years  of  schooling  and  into  increased  potential  earnings  –  could  be  extended  to  demonstrate  the 
+equivalent years of schooling (EYOS) per $100 and the benefit‐cost ratio of investment.  
+To  convert  test  score  gains  into  additional  years  of  schooling  or  increased  wages,  we  use  data  on  the 
+relative wages and the relative schooling of individuals with different levels of cognitive performance. A 
+group of new, comparable international assessments measuring adult cognitive skills in low‐ and middle‐
+income  countries,  the  Skills  Towards  Employability  and  Productivity  program  (STEP),  along  with  some 
+other,  stand‐alone  surveys  provide  exactly  that  (Hanushek  et  al.  2015;  Valerio,  Sánchez  Puerta,  et  al. 
+2016a; Díaz, Arias, and Tudela 2012; Aslam et al. 2011; Valerio, Sanchez‐Puerta, et al. 2016).5  
+We  find  that  across  5  STEP  countries,  one  standard  deviation  gain  in  literacy  skill  is  associated  with 
+between 4.7 and 6.8 additional years of schooling, depending on the estimation method. In other words, 
+over  the  course  of  a  business‐as‐usual  school  year,  students  learn  between  0.15  and  0.21  standard 
+deviation of literacy ability.6 At the same time, one promising set of interventions – structured pedagogical 
+improvements  (or  improving  the  quality  of  teaching  with  detailed  guidance  to  instructors)  –  has  an 
+average effect size of 0.13 standard deviation, which means these interventions help students to learn 
+what  they  would  normally  learn  in  between  0.6  and  0.9  years  of  business‐as‐usual  schooling.  Impact 
+                                                            
+4
+   Muralidharan and Sundararaman (2011) use a similar approach for a single program, to calculate the internal rate 
+of return of a teacher performance pay program in India. 
+5
+   The Programme for the International Assessment of Adult Competencies (PIAAC) provides similar data for high‐
+income countries.  
+6
+   Because this compares individuals with different completed years of schooling, it is net of the depreciation that 
+takes place during the holidays between school years.  
+
+                                                                                                                     3 
+ 
+evaluation  studies  in  the  areas  of  computer‐assisted  learning  and  school‐based  management  yield  an 
+average impact that translates to 0.05 to 0.07 additional year of schooling. The impacts of the pedagogical 
+improvements are sizeable, suggesting that interventions being explored to improve learning can make a 
+significant  difference.  When  one  translates  these  learning  gains  into  the  wage  gains  associated  with 
+improved learning, the median wage gains across all pedagogical interventions with positive impacts are 
+8 percent, and the wage gains for the intervention with an effect size at the 75th percentile are 21 percent. 
+In the latter case, that translates into a net present value of nearly US$24,369 in increased wages, with a 
+number of interventions delivering even higher returns.  
+
+2. Empirical Strategy 
+2.1 Equivalent Years of Schooling (EYOS)  
+To report learning effects in terms of EYOS, ideally one would access a test that maps out the learning 
+trajectory of how much students learn from each additional year of schooling. This requires administering 
+a test with a vertical scale, which makes scores comparable across different grade levels. For example, the 
+states of Utah and Texas in the United States assess student performance in grades 3‐8 for reading and 
+math using a vertical scale (Utah Education Association 2013; State of Texas Assessments of Academix 
+Readiness 2013). However, to the best of our knowledge, no existing cross‐country tests allow for that 
+conversion.  Some  studies  have  attempted  to  estimate  the  learning  gain  from  an  additional  year  of 
+schooling in other ways by comparing students of the same age in two different grades (e.g., with the 
+Program for International Student Assessment, or PISA, which is applied to 15‐year‐olds across countries), 
+either seeking to control for confounders in regressions (OECD 2014) or by using age‐cutoffs for grade 
+enrollment  to  exogenously  identify  differences  (Strom  2004;  Frenette  2008;  Benton  2014;  Khaw  and 
+Wong 2012; Lau and Wong 2013; Marchionni and Vazquez 2015). Neither of these methods maps out a 
+trajectory beyond two years, whereas skills may accumulate at different rates over the primary school 
+cycle.7  
+A few other tests assess reading and numeracy competencies of children in a wide age range, but the 
+content of the tests is set at the level of early grades and provides limited information on the learning 
+trajectory of later years in the education cycle. For example, the Annual State of Education Report (ASER) 
+in  India  and  Pakistan,  Uwezo  in  East  Africa,  and  the  Independent  Measurement  of  Learning  (MIA)  in 
+Mexico test the basic reading and numeracy skills of children aged between 5 and 16 through household‐
+based  assessments.  In  addition,  these  tests  are  based  on  national  curricula  to  guide  domestic  policy 
+dialogue  and  are  not  necessarily  comparable  across  countries  (PAL  Network  2017).  Similar  constraints 
+apply  to  the  Early  Grade  Reading  Assessment  (EGRA)  and  the  Early  Grade  Math  Assessment  (EGMA), 
+which have been widely used in Africa, the Middle East and South Asia (RTI International 2009).                                              
+In  this  paper,  we  use  an  adult  skill  assessment  to  estimate  the  relationship  between  learning  gains 
+throughout the primary cycle. The advantage of using adults is that the analysis avoids selection in terms 
+of who has achieved a certain grade by a certain age. Selection in total years of schooling remains, to a 
+degree that varies by the estimation method. We employ two alternative methods to estimate the EYOS 
+associated with one standard deviation in learning. The first uses simple descriptive data to characterize 
+                                                            
+7
+  Another, related effort seeks to combine the quality and quantity of education into a single cross‐country measure 
+– the Learning Adjusted Years of Schooling, or LAYS – to allow comparison of education systems across countries 
+(Filmer et al. 2018). While the LAYS allows an aggregate measure of the quantity and quality of education in an 
+education system, it is not naturally suited to characterizing the gains from a given intervention. 
+
+                                                                                                                        4 
+ 
+the learning gains through the school career (2.1.1 Method 1: Descriptive learning trajectory). The second 
+uses multivariate regression to estimate the learning gains associated with an additional year of schooling, 
+accounting  for  a  number  of  background  variables  (2.1.2  Method  2:  OLS  model  of  skills  and  years  of 
+schooling).  Both  methods  have  advantages  and  disadvantages,  but  ultimately,  both  point  to  sizeable 
+impacts from learning interventions.  
+2.1.1 Method 1: Descriptive learning trajectory 
+In this section, we create an approximate learning trajectory using descriptive statistics. We first calculate 
+standardized  reading  proficiency  scores  by  completed  years  of  schooling,  and  then  we  calculate  the 
+increased  proficiency  for  individuals  with  an  additional  year  of  schooling.  For  example,  if  the  average 
+reading proficiency score of people who have i years of schooling is ������  and those who have (i+1) years of 
+schooling is ������ , the learning gain from one additional year of schooling will be ∆ ������  ‐ ������ . We then 
+take  the  simple  average  of  learning  gains  from  grade  1  to  grade  12  as  the  mean  reading  proficiency 
+improvement  from  an  additional  year  of  schooling.  The  EYOS  are  estimated  as  1/ ∆ _              .  We  use 
+grades 1 through 12 because we observe significant gains in literacy throughout those grades and because 
+education past grade 12 no longer focuses on fundamental reading skills.  
+Although all curricula mandate that these skills be learned in primary school, the poor quality of education 
+in  many  countries  extends  that  learning  curve  into  secondary  school  (Figure  2).  Moreover,  due  to  the 
+limited sample size of each country, we include all age groups in the calculation, aware of the fact that 
+the quality of the education system varies across generations and there might be potential catch‐up or 
+decay effects of learning during adulthood. The advantage of this method is its simplicity; its disadvantage 
+is its failure to deal with selection in total years of schooling.  
+2.1.2 Method 2: OLS model of skills and years of schooling 
+In this section, we adopt a statistical model of an individual’s skills as a simple and restricted function of 
+completed years of schooling, following Mincer (1970).   
+                                                                  ������     ������������     ������                      (1) 
+Where cognitive skills  (C) are measured by skill assessment scores and  S is school attainment. We fully 
+acknowledge  that  there  are  factors  other  than  schooling  that  determine  the  formulation  of  skills,  as 
+discussed in Hanushek (2002). The purpose of this paper is to characterize potential gains rather than 
+make a strict causal claim.  
+Following this conceptualization, we estimate the following equation for our analysis:  
+                           ������ ������          ������ ������     ������ ������������������          ������ ������ ������������������      ������ ������       ������             (2) 
+Where ������  is  the  standardized  reading  proficiency  score  of  individual  i,  S  is  the  number  of  years  of 
+schooling,  G  is  an  indicator  of  gender,  and  ������  is  a  stochastic  error.  We  include  age  effects  in  the 
+specification, considering the potential learning decay or catch‐up effects in adulthood, which allows the 
+learning  gradient  associated  with  additional  schooling  to  vary  by  age.  We  then  use  that  relationship, 
+expressed  in ������ , ������ , ������ ,  to  estimate  the  learning  gradient  back  in  one’s  school  age.  Therefore,  the 
+learning gain for an individual from an addition year of schooling in terms of standard deviation can be 
+estimated as:   
+                                    ∆������       ������       ������         ������    ������      ������������������      1                    (3) 
+
+
+                                                                                                                           5 
+ 
+Correspondingly, one standard deviation in learning gains is associated with 1/∆������ EYOS. With equation 
+(3), we can derive an estimate of a full learning profile for each country based on a representative sample 
+of the population with different educational attainment, rather than concentrating on a specific age or 
+grade group. A standard caveat in a model like equation (2) is that a degree of selection takes place at 
+each  grade.  However,  previous  research  work  has  shown  that  the  simple  OLS  and  quasi‐experimental 
+designs yield very similar estimates of schooling impacts on learning and earnings (Chetty, Friedman, and 
+Rockoff 2014).  
+For the conversion of EYOS, we again limit the sample to individuals with up to 12 years of schooling for 
+the same reason described in 2.1.1, that learning gains on the skills we measure are sizeable through 12 
+years of schooling but smaller after. We report the EYOS estimated based on the learning gain from grade 
+6, usually the last year of primary school, as the primary results. We report specifications pooled across 
+countries that both include and exclude country fixed effects, and we give each country the same weight 
+to compensate for differing sample sizes across countries.  
+2.2 Net Present Value of Increased Learning 
+There is a vast labor literature examining how wages of workers are determined. A simple estimate of 
+individual earnings can be written as in Equation 4, following Hanushek and Woessmann (2008):  
+                                                              ������    ������������       ������                                                            (4) 
+where earnings (������) are a function of the labor‐market skills or human capital of the individual (������ ). ε is a 
+stochastic error, representing idiosyncratic differences in earnings and orthogonal to H. 
+Human capital (H) is a latent variable that is hard to measure. A preponderance of empirical research 
+has adopted the Mincerian earning equation (5) (Mincer 1970, 1974), where human capital is measured 
+by educational attainment (i.e., years of schooling) and on‐the‐job training (i.e., work experience).  
+                               ������������ ������      ������          ������ ������       ������ ������       ������ ������           ������ ������          ������                      (5) 
+������  is the weekly wage of individual i, ������ is the number of years of schooling, ������ is potential years of work 
+experience calculated as Age‐Years of education‐6, and G is an indicator for gender. 
+An alternative approach is to use directly measured cognitive skills as a proxy for human capital – that is, 
+standardized literacy and numeracy tests. The empirical model is an analog to a Mincer equation 
+replacing years of schooling with measured literacy skills C. Potential working experience is replaced by 
+age, as experience might be endogenous to schooling (Patrinos and Sakellariou 2005).  
+                              ������������ ������     ������          ������ ������        ������ ������������������       ������ ������������������           ������ ������          ������           (6) 
+We estimate the labor market value of improved test scores, conditional on the assumption that increased 
+learning from interventions corresponds to a long‐term human capital gain. This is a strong assumption. 
+Most impact evaluations of education interventions measure impacts over only a short period; McEwan 
+(2015) found the average period between treatment and follow‐up measurement across 70 instructional 
+evaluations was 13 months. In some cases, where impacts have been measured over time, the effects 
+have been sustained (Ou 2005; Muralidharan 2012); in others, the effects have diminished or disappeared 
+(Andrabi et al. 2011; Jacob, Lefgren, and Sims 2010). There are too few long‐term evaluations to draw 
+strong  conclusions.  As  such,  this  exercise  seeks  to  translate  the  potential  long‐term  impact  of  human 
+capital gains into broadly understandable metrics – increased earnings – without intending to be strictly 
+predictive, given the uncertainty of the time path of returns.   
+
+                                                                                                                                                    6 
+ 
+We  assume  that  wage  returns  to  skills  are  constant  across  one’s  working  life  (Buchmann  et  al.  2016). 
+Improvement from the same intervention I translates to a ∆������ ∙ ������ predicted wage increase. The average 
+annual income of a worker in country ������ is ������ , measured by the labor share of the Gross National Income 
+(GNI) per capita. Hence, intervention I yields an additional income of ∆������ ∙ ������ ∙ ������  per year, assuming no 
+wage  growth, 8  following  Miguel  and  Kremer  (2004)  and  Muralidharan  and  Sundararaman  (2011). 
+Students receive the intervention at age ������  and they are expected to enter the labor market at age 20 
+(Muralidharan and Sundararaman 2011). Wage gains will be further discounted by (20‐������ ) years. The net 
+present value of additional wage gains can be written as:  
+                    
+                                                                        ∆������ ∙ ������ ∙ ������
+                                                               ������������������                                   9  
+                                                                           1 ������
+
+where n = number of years in the workforce and i = discount rate.  
+In this paper, the expected work life is assumed to be 40 years and discount rate is taken at 3%, a standard 
+social discount rate in public finance (Hanushek and Woessmann 2010; Hagist et al. 2005; Börsch‐Supan 
+2000).  
+2.3 Cost Effectiveness of Learning Interventions  
+Building on the impact metrics, this paper also presents cost‐effectiveness analysis and benefit‐cost ratios 
+of  a  range  of  programs  with  available  cost  data  from  J‐PAL  (2014).  The  cost‐effectiveness  of  selected 
+interventions is estimated in terms of EYOS per US$100. For instance, we first multiply the point estimate 
+of improved learning by ∆������ to get the amount of EYOS for each participant by the program. We then divide 
+the  present  value  of  total  costs  of  the  program  (including  costs  to  both  the  implementer  and  the 
+beneficiary) by the number of participants to determine the program cost per beneficiary. And we divide 
+the amount of EYOS by the cost per individual, then multiply by 100 to express the outcome per a US$100 
+investment.  
+Benefit‐cost ratios or return to investment (ROI) ratios are calculated as the NPV of lifetime increased 
+wage income divided by the NPV of the program costs per individual. All conversions and calculations 
+follow the methodology described previously in this section.  
+
+3. Data 
+The primary data used in this paper are the World Bank’s STEP Skills Measurement Program. The STEP 
+household surveys measure skills of the adult population in low‐ and middle‐income countries and provide 
+comparable international scores of reading proficiency on the scale of OECD’s assessment of adult skills, 
+the PIAAC (World Bank 2016a). We use the STEP survey data collected between March 2012 and July 2014 
+in five countries with available literacy assessment data: Bolivia, Colombia, Ghana, Kenya, and Vietnam.9  
+
+
+
+                                                            
+8
+    Wages  are  highly  likely  to  increase  over  time  and  assuming  no  wage  growth  is  a  conservative  approach. 
+Nevertheless, the net present value of increased learning from interventions is considerable.  
+9
+   Data are also available for Armenia, Ukraine and Georgia but not included for the reason that over 50 percent of 
+the population in these countries have more than 12 years of formal education, which dramatically reduces the 
+sample size for the analysis in this paper.  
+
+                                                                                                                       7 
+ 
+The STEP survey includes background information of respondents including demographic characteristics, 
+education, employment history, and earnings. It also includes a reading literacy assessment, administered 
+along with the household survey to a representative sample of urban adults aged 15‐64 in participating 
+countries. Respondents were asked to take a paper‐based literacy test that was designed to measure the 
+level  of  proficiency  in  literacy  with  respect  to  word  meaning,  sentence  processing  and  basic  passage 
+comprehension,  in  the  language  of  their  resident  country.  Scores  were  given  based  on  accuracy  (the 
+number of correct answers) and rate (the time taken to answer correctly) on a scale from 0 to 500, as in 
+the PIAAC (Pierre et al. 2014).10 For analytical purposes, we standardize scores to have a mean of zero and 
+a  within‐country  standard  deviation  of  one  in  country‐specific  analyses  and  standardize  scores  across 
+countries when analyzing the pooled sample, following Hanushek et al. (2015) and Valerio, Sánchez Puerta, 
+et al. (2016b).11 There is a consistent sampling strategy (see Pierre et al. (2014)) across all STEP participant 
+countries  and  this  paper  employs  the  sample  weights  within  each  country  in  the  estimation.  Pooled 
+analyses give each country the same weight.  
+In both our descriptive learning trajectory model and the linear regression model, we limit the estimation 
+sample to survey respondents who have 1‐12 years of schooling. This gives us sample sizes ranging from 
+1,558 in Bolivia to 2,503 in Vietnam, as Table 1 Panel A shows. The average age of the pooled sample 
+across 5 countries is 32.9 years old, ranging from 28.5 years old in Kenya to 38.1 years old in Vietnam. The 
+average years of schooling is 8.9 years, with about 21.2% still at school. Respondents in Vietnam achieve 
+the highest reading proficiency score (234) while respondents in Ghana have the lowest (126).  
+For the analysis of labor market returns and the net present value of lifetime earnings, we restrict the 
+sample to adults between 25 and 64 years old who are in the labor force regardless of employment status, 
+since the level of skills matters in both job seeking and job performance. It includes the following groups: 
+(1)  the  full‐time  and  part‐time  employed  (including  self‐employed)  population,  and  (2)  those  who  are 
+unemployed but have been looking for jobs in the past four weeks and will be available in the next two 
+weeks. We exclude individuals who are not in the labor force, specifically those who are not employed 
+and did not look for work in the past four weeks, either because they self‐identify as housewives (47.0%), 
+are retired or in old age (24.0%), are ill or disabled (7.9%), are currently attending school (6.1%), do not 
+want to work or believe there are no jobs (3.4%), and for other reasons (11.6%). The earnings measure 
+used is weekly wages in US dollars. The top 1 percent of weekly earners (likely due to reporting error) are 
+excluded from the sample, as were those who did not report their wages (5% of those who report working). 
+The earnings of unemployed people and unpaid workers are set at 0.00001 for estimation purposes.  
+Table 1 Panel B provides summary statistics of this subsample. The sample size ranges between 1,228 in 
+Bolivia  and  1,948  in  Kenya,  with  a  total  of  8,156  observations  in  the  pooled  sample.  Vietnam  has  the 
+highest employment rate at 98.0%, and the lowest rate is 83.1% in Kenya. Hourly wage ranges from $2.8 
+(PPP 2011) in Ghana to $4.6 in Bolivia. Respondents in Vietnam achieve the highest literacy score (237) 
+and respondents in Ghana the lowest (121). The average years of schooling ranges from 11.1 in Bolivia to 
+7.8 years in Ghana. 
+
+                                                            
+10
+    The STEP survey also collected data on socioemotional skills, but we focus on the measured cognitive skills (i.e., 
+reading proficiency) in the empirical specification, as this is the most consistently measured learning outcome in 
+education impact evaluations.  
+11
+    All 10 plausible values of the STEP reading proficiency scores are taken into account using the STEP module in 
+Stata 14 (Macdonald 2014). 
+
+                                                                                                                     8 
+ 
+For interventions, we begin with the sample of impact evaluation studies in the areas with the largest 
+number  of  measured  learning  outcomes  in  a  systematic  review  (Snilstveit  et  al.  2015):  structured 
+pedagogy (e.g., introducing new lesson content and providing teachers with training on how to teach), 
+computer‐assisted learning, and school based management. We only include studies with any measure of 
+the three building blocks of the STEP literacy assessment – word meaning, sentence processing and basic 
+passage  comprehension  –  to  ensure  the  comparability  to  the  extent  possible,  and  sort  them  by 
+standardized effect size.12 Forty‐nine of the total 63 reading outcomes analyzed in this paper are from 
+impact evaluations that employ randomized controlled trials (RCTs), and the rest are from studies using 
+either difference‐in‐differences (DID) or multivariate regression evaluation designs. In order to estimate 
+the  potential  increase  in  average  annual  income  associated  with  an  intervention,  we  use  the  GNI  per 
+capita, PPP (current international $)  combined with the  labor share of national income of the  country 
+where  the  intervention  was  implemented  (World  Bank  2017;  Neiman  and  Karabarbounis  2013).  To 
+compare all the interventions in the same time frame, we assume that all interventions began in 2015 
+(Buchmann et al. 2016).  
+For  cost‐effectiveness  analysis,  a  recent  study  by  J‐PAL  (2014)  provides  standardized  effect  sizes  and 
+program costs of 27 education interventions with student learning outcomes across Sub‐Saharan Africa 
+and Asia. Our analysis includes 14 of those 27 programs with a significant impact at the 10% level. We 
+estimate the equivalent years of schooling per $100 and the rate of return on investment. The cost data 
+from J‐PAL in general consider costs to the implementer such as administrative and monitoring costs and 
+the  opportunity  costs  of  the  beneficiary  and  their  family  (see  Dhaliwal  et  al.  (2013)  for  details  on 
+methodology). To follow the time frame of J‐PAL’s data, all calculations related to cost‐effectiveness and 
+cost‐benefit analysis are expressed in USD (2011 PPP).  
+4. Results  
+4.1 Increased Learning as EYOS 
+Across five STEP countries, we find that one standard deviation improvement in reading proficiency is 
+associated with 4.7 to 6.8 EYOS, estimated by using our two different methods (Table 2).13 In other words, 
+it takes between 4.7 and 6.8 years of “business‐as‐usual” schooling to produce one standard deviation of 
+learning. The descriptive method (Method 1) indicates the biggest EYOS of 6.8, while the estimate from 
+the OLS model without country fixed effects (Method 2b) corresponds to 4.7 EYOS. However, Method 1 
+does  not  consistently  predict  larger  EYOS  across  countries.  In  Colombia,  the  smallest  EYOS  of  4.8  is 
+estimated through Method 1 and the largest (9.3) through Method 2. In Ghana, Method 2 indicates an 
+EYOS  of  4.4  and  Method  1  yields  an  EYOS  of  7.3.  Nevertheless,  although  each  method  is  based  on  a 
+different  set  of  reasonable  assumptions,  the  results  consistently  demonstrate  the  sizable  impacts  of 
+improved reading proficiency.  
+ EYOS estimated through alternative benchmarks  
+Our  results  from  the  pooled  sample  show  that  an  additional  year  of  schooling  increases  reading 
+proficiency by 0.15 standard deviation (method 1), that is how much a student learns if she studies in a 
+hypothetical “STEP” school, which reflects a mix of the education systems of the 5 countries. How much 
+
+                                                            
+12
+    Table A1 lists all the language learning outcomes reported in Snilstveit and others (2015) in the area of 
+structured pedagogy; 30 out 68 tests (shown in bold) are included in the analysis of this paper.  
+13
+    Tables A2, A3 and A4 provide details on learning gains associated with an additional year of schooling that are 
+used to estimate EYOS.  
+
+                                                                                                                       9 
+ 
+is the “STEP” school gain in cognitive skill compared to that in other education systems? First, we can 
+compare  the  absolute  learning  gains.  Using  PIACC  data  from  Hanushek  et  al.  (2015)  and  the  same 
+descriptive  method  (method  1),  we  estimate  that  students  from  Finland  –  one  of  the  top  performing 
+education  systems  –  improve  reading  proficiency  by  approximately  0.3  standard  deviation  with  an 
+additional year of schooling, or one standard deviation is an equivalent of 3.3 years of Finnish schooling. 
+Similarly, the average improvement in reading from an additional year of schooling in grades 3‐8 in Texas 
+is  also  about  0.3  standard  deviation,  or  one  standard  deviation  is  an  equivalent  of  3.3  EYOS  of  Texas 
+education.  Hence,  in  absolute  terms,  students  in  these  two  countries  learn  about  twice  as  much  as 
+students in the 5 STEP countries.  
+
+However, taking the quality of education systems into account, students in high‐performing systems learn 
+even more. Although one additional year of schooling is associated with 0.3 standard deviation in both 
+Texas  and  Finland,  it  does  not  mean  that  students  in  Texas  and  Finland  make  the  same  improvement 
+within one school year, because the quality of the two education systems is not the same. This can be 
+illustrated by the fact that within the PIAAC pooled sample, with a common test, an additional year of 
+schooling in the US is associated with 0.2 standard deviation of reading proficiency improvement, while 
+that number is 0.3 standard deviation in Finland.14 In this paper, we propose the pooled STEP standard as 
+a metric for low‐ and middle‐income countries for two reasons. First, we do not have data for all countries 
+where the interventions were implemented; second, we try to evaluate the impacts of interventions using 
+the same STEP EYOS to avoid biases from the variance in the quality of different education systems.  
+
+4.2 Impacts of Increasing Cognitive Skills  
+The data available to calculate the relationship between cognitive skills and earnings are available in only 
+a  limited  number  of  countries.  In  fact,  only  two  countries  (Colombia  and  Kenya)  have  both  data  on 
+cognitive skills and earnings as well as impact evaluations results from an expansive database (Snilstveit 
+et al. 2015). As a result, we use the return to learning estimated using the pooled sample to demonstrate 
+the  potential  impacts  of  interventions.  Taking  these  numbers  as  predictive  would  require  strong 
+assumptions  that  interventions  across  countries  would  have  the  same  effect,  which  is  not  the  case. 
+However,  these  estimates  are  intended  to  be  demonstrative  rather  than  predictive.  Again,  we 
+acknowledge  the  limitations  of  this  extrapolation,  but  we  propose  that  this  work  still  serves  to 
+demonstrate  the  potential  returns  to  learning  interventions.  Over  time,  more  data  on  the  return  to 
+cognitive ability will improve the precision of this exercise.   
+Table 3 shows the effect sizes at the 25th, 50th and 75th percentiles of three categories of interventions: 
+structured pedagogy, school‐based management and computer assisted learning. Table A5 shows the full 
+list of interventions. These impacts correspond to EYOS estimated through three sets of methods. Across 
+all pedagogical interventions that have been evaluated, the median effect size is 0.13 standard deviation.15 
+If the effect were sustained over time, the increased learning from this program would have an impact 
+equivalent to an additional 0.52 to 0.88 EYOS, depending on the estimation method. Likewise, a more 
+promising  intervention  –  a  decentralized  schooling  system  intervention  in  Brazil  that  provided  new 
+curriculum, teaching materials and teacher training – yielded an impact that corresponds to 1.16 EYOS 
+under the most conservative approach and reaches 2 years of equivalent schooling using the descriptive 
+                                                            
+14
+   Calculations are available upon request.  
+15
+   That median effect is from an intervention in Kenya that provided teachers with teaching manuals, training and 
+follow‐up workshops (Jukes and Dubeck 2015). 
+
+                                                                                                                   10 
+ 
+method. For school‐based management and computer‐assisted learning interventions, the effect sizes are 
+smaller  and  the  effect  sizes  at  the  25th  percentile  are  negative.  However,  the  median  effect  size  of 
+computer‐assisted learning interventions is 0.01, from a computer‐assisted remedial program in China 
+(Lai et al. 2011), which is associated with 0.04 ‐ 0.07 EYOS. The impact of one of the most promising school‐
+based management interventions (75th percentile) – a school grant program in Senegal (Carneiro et al. 
+2015) – is equal to 0.27 EYOS.  
+Furthermore, there are labor market returns to increased learning, as discussed earlier. Returns to one 
+standard deviation higher literacy score in different regions are shown in Table 4. Based on returns to 
+literacy  skills,  we  can  estimate  the  net  present  value  of  increased  lifetime  earnings  from  a  certain 
+education  intervention,  as  shown  in  Table  5  (for  a  sample  of  interventions)  and  Table  A6  (for  all 
+interventions). The underlying assumption is that the effects will be sustained over one’s lifetime.  
+
+For example, Table 4 suggests returns of 59 percent for scoring 1 standard deviation higher on the literacy 
+assessment  in  Kenya.  The  Health  and  Literacy  Intervention  (HALI)  (Jukes  et  al.  2016)  helped  students 
+achieve 0.13 standard deviation higher in a Swahili passage reading fluency (words per minute) test (Table 
+5). The long‐term impact of this program would be an 8 percent increase in wages [0.59 * 0.13 SD]. The 
+average annual income of a Kenyan worker in 2015 was $1,079 (PPP, current US$) [3,060 * 0.35 SD] and 
+an 8 percent increase in wage would correspond to additional income of $86 per year. Over a 40‐year 
+work life, this fixed additional income has a present value of $1,907, if discounted at 3 percent. Since the 
+students are in Grade 2 or on average 8 years old and they are assumed to start to enter the labor market 
+at age 20, the $1,907 is further discounted by 3 percent for another 12 years. The net present value of the 
+learning  improvement  from  the  HALI  for  each  student  is  $1,338  (Table  5).  Similarly,  the  Brazilian 
+decentralized  schooling  system  which  implemented  new  curriculum  and  teacher  training  (Leme  et  al. 
+2012),  can  potentially  yield  an  NPV  of  $24,369  by  improving  students’  Portuguese  proficiency  by  0.29 
+standard deviation.  
+The  computer‐assisted  intervention  with  the  75th  percentile  effect  size  is  a  program  implemented  in 
+Ecuador, which provided computer labs and learning software and increased students’ learning outcome 
+by 0.06 standard deviation, as shown in Table 5 (Carrillo, Onofa, and Ponce 2010). Since we do not have 
+data on the return to learning in Ecuador, we use that of Colombia, the country in Latin America closest 
+to Ecuador in income for which we have data in our sample. The 0.04 standard deviation improvement in 
+language skills corresponds to a 4 percent increase in wages, with an NPV of $3,093. Likewise, the median 
+effect  size  of  school‐based  management  interventions,  from  a  school  grant  program  in  The  Gambia 
+(Blimpo et al. 2015), can potentially translate to a wage increase of NPV $20.  
+4.3 The Cost Effectiveness of Increased Learning 
+While Sections 4.1 and 4.2 have demonstrated the potential impacts of increased learning from improving 
+pedagogy in terms of increased years of schooling and lifetime increased wage income. In this section, we 
+present cost‐effectiveness and cost‐benefit ratios of a group of programs, by adding the data on program 
+costs. We include 14 education programs that cover a wide range of intervention categories, including 
+conditional  cash  transfers,  teacher  incentives,  computer‐assisted  learning,  school‐based  management 
+and providing textbooks (Table 6). Following the practice in the previous sections, we group and compare 
+these interventions by region. While we can compare specific interventions in this way, we have data on 
+too  few  interventions  to  responsibly  make  generalizations  about  the  cost‐effectiveness  of  entire 
+categories of interventions to set policy priorities (e.g., computer‐assisted learning versus school‐based 
+
+                                                                                                                 11 
+ 
+management).  However,  this  exercise  demonstrates  the  potential  of  cost‐effectiveness  analysis  in 
+complementing our analysis to inform policy decisions.  
+Across  all  14  included  programs,  the  average  total  cost  per  participant  is  US$75  (2011,  PPP),  with  the 
+cheapest at  US$0.40 (from providing  earnings information for school finishers in  Madagascar (Nguyen 
+2008b)) and the most expensive at US$749 (from the minimum‐size conditional cash transfer program in 
+Malawi (Baird, McIntosh, and Özler 2011)) (Table 6).  
+In  Sub‐Saharan  Africa,  the  most  cost‐effective  program  provided  households  in  Madagascar  with 
+information on returns to education (Nguyen 2008a). As Table 6 shows, this program increased students’ 
+learning performance by 0.2 SD at a cost of US$0.4 per student. As described in section 4.1, 1 one SD gain 
+in  learning  is  associated  with  6.5  years  of  equivalent  schooling  (method  2a).  Thus,  the  effect  of  the 
+Madagascar program translates into 1.5 additional years of schooling for each participant at a total cost 
+of  US$0.4  from  implementer  and  beneficiary.  In  other  words,  an  investment  of  US$100  can  yield  430 
+additional years of equivalent schooling (if that were possible). Furthermore, considering the long‐term 
+wage income effects described in section 4.2.2, an 0.2 SD improvement in learning by this program can 
+yield an NPV of US$694 from lifetime increased wage income (discounted at 3%), which provides a benefit‐
+cost ratio of 1,957, when taking into account the NPV of the program cost (US$0.4). The median cost‐
+effective program in Sub‐Saharan Africa took place in Kenya and provided teachers with incentives based 
+on  students’  test  scores  and  improved  learning  by  0.14  SD  at  a  cost  of  US$4.2  per  beneficiary  (Duflo, 
+Dupas, and Kremer 2011). For every US$100 invested in this program, it is associated with additional 21.3 
+years of equivalent schooling and the benefit‐cost ratio reaches 156, when benefits are estimated in terms 
+of life‐time increased earnings. The big returns indicate the high cost‐effectiveness of these interventions 
+that effectively increased learning. 
+Establishing new schools is considered to be one of the most expensive education investments. However, 
+building these new schools can still be cost‐effective as long as children get sizeable learning gains. In 
+Afghanistan, placing village‐based schooling helped children improve their performance by 0.5 SD at a 
+higher cost of US$111.2 per student enrolled (Burde and Linden 2013). 18.1 additional years of equivalent 
+schooling can be achieved per US$100 and the benefit‐cost ratio is 19 (Table 6). In East Asia, the impact 
+of  an  school‐based  management  intervention  in  Indonesia  (Pradhan  et  al.  2014)  that  linked  school 
+committees  to  local  government  translates  to  187  additional  years  of  equivalent  schooling  for  every 
+US$100  invested,  generating  a  benefit‐cost  ratio  of  3,810.  Similarly,  in  India,  a  remedial  education 
+program improved students’ performance by 0.14 SD, which yields a benefit‐cost ratio of 143.  
+
+5. Discussion  
+5.1 Poverty impacts 
+A wide range of interventions have increased learning outcomes in low‐ and middle‐income countries. 
+This increased learning can translate into labor market gains, as adults with higher learning scores have 
+higher wages. An 11 percent increase in wages, the projected increase associated with a teacher training 
+program in Uganda, or a 33 percent increase in wages, associated with a reading program in Kenya, mean 
+a sizeable difference for those countries, with roughly one‐third of the population living under the $1.90 
+per day poverty line (World Bank 2016b).16 If that one‐third were to have income uniformly distributed 
+                                                            
+16
+  The last available poverty estimates for Uganda are from 2012 (34.6 percent) and for Kenya are from 2005 (33.6 
+percent).  
+
+                                                                                                                   12 
+ 
+under $1.90 poverty (a conservative assumption), then an 11 percent increase in wages would translate 
+to a reduction in extreme poverty from 34 percent to 30 percent (more than one million people in Uganda), 
+and a 33 percent increase in wages would translate to a reduction in extreme poverty of 23 percent (more 
+than three million people in Kenya). These are not small or trivial changes.  
+5.2 How reliable are the assumptions on which this is based? 
+Of course, these numbers are based on a wide range of strong assumptions. First, there is an assumption 
+that cognitive impacts endure from the time of the intervention into adulthood. As discussed earlier, the 
+evidence on the endurance of cognitive gains is extremely limited. Few education interventions measure 
+outcomes over a significant period of time. Impacts likely endure in some cases and not in others.   
+Second, because we do not have data on the gradient between cognitive skills and earnings for every 
+country, we use that of the country in the same region that has the closest income to the country where 
+the intervention took place. For example, we only have data on returns to schooling in Ghana and Kenya 
+in the Sub‐Saharan Africa region. When we estimate the economic return to an intervention in Tanzania, 
+we will use the gradient of Kenya, since Tanzania’s income is closer to Kenya’s than to Ghana’s. But the 
+returns to schooling in terms of weekly earnings vary greatly within the region, from 9.8 percent in Ghana 
+to 21.8 percent in Kenya. There is clearly no reason to be confident that the gradient in Tanzania will in 
+fact be 15.8 percent. As such, estimates for countries where data are available on the learning‐earnings 
+gradient will likely be more accurate. Likewise, calculating the EYOS from five pooled countries and then 
+using  that  pooled  estimate  to  scale  up  the  effect  sizes  assumes  consistency  in  the  estimates  across 
+countries, which – as shown above – is not met. The objective of the metric is to provide a rule of thumb 
+rather than a measure that will be precisely accurate in every setting, which would be impossible.  
+Third, if one were to use these estimates to think about poverty reduction or income gains on a national 
+scale,  then  they  assume  a  lack  of  general  equilibrium  effects:  Specifically,  if  one  were  to  scale  up  an 
+education intervention nationwide, would the size of the impacts on earnings be consistent? This could 
+prove false because the quality of the program diminishes in the context of scaling it up, as documented 
+in Kenya in Bold et al. (2015). This could also prove false if the population as a whole achieves higher 
+cognitive  ability  and  so  the  returns  fall  in  response  to  the  increased  supply  of  cognitive  ability,  as 
+documented in India in Khanna (2015). 
+Fourth,  one  of  the  metrics  that  this  paper  uses  is  “equivalent  years  of  schooling.”  However,  this  only 
+captures  the  cognitive  gains  from  additional  years  of  schooling.  Insofar  as  schooling  produces 
+socioemotional skills – as documented in the United States by Jackson (2016) – the equivalent years of 
+schooling are an incomplete representation of total skills.  
+5.3 What is the ultimate value of these estimates for education policy? 
+Despite their limitations, these alternative units allow both education and non‐education specialists to 
+characterize  gains  in  learning  in  terms  that  are  understandable  and  are  clearly  linked  to  positive  life 
+outcomes. A statement such as, “The gains from this literacy intervention are the same as the difference 
+between someone who earns $60,000 a year and someone who earns $70,000 a year,” arguably carries 
+much more intuitive meaning – even with all the necessary caveats – than “This intervention increased 
+learning by 0.22 standard deviation.”  
+The sizeable impact of some of these interventions – for example, that structured pedagogy interventions 
+help students to learn what they would normally learn in between 0.6 and 0.9 years of business‐as‐usual 
+
+                                                                                                                     13 
+ 
+schooling – is in part driven by the low quality of “business as usual” schooling in many countries. The 
+same  interventions  implemented  in  Finland  or  Singapore  might  have  a  much  smaller  relative  impact. 
+However, “business as usual” schooling is the current reality and the interventions discussed in this study 
+have the potential to significantly increase its productivity.  
+ 
+
+
+
+
+                                                                                                           14 
+ 
+References 
+Abeberese, Ama Baafra, Todd J Kumler, and Leigh L Linden. 2014. 'Improving reading skills by 
+          encouraging children to read in school: A randomized evaluation of the Sa Aklat Sisikat reading 
+          program in the Philippines', Journal of Human Resources, 49: 611‐33. 
+Alkire, Sabina, Florent Bédécarrats, Angus Deaton, Gaël Giraud, Isabelle Guérin, Barbara Harriss‐White, 
+          James Heckman, Jason Hickel, Naila Kabeer, Solène Morvant‐Roux, Judea Pearl, Cécile 
+          Renouard, François  Roubaud, Jean‐Michel Servet, and Joseph Stiglitz. 2018. 'Buzzwords and 
+          tortuous impact studies won’t fix a broken aid system', The Guaudian. 
+Andrabi, Tahir, Jishnu Das, Asim Ijaz Khwaja, and Tristan Zajonc. 2011. 'Do value‐added estimates add 
+          value? Accounting for learning dynamics', American Economic Journal: Applied Economics, 3: 29‐
+          54. 
+Aslam, Monazza, Anuradha De, Geeta Kingdon, and Rajeev Kumar. 2011. 'Economic returns to Schooling 
+          and Skills–An analysis of India and Pakistan', Education Outcomes and Poverty in the South. 
+Baird, Sarah, Craig McIntosh, and Berk Özler. 2011. 'Cash or condition? Evidence from a cash transfer 
+          experiment', The Quarterly Journal of Economics: qjr032. 
+Banerjee, Abhijit V. , Shawn Cole, Esther Duflo, and Leigh L. Linden. 2007. 'Remedying Education: 
+          Evidence from Two Randomized Experiments in India', The Quarterly Journal of Economics, 122: 
+          1235‐64. 
+Benton, Tom 2014. 'The relationship between time in education and achievement in PISA in England ', 
+          Working paper. Cambridge Assessment, University of Cambridge. 
+Bold, Tessa, Mwangi Kimenyi, Germano Mwabu, Alice Ng'ang'a, and Justin Sandefur. 2015. 
+          'Interventions and Institutions: Experimental Evidence on Scaling Up Education Reforms in 
+          Kenya', Working Paper 321. Center for Global Development. 
+Börsch‐Supan, Axel. 2000. 'A model under siege: A case study of the German retirement insurance 
+          system', Economic Journal: F24‐F45. 
+Buchmann, Nina, Erica Field, Rachel Glennerster, Shahana Nazneen, Svetlana Pimkina, and Iman Sen. 
+          2016. 'The effect of conditional transfers and a girls' empowerment curriculum on adolescent 
+          marriage and childbearing in rural Bangladesh: a community clustered randomized controlled 
+          trial ', J‐PAL working paper (forthcoming). 
+Burde, Dana, and Leigh L Linden. 2013. 'Bringing education to Afghan girls: A randomized controlled trial 
+          of village‐based schools', American Economic Journal: Applied Economics, 5: 27‐40. 
+Carneiro, Pedro, Oswald Koussihouèdé, Nathalie Lahire, Costas Meghir, and Corina Mommaerts. 2015. 
+          'Decentralizing education resources: school grants in Senegal', National Bureau of Economic 
+          Research Working Paper No. 21063. 
+Carrillo, Paul, Mercedes Onofa, and Juan Ponce. 2010. 'Information Technology and Student 
+          Achievement: Evidence from a Randomized Experiment in Ecuador ', IDB Working Paper Series 
+          No. IDB‐WP‐223, Inter‐American Development Bank. 
+Chetty, Raj, John N. Friedman, and Jonah E. Rockoff. 2014. 'Measuring the impacts of teachers II: 
+          Teacher value‐added and student outcomes in adulthood', The American Economic Review, 104: 
+          2633‐79. 
+Dhaliwal, Iqbal, Esther Duflo, Rachel Glennerster, and Caitlin Tulloch. 2013. 'Comparative cost‐
+          effectiveness analysis to inform policy in developing countries: a general framework with 
+          applications for education', Education Policy in Developing Countries: 285‐338. 
+Díaz, JJ, O Arias, and DV Tudela. 2012. 'Does Perseverance Pay as Much as Being Smart', The Returns to 
+          Cognitive and Non‐cognitive Skills in urban Peru. 
+
+
+
+
+                                                                                                       15 
+ 
+Duflo, Esther, Pascaline Dupas, and Michael Kremer. 2011. 'Peer Effects, Teacher Incentives, and the 
+         Impact of Tracking: Evidence from a Randomized Evaluation in Kenya', American Economic 
+         Review 101: 1739‐74. 
+———. 2015. 'School governance, teacher incentives, and pupil–teacher ratios: Experimental evidence 
+         from Kenyan primary schools', Journal of Public Economics, 123: 92‐110. 
+Duflo, Esther, Rema Hanna, and Stephen P. Ryan. 2012. 'Incentives Work: Getting Teachers to Come to 
+         School ', American Economic Review, 102: 1241‐78. 
+Dundar, Halil, Tara Beteille, Michelle Riboud, and Anil Deolalikar. 2014. Student learning in South Asia: 
+         challenges, opportunities, and policy priorities (World Bank Publications). 
+Evans, David K., and Anna Popova. 2016. 'What really works to improve learning in developing 
+         countries? An analysis of divergent findings in systematic reviews', World Bank Research 
+         Observer, forthcoming. 
+Filmer, Deon, F Halsey Rogers, Noam Angrist, and Shwetlena Sabarwal. 2018. 'Learning‐Ajusted Years of 
+         Schooling (LAYS): Defining a New Macro Measure of Education'. 
+Frenette, Marc. 2008. 'The Returns to Schooling on Academic Performance: Evidence from Large 
+         Samples Around School Entry Cut‐off Dates.', Analytical Studies Research Paper Series No.317. 
+Glewwe, Paul, Nauman Ilias, and Michael Kremer. 2010. 'Teacher Incentives ', American Economic 
+         Journal: Applied Economics, 2: 205‐27. 
+Glewwe, Paul, Michael Kremer, and Sylvie Moulin. 2009. 'Many children left behind? Textbooks and test 
+         scores in Kenya', American Economic Journal: Applied Economics, 1: 112‐35. 
+Hagist, Christian, Norbert Klusen, Andreas Plate, and Bernd Raffelhüschen. 2005. 'Social health 
+         insurance‐the major driver of unsustainable fiscal policy?'. 
+Hanushek, Eric A, Guido Schwerdt, Simon Wiederhold, and Ludger Woessmann. 2015. 'Returns to skills 
+         around the world: Evidence from PIAAC', European Economic Review, 73: 103‐30. 
+Hanushek, Eric A, and Ludger Woessmann. 2008. 'The role of cognitive skills in economic development', 
+         Journal of Economic Literature, 46: 607‐68. 
+———. 2010. The High Cost of Low Educational Performance: The Long‐Run Economic Impact of 
+         Improving PISA Outcomes (ERIC). 
+J‐PAL. 2014. 'Student learning and student attendance cost‐effectiveness analysis data'. 
+Jackson, C Kirabo. 2016. "What Do Test Scores Miss? The Importance of Teacher Effects on Non‐Test 
+         Score Outcomes." In.: National Bureau of Economic Research. 
+Jacob, Brian A, Lars Lefgren, and David P Sims. 2010. 'The persistence of teacher‐induced learning', 
+         Journal of Human Resources, 45: 915‐43. 
+Jukes, Matthew CH, Elizabeth L Turner, Margaret Dubeck, Katherine E Halliday, Hellen N Inyega, Sharon 
+         Wolf, Stephanie Simmons Zuilkowski, and Simon J Brooker. 2016. 'Improving Literacy Instruction 
+         in Kenya Through Teacher Professional Development and Text Messages Support: A Cluster 
+         Randomized Trial', Journal of Research on Educational Effectiveness: 1‐33. 
+Khanna, Gaurav. 2015. "Large‐Scale Education Reform in General Equilibrium: Regression Discontinuity 
+         Evidence from India." In Job Market Paper. 
+Khaw, Kaimin, and Wei‐Kang Wong. 2012. 'Does An Additional Year of Schooling Improve Skills in 
+         Reading, Mathematics and Science? Regression Discontinuity due to Imprecise Control over 
+         Birthdates.', Working Paper. National University of Singapore. 
+Kremer, Michael, Edward Miguel, and Rebecca Thornton. 2009. 'Incentives to learn', The Review of 
+         Economics and Statistics, 91: 437‐56. 
+Lau, Jason, and Wei‐Kang Wong. 2013. 'How Much Does Schooling Lead to Skill Acquisition? 
+         International Evidence From Sharp and Fuzzy Regression Discontinuity Designs ', Working Paper. 
+         National University of Singapore. 
+Lee, Jong‐Wha, and Hanol Lee. 2016. 'Human capital in the long run', Journal of Development Economics. 
+
+                                                                                                       16 
+ 
+Leme, Maria Carolina, Paula Louzano, Vladimir Ponczek, and André Portela Souza. 2012. 'The impact of 
+         structured teaching methods on the quality of education in Brazil', Economics of Education 
+         review, 31: 850‐60. 
+Macdonald, Kevin. 2014. "PV: Stata Module to Perform Estimation with Plausible Values, 2014." In. 
+Majgaard, Kirsten, and Alain Mingat. 2012. Education in sub‐Saharan Africa: A comparative analysis 
+         (World Bank Publications). 
+Marchionni, Mariana, and Emmanuel  Vazquez. 2015. 'The Effects of Schooling on Skills and Knowledge 
+         in Latin America. Evidence from PISA ', CAF ‐ Working paper No 2015/08. 
+McEwan, Patrick J. 2015. 'Improving Learning in Primary Schools of Developing Countries: A Meta‐
+         Analysis of Randomized Experiments ', Review of Educational Research, 85: 353‐94. 
+Miguel, Edward, and Michael Kremer. 2004. 'Worms: Identifying Impacts on Education and Health in the 
+         Presence of Treatment Externalities ', Econometrica, 72: 159‐217. 
+Mincer, Jacob. 1970. 'The distribution of labor incomes: a survey with special reference to the human 
+         capital approach', Journal of Economic Literature, 8: 1‐26. 
+———. 1974. 'Schooling, Experience, and Earnings. Human Behavior & Social Institutions No. 2'. 
+Mullis, I.v.s., M.O. Martin, P. Foy, and M. Hooper. 2016. 'TIMSS 2015 International Results in 
+         Mathematics. ', Retrieved from Boston College, TIMSS & PIRLS International Study Center. 
+Muralidharan, Karthik. 2012. 'Long‐Term Effects of Teacher Performance Pay: Experimental Evidence 
+         from India', Society for Research on Educational Effectiveness. 
+Muralidharan, Karthik, and Venkatesh Sundararaman. 2011. 'Teacher Performance Pay: Experimental 
+         Evidence from India', The Journal of Political Economy 119: 39‐77. 
+Neiman, Brent, and L Karabarbounis. 2013. 'The global decline of the labor share', The Quarterly journal 
+         of economics, 129: 61‐103. 
+Nguyen, Trang. 2008a. 'Information, role models and perceived returns to education: Experimental 
+         evidence from Madagascar', Unpublished manuscript, 6. 
+———. 2008b. 'Information, Role Models and Perceived Returns to Education: Experimental Evidence 
+         from Madagascar', Massachusetts Institute of Technology. 
+OECD. 2016. 'PISA 2015 data'. 
+Ou, Suh‐Ruu. 2005. 'Pathways of long‐term effects of an early intervention program on educational 
+         attainment: Findings from the Chicago longitudinal study', Journal of Applied Developmental 
+         Psychology, 26: 578‐611. 
+PAL Network. 2017. "Citizen‐led Assessments of Basic Learning " In. 
+PASEC. 2015. 'PASEC  2014 Education System Performance in Francophone Sub‐Saharan Africa: 
+         Competencies and Learning Factors in Primary Education ', Programme d’Analyse des Systèmes 
+         Educatifs de la CONFEMEN. 
+Patrinos, Harry A, and Chris Sakellariou. 2005. 'Schooling and labor market impacts of a natural policy 
+         experiment', Labour, 19: 705‐19. 
+Pierre, Gaelle , Maria Laura Sanchez Puerta, Alexandria Valerio, and Tania Rajadel. 2014. 'STEP Skills 
+         Measurement Surveys Innovative Tools for Assessing Skills ', Social Protection & Labor Discussion 
+         Paper No. 1421, World Bank. 
+Pizarro, Atilio, Moritz  Bilagher, Marcela Copetta, Marcela  Ortiz, Adriana  Viteri, and Roxana Riveros. 
+         2016. 'Third Regional Comparative and Explanatory Study (TERCE): Learning Achievements', 
+         Latin American Laboratory for Assessment of the Quality of Education, UNESCO. 
+Pradhan, Menno, Daniel Suryadarma, Amanda Beatty, Maisy Wong, Arya Gaduh, Armida Alisjahbana, 
+         and Rima Prama Artha. 2014. 'Improving educational quality through enhancing community 
+         participation: Results from a randomized field experiment in Indonesia', American Economic 
+         Journal. Applied Economics, 6: 105. 
+
+
+                                                                                                       17 
+ 
+Pritchett, Lant, Rukmini Banerji, and Charles Kenny. 2013. 'Schooling is not education! Using assessment 
+         to change the politics of non‐learning', Center for Global Development Report. 
+RTI International. 2009. "Early Grade Reading Assessment Toolkit." In. 
+Snilstveit, Birte, Jennifer Stevenson, Daniel Phillips, Martina Vojtkova, Emma Gallagher, Tanja Schmidt, 
+         Hannah Jobse, Maisie Geelen, Maria Grazia Pastorello, and et al. 2015. 'Interventions for 
+         improving learning outcomes and access to education in low‐and middle‐ income countries: A 
+         systematic review', Systematic Review 24, London: International Initiative for Impact Evaluation 
+         (3ie). 
+State of Texas Assessments of Academix Readiness. 2013. "Vertical Scale Technical Report " In. 
+Strom, Bjarne. 2004. 'Student Achievement and Birthday Effects', Working Paper. Norwegian University 
+         for Science and Technology. 
+Utah Education Association. 2013. "Student Assessment of Growth and Excellence (SAGE): Overview " 
+         In. 
+Valerio, Alexandria , María Laura Sánchez Puerta, Namrata Tognatta, and Sebastían Monroy‐Taborda. 
+         2016a. 'Are there skills payoffs in low‐and middle‐income countries? Empirical evidence using 
+         STEP data', Policy Research Working Paper Series 7879, The World Bank. 
+———. 2016b. 'Are there skills payoffs in low‐and middle‐income countries? Empirical evidence using 
+         STEP data', Unpublished manuscript. 
+Valerio, Alexandria, Maria Laura Sanchez‐Puerta, Namrata Tognatta, and Sebastian Monroy‐Taborda. 
+         2016. "Are there skills payoffs in low‐and middle‐income countries? Empirical evidence using 
+         STEP data." In. 
+World Bank. 2016a. "The STEP Skills Measurement Program " In. 
+———. 2016b. 'World Development Indicators '. 
+———. 2017. 'World Development Indicators '. 
+———. 2018. World Development Report 2018: Learning to Realize Education's Promise (World Bank: 
+         Washington, DC). 
+ 
+
+
+
+
+                                                                                                       18 
+ 
+Tables and figures  
+Figure 1: 2015 PISA mathematics performance of selected countries  
+                                                                                                
+
+
+
+
+                             600
+
+
+                             550                                                                                                                         75th percentile
+         Mathematics score
+
+
+
+
+                             500
+                                                                                                                                                         50th percentile
+
+
+                             450
+                                                                                                                                                         25th percentile
+
+                             400
+
+
+                             350
+
+
+                             300
+                                   Dominican   Algeria   Kosovo   Tunisia Macedonia   Brazil       Indonesia   Jordan   Peru   Colombia Costa Rica    OECD
+                                    Republic                                                                                                         Average
+
+
+                                                                                                                                                                            
+
+Source: Authors’ calculation based on OECD (2016) 
+                                                                                                
+
+                                                                                                
+
+
+
+
+                                                                                                                                                                               19 
+ 
+Figure 2: Fundamental reading skills acquired and improved in both primary and secondary education  
+
+                                                                Reading proficiency of participants with different years of schooling (rolling average) 
+                                                         0.5
+              Reading proficiency score (standardized)
+                                                         0.3
+
+                                                         0.1
+
+                                                         ‐0.1
+
+                                                         ‐0.3
+
+                                                         ‐0.5
+
+                                                         ‐0.7
+
+                                                         ‐0.9
+
+                                                         ‐1.1
+
+                                                         ‐1.3
+                                                                 1       2        3       4       5       6        7        8        9       10      11    12
+                                                                                                  Number of years of schooling
+                                                                                                                                                                 
+Note: Sample of participants from 5 STEP countries and reading proficiency score is standardized in pooled data.  
+Source: Authors’ calculation based on World Bank (2016a) 
+                                                                                                            
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+                                                                                                                                                                    20 
+ 
+Table 1: Descriptive statistics of analytical sample 
+ Country                                                Pooled        Bolivia         Colombia        Ghana    Kenya    Vietnam 
+ Panel A                                                Population with 1 to 12 years of schooling 
+ Average age                                            32.9          31.4            34.8            31.4     28.5     38.1 
+ Average years of schooling                             8.9           8.9             8.5             8.2      9.6      9.4 
+ Still at school (%)                                    21.2          35.1            16.0            19.7     17.8     17.6 
+ Literacy scores (0‐500)                                187           181             223             126      170      234 
+ Female (%)                                             58.9          60.4            59.9            58.1     56.3     59.6 
+ Observations                                           10,665        1,558           1,888           2,227    2,489    2,503 
+ Panel B                                                Workforce aged 25‐64 
+ Hourly wage (PPP 2011 $)                               3.8           4.6             4.5             2.8      3.1      3.8 
+ Employment rate (including self‐employed) (%)          92.1          94.3            89.7            94.5     83.1     98.0 
+ Average age                                            39.3          39.8            40.3            39.1     35.4     41.7 
+ Average years of schooling                             9.9           11.1            9.8             7.8      10.1     10.9 
+ Literacy scores (0‐500)                                188           185             227             121      170      237 
+ Female (%)                                             56.3          60.1            55.4            59.3     48.7     57.2 
+ Observations                                           8,156         1,228           1,450           1,717    1,948    1,813 
+Note: Pooled specification gives same weight to each country. 
+Source: World Bank (2016a) 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+                                                                                                                                   21 
+ 
+Table 2: Equivalent years of schooling (EYOS) associated with one standard deviation improvement in reading proficiency 
+
+     
+                                                   Pooled    Bolivia    Colombia      Ghana        Kenya       Vietnam 
+
+
+    Method 1: Descriptive learning trajectory       6.8       13.0         4.8         10.1          7.3          5.8 
+
+    Method 2a: OLS model of skills and years of 
+                                                    6.5 
+    schooling with country fixed effects 
+                                                               6.8         9.3          4.4         10.3          7.3 
+    Method 2b: OLS model of skills and years of 
+                                                    4.7 
+    schooling without country fixed effects  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+                                                                                                                           22 
+ 
+ 
+Table 3: Equivalent Years of Schooling of selected learning interventions  
+
+                                                                                                      Effect size in Equivalent Years of Schooling 
+                                   Effect size 
+                                                        Intervention             Effect size 
+                                   percentile 
+                                                                                                   Method 1          Method 2a           Method 2b 
+
+                                      25th        India PicTalk                     0.06              0.41               0.39                0.28 
+
+    Structured pedagogy               50th        Kenya HALI                        0.13              0.88               0.85                0.61 
+
+                                      75th        Brazil new curriculum             0.29              1.97               1.89                1.36 
+
+                                      25th        Peru OLPC                        ‐0.02             ‐0.14               ‐0.13               ‐0.09 
+
+    Computer assisted learning        50th        China remedial class              0.01              0.07               0.07                0.05 
+
+                                      75th        Ecuador learning lab              0.06              0.41               0.39                0.28 
+
+                                                  Senegal school grant, 
+                                      25th                                         ‐0.06             ‐0.41               ‐0.39               ‐0.28 
+                                                  grade 5 female  
+
+    School based management           50th        Gambia school grant               0.01              0.07               0.07                0.05 
+
+                                                  Senegal school grant, 
+                                      75th                                          0.04              0.27               0.26                0.19 
+                                                  grade 6 male 
+Notes: EYOS of each method is based on Table 2 Column 2 (pooled) and multiplied by the effect size of each intervention.  
+References of included interventions: India Pic Talk: He, Linden and Macleod 2009; Kenya HALI: Jukes and Dubeck 2015; Brazil new curriculum: 
+Leme 2010; Peru OLPC: Quispe et al. 2013; China remedial class: Lai et al. 2011b; Ecuador learning lab: Carillo et al. 2010; Senegal school grant, 
+grade 5 female: Carneiro et al. 2015; Gambia school grant: Blimpo et al. 2015; Senegal school grant, grade 6 male: Carneiro et al. 2015.  
+Sources: Authors’ calculations and Snilstveit et al. (2015) 
+ 
+ 
+
+                                                                                                                                                      23 
+ 
+Table 4: Returns to reading proficiency as a percentage change in weekly earnings 
+                                      (1)                 (2)               (3)                 (4)            (5)               (6) 
+ VARIABLES                         Pooled              Bolivia         Colombia               Ghana           Kenya           Vietnam 
+                                                                                                                                    
+ Reading proficiency              0.365***               0.095          0.724**               0.178         0.588***          0.251** 
+                                   (0.089)             (0.239)           (0.326)             (0.143)         (0.184)           (0.122) 
+ Age                             0.300***              0.323*              0.246             0.213*         0.387***          0.176** 
+                                   (0.068)             (0.179)           (0.170)             (0.110)         (0.141)           (0.088) 
+ Age2                            ‐0.004***            ‐0.004*             ‐0.003             ‐0.002*        ‐0.004**          ‐0.002** 
+                                   (0.001)             (0.002)           (0.002)             (0.001)         (0.002)           (0.001) 
+ Female                          ‐1.247***           ‐1.912***         ‐1.633***           ‐0.864***       ‐1.951***            0.059 
+                                   (0.144)             (0.341)           (0.407)             (0.267)         (0.365)           (0.199) 
+ Colombia FE                      ‐0.720**                                                                                          
+                                   (0.284)                                                                                          
+ Ghana FE                          ‐0.450*                                                                                          
+                                   (0.244)                                                                                          
+ Kenya FE                        ‐2.116***                                                                                          
+                                   (0.260)                                                                                          
+ Vietnam FE                      0.628***                                                                                           
+                                   (0.213)                                                                                          
+ Constant                           ‐2.073              ‐1.906            ‐1.439              ‐1.544        ‐6.228**            0.873 
+                                   (1.397)             (3.524)           (3.433)             (2.348)         (2.823)           (1.785) 
+                                                                                                                                    
+ Observations                        8,144               1,227             1,450               1,708          1,948             1,811 
+ R‐squared                           0.059               0.048             0.037               0.014          0.045             0.014 
+Standard errors in parentheses; *** p<0.01, ** p<0.05, * p<0.1 
+Notes: Least squares regressions weighted by sampling weights. Dependent variable: log gross weekly wage. Sample: workforce aged 25‐64. 
+Pooled specification includes country fixed effects and gives same weight to each country.  
+Data source: World Bank (2016a) 
+                                                                       
+ 
+
+
+                                                                                                                                           24 
+ 
+Table 5: Net present value of increased learning 
+
+                                                                       Country 
+                                                                                  Labor Share of  Average  Return  Percentage 
+                    Effect size                             Effect     GNI Per 
+                                       Intervention                               Income, latest  income,       to    change in            NPV$ 
+                    percentile                               size      Capita, 
+                                                                                  available year  2015 PPP  literacy  earnings 
+                                                                      2015 PPP 
+
+                       25th        India PicTalk            0.06       6,020           0.29           1,769       0.51         0.03         959 
+    Structured 
+                       50th        Kenya HALI               0.13       3,060           0.35           1,079       0.59         0.08        1,338 
+    pedagogy 
+                       75th        Brazil new curriculum    0.29       15,020          0.44           6,552       0.72         0.21        24,369 
+
+                       25th        Peru OLPC                ‐0.02      11,960          0.23           2,736       0.72           ‐            ‐ 
+    Computer 
+    assisted           50th        China remedial class     0.01       14,160          0.49           6,941       0.24        0.002         274 
+    learning 
+                       75th        Ecuador learning lab     0.06       11,190          0.37           4,140       0.72         0.04        3,093 
+
+                                   Senegal school grant, 
+                       25th                                 ‐0.06      2,390           0.21            497        0.59           ‐            ‐ 
+                                   grade 5 female  
+    School based 
+                       50th        Gambia school grant      0.01       1,580           0.25            397        0.59         0.01          40 
+    management 
+                                   Senegal school grant, 
+                       75th                                 0.04       2,390           0.21            497        0.59         0.02         213 
+                                   grade 6 male 
+Notes: Return to literacy is based on coefficients in Table 6.   
+References of included interventions: India Pic Talk: He, Linden and Macleod 2009; Kenya HALI: Jukes and Dubeck 2015; Brazil new curriculum: 
+Leme 2010; Peru OLPC: Quispe et al. 2013; China remedial class: Lai et al. 2011b; Ecuador learning lab: Carillo et al. 2010; Senegal school grant, 
+grade 5 female: Carneiro et al. 2015; Gambia school grant: Blimpo et al. 2015; Senegal school grant, grade 6 male: Carneiro et al. 2015.  
+Sources: Authors’ calculations, Snilstveit et al. (2015), World Bank (2016b) and Neiman and Karabarbounis (2013).  
+ 
+ 
+
+
+                                                                                                                                                    25 
+ 
+Table 6: Cost‐effective analysis of selected interventions 
+
+                                                                                                  Net Present 
+                                            Added       Return     Program                          Value of 
+                                Effect     years of        to       cost per       EYOS per        increased        Benefit‐
+                                                                                                                                     References 
+                                 size     equivalent    impact    individual,        $100        income, PPP       cost ratio 
+                                          schooling       (%)      2011 PPP                         current 
+                                                                                                international $ 
+                                                                                 Sub‐Saharan Africa 
+    Teacher incentives (year                                                                                                     Glewwe, Ilias, and 
+                                0.14         0.88        8.0         4.2             21.3              $652          155.9 
+    2), Kenya                                                                                                                    Kremer (2010) 
+                                                                                                                                 Duflo, Dupas, and 
+    Streaming by 
+                                0.18         1.14        10.3        1.0             117.6             $707          725.4       Kremer (2015, 
+    achievement, Kenya 
+                                                                                                                                 2011) 
+    Providing earnings 
+    information,                0.20         1.31        11.9        0.4             370.4             $694         1957.3       Nguyen (2008a) 
+    Madagascar 
+    Minimum conditional                                                                                                          Baird, McIntosh, 
+                                0.20         1.31        11.9       748.5             0.2              $675           ‐0.1 
+    cash transfers, Malawi                                                                                                       and Özler (2011) 
+    Textbooks for top 
+                                                                                                                                 Glewwe, Kremer, 
+    quintile, Kenya (grades     0.22         1.42        12.8        2.6             54.7           $1,046           402.9 
+                                                                                                                                 and Moulin (2009) 
+    3‐8) 
+                                                                                                                                 Duflo, Dupas, and 
+    Extra contract teacher + 
+                                0.25         1.61        14.6        24.2             6.7              $996          40.2        Kremer (2011, 
+    streaming, Kenya 
+                                                                                                                                 2015) 
+                                                                                                                                 Kremer, Miguel, 
+    Girls Scholarships, 
+                                0.27         1.76        15.9        41.3             4.3           $1,295           30.4        and Thornton 
+    Kenya 
+                                                                                                                                 (2009) 
+                                                                             South and East Asia 
+    Village‐based schools,                                                                                                       Burde and Linden 
+                                0.50         3.22       18.s1       111.2             2.9           $2,262           19.3 
+    Afghanistan                                                                                                                  (2013) 
+    Read‐a‐thon ,Philippines                                                                                                     Abeberese, Kumler, 
+                                0.06         0.39        1.5         19.2             2.0              $640          32.3 
+    (after 3 months)                                                                                                             and Linden (2014) 
+
+                                                                                                                                                      26 
+ 
+                                                                                               Net Present 
+                                            Added       Return     Program                       Value of 
+                               Effect      years of        to       cost per     EYOS per       increased        Benefit‐
+                                                                                                                                  References 
+                                size      equivalent    impact    individual,      $100       income, PPP       cost ratio 
+                                          schooling       (%)      2011 PPP                      current 
+                                                                                             international $ 
+ Linking school cmte to                                                                                                       Pradhan et al. 
+                              0.17          1.07           4.1       0.6          186.6          $2,190          3809.7 
+ local govt, Indonesia                                                                                                        (2014) 
+ Electing school cmte & 
+                                                                                                                              Pradhan et al. 
+ linking to local govt,       0.22          1.40           7.9       2.0           71.9          $4,186          2142.1 
+                                                                                                                              (2014) 
+ Indonesia 
+ Remedial education,                                                                                                          Banerjee et al. 
+                              0.14          0.90           5.0       10.7          8.4           $1,533           142.6 
+ India                                                                                                                        (2007) 
+ Camera monitoring,                                                                                                           Duflo, Hanna, and 
+                              0.17          1.11           6.2       17.7          6.2           $1,780           99.5 
+ India                                                                                                                        Ryan (2012) 
+ Individually‐paced 
+                                                                                                                              Banerjee et al. 
+ computer assisted            0.48          3.09         17.3        72.7          4.2           $5,275           71.6 
+                                                                                                                              (2007) 
+ learning, India (Yr 2) 
+Source: Data from J‐PAL (2014). Calculations by authors.  
+ 
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+                                                                          
+
+ 
+
+
+
+                                                                                                                                                 27 
+ 
+Table A1: Structured pedagogical interventions  
+
+                                                                                                                Effect 
+    Country                  Intervention                        Method                       Test                              Reference 
+                                                                                                                Sizes 
+
+     Brazil     Decentralised schooling system, Grade 4            DID              Portuguese proficiency      0.19            Leme, 2010 
+
+     Brazil     Decentralised schooling system, Grade 8            DID              Portuguese proficiency      0.29            Leme, 2010 
+
+                                                                                                                          Nonoyama‐Tarumi and 
+    Cambodia    The School Readiness Programme (SRP)       Multivariate analysis        Khmer language           0.5 
+                                                                                                                            Bredenberg, 2009 
+
+                                                                                           Vocabulary            ‐0.1 
+
+                                                                                    Nonword reading fluency     0.11 
+                The Collaborative Language and Literacy 
+      Chile                                                 Multilevel analysis                                                Pallante 2013 
+                       Instruction Project (CLLIP) 
+                                                                                    Reading comprehension       ‐0.06 
+
+                                                                                         Word reading           0.14 
+
+                                                                                                                          He, Linden and Macleod, 
+      India         Year 2, Machines and activities                RCT                    English test          0.06 
+                                                                                                                                   2007 
+
+                The Pratham PicTalk programme: Year 2,                                                                    He, Linden and Macleod, 
+      India                                                        RCT                    English test          0.06 
+                            Machines only                                                                                          2007 
+
+                The Pratham PicTalk programme: Year 2,                                                                    He, Linden and Macleod, 
+      India                                                        RCT                    English test          0.06 
+                            Activities only                                                                                        2007 
+
+                                                                                                                          He, Linden and Macleod, 
+      India     The Pratham PicTalk programme: Year 1              RCT                    English test          0.08 
+                                                                                                                                   2007 
+
+                                                                                        Burt reading test       0.48 
+                                                                                                                            Dixon, Schagen and 
+      India                                                        RCT 
+                                                                                                                             Seedhouse, 2011 
+                                                                                      Schonell spelling test    0.58 
+
+
+                                                                                                                                                     28 
+ 
+                                                                                                          Effect 
+    Country                   Intervention                    Method                 Test                                  Reference 
+                                                                                                          Sizes 
+
+                                                                            Letter matching test          0.22 
+                   Synthetic Phonics: decoding and 
+                 synthetic phonics pedagogy + teacher                    Sound blending word test         0.72 
+                               training 
+                                                                                  Dictation               0.29 
+
+                The Shishuvachan programme: reading 
+                                                                         Normalised reading level                   He, Linden and Macleod, 
+     India     classes (teacher training) and provision of     RCT                                        0.13 
+                                                                          (Hindi, Marathi, Urdu)                             2009 
+                                a library 
+
+                                                                          English letter knowledge        ‐0.02 
+
+                                                                          Swahili passage reading 
+                                                                                                          0.13 
+                                                                        fluency (words per minute) 
+
+                Health and Literacy Intervention (HALI):                  Swahili passage reading 
+    Kenya                                                      RCT                                        0.11      Jukes and Dubeck, 2015 
+                    teaching manuals and training                            comprehension 
+
+                                                                            Swahili letter sounds         0.33 
+
+                                                                         Swahili word identification 
+                                                                                                          0.15 
+                                                                            (words per minute) 
+
+                    Reading to Learn (RtL): teacher                        Written literacy exam          0.02 
+    Kenya          preparedness,school leadership,             RCT                                                     Lucas et al. , 2014 
+                   classroom learning environments                           Oral literacy exam           0.05 
+
+                                                                        Kiswahili letter sound fluency    0.76 
+                The Primary Math and Reading (PRIMR) 
+    Kenya                                                      RCT        Kiswahili syllable fluency      0.31      RTI International, 2015 
+                     Rural Expansion Programme 
+                                                                         Kiswahili decoding fluency       0.19 
+
+
+                                                                                                                                               29 
+ 
+                                                                           Effect 
+    Country    Intervention    Method                 Test                                   Reference 
+                                                                           Sizes 
+
+                                               Kiswahili reading 
+                                                                           0.23 
+                                                comprehension 
+
+                                           Kiswahili reading fluency       0.56 
+
+                                               Kiswahili listening 
+                                                                            0.9 
+                                                comprehension 
+
+                                           Kiswahili ability to decode 
+                                            words and read aloud to        0.17 
+                                                     listener 
+
+                                         Kiswahili high reading fluency    0.14 
+
+                                            Kiswahili basic reading 
+                                                                           0.57 
+                                                   fluency 
+
+                                             Letter naming fluency          0.7 
+
+                                             Phonemic awareness            0.59 
+
+                                             Familiar word fluency          0.8 
+
+    Liberia     EGRA Plus       RCT         Unfamiliar word fluency        0.87        Piper and Korda, 2011 
+
+                                              Oral reading fluency         0.81 
+
+                                           Reading comprehension           0.81 
+
+                                           Listening comprehension         0.49 
+
+     Mali                       RCT           Orientation to print         0.21      Spratt, King and Bulat, 2013 
+
+
+                                                                                                                30 
+ 
+                                                                                                Effect 
+    Country                Intervention                 Method               Test                                 Reference 
+                                                                                                Sizes 
+
+                                                                     Phonemic awareness         0.23 
+
+                                                                   Listening comprehension      0.12 
+
+                                                                  Correct letters per minute    0.51 
+
+               Read‐Learn‐Lead: reading and teaching              Correct familiar words per 
+                                                                                                0.54 
+                 materials, teacher training Grade 1                        minute 
+
+                                                                  Correct invented words per 
+                                                                                                0.32 
+                                                                            minute 
+
+                                                                     Oral reading fluency 
+                                                                                                0.23 
+                                                                      (connected text) 
+
+                                                                     Orientation to print       0.05 
+
+                                                                     Phonemic awareness         0.17 
+
+                                                                   Listening comprehension      0.04 
+
+                                                                  Correct letters per minute    0.37 
+               Read‐Learn‐Lead: reading and teaching 
+     Mali                                                RCT                                              Spratt, King and Bulat, 2013 
+                 materials, teacher training Grade 2              Correct familiar words per 
+                                                                                                 0.4 
+                                                                            minute 
+
+                                                                  Correct invented words per 
+                                                                                                0.27 
+                                                                            minute 
+
+                                                                     Oral reading fluency 
+                                                                                                0.19 
+                                                                      (connected text) 
+
+
+
+                                                                                                                                     31 
+ 
+                                                                                                               Effect 
+     Country                   Intervention                     Method                        Test                               Reference 
+                                                                                                               Sizes 
+
+                   Reading materials, teacher training to                                                                 Tan, Lane and Lassibille, 
+    Philippines                                                   RCT                     Filipino test        0.09 
+                    incorporate reading into curriculum                                                                            1999 
+
+                                                                                                                           Abeberese, Kumler and 
+    Philippines    The Dropout Intervention programme                                       Reading            0.06 
+                                                                                                                               Linden, 2011 
+
+      South        English and Operacy programme (EOP): 
+                                                                  RCT                     English test          0.6            Mouton, 1995 
+      Africa                suggestopic pedagogy 
+
+                      Reading to Learn (RtL): teacher                                  Oral literacy exam      0.12 
+     Uganda          preparedness,school leadership,              RCT                                                        Lucas et al. , 2014 
+                     classroom learning environments                                   Oral literacy exam      0.13 
+
+                                                                                   English word recognition     ‐0.1 
+
+                     Northern Uganda Literacy Project                                      EGRA test           0.08 
+     Uganda         (NULP): teacher training and parent           RCT                                                    Kerwin and Thornton (2015) 
+                     engagement; Gov treatment arm                                     Oral English score      ‐0.06 
+
+                                                                                       Writing test score      ‐0.09 
+
+                                                                                           EGRA test            0.3 
+
+                     Northern Uganda Literacy Project                                  Oral English score      0.09 
+     Uganda         (NULP): teacher training and parent           RCT                                                    Kerwin and Thornton (2015) 
+                     engagement;NGO treatment arm                                      Writing test score      0.19 
+
+                                                                                   English word recognition    ‐0.14 
+
+Source: Snilstveit et al. (2015) 
+Notes: Tests and effect sizes in bold are included in the calculation of the results in this paper.
+
+
+
+                                                                                                                                                       32 
+ 
+Table A2: Descriptive learning trajectory and EYOS  
+                                        Pooled         Bolivia          Colombia             Ghana             Kenya     Vietnam 
+    Panel A                                                       Standardized reading proficiency scores 
+    No education                         ‐1.36         ‐0.77              ‐2.19              ‐0.45              ‐1.41     ‐1.79 
+    1 year                               ‐0.95         ‐1.09              ‐1.41              ‐0.60              ‐1.34     ‐2.65 
+    2 year                               ‐0.64         ‐1.17              ‐0.99              ‐0.65              ‐0.38     ‐1.96 
+    3 year                               ‐0.92         ‐1.60              ‐1.07              ‐0.74              ‐1.14     ‐1.81 
+    4 year                               ‐0.66         ‐1.51              ‐0.85              ‐0.76              ‐1.45     ‐1.37 
+    5 year                               ‐0.25         ‐1.32              ‐0.63              ‐0.59              ‐1.35     ‐0.96 
+    6 year                               ‐0.60         ‐1.11              ‐0.66              ‐0.38              ‐1.23         
+    7 year                               ‐0.32                            ‐0.26              ‐0.26              ‐0.65         
+    8 year                               ‐0.46         ‐0.20              ‐0.09              ‐0.44              ‐0.31         
+    9 year                                0.08                             0.15              ‐0.14               0.18     ‐0.04 
+    10 year                               0.26                             0.33               0.61               0.17        
+    11 year                               0.42          0.10               0.18               0.65               0.25 
+    12 year                               0.39          0.15               0.31               0.73               0.23     0.28 
+    Panel B                                                   Year‐to‐year learning gains (standard deviation) 
+    1 year                                0.41         ‐0.32               0.79              ‐0.15               0.07     ‐0.86 
+    2 year                                0.32         ‐0.08               0.41              ‐0.05               0.96     0.69 
+    3 year                               ‐0.28         ‐0.43              ‐0.08              ‐0.09              ‐0.76     0.15 
+    4 year                                0.26          0.09               0.23              ‐0.02              ‐0.31     0.44 
+    5 year                                0.41          0.19               0.22               0.17               0.10     0.41 
+    6 year                               ‐0.35          0.21              ‐0.03               0.21               0.11     0.23 
+    7 year                                0.29          0.46               0.39               0.13               0.59     0.23 
+    8 year                               ‐0.15          0.46               0.17              ‐0.19               0.34     0.23 
+    9 year                                0.54          0.10               0.24               0.31               0.50     0.23 
+    10 year                               0.18          0.10               0.18               0.75              ‐0.02      0.11 
+    11 year                               0.15          0.10              ‐0.15               0.04               0.08      0.11 
+    12 year                              ‐0.02          0.05               0.13               0.08              ‐0.01     0.11 
+    Average learning gain                0.15          0.08                0.21               0.10               0.14     0.17 
+    EYOS                                  6.8           13.0               4.8                10.1               7.3       5.8 
+ 
+
+                                                                                                                                    33 
+ 
+Table A3: Correlation between reading proficiency, schooling and age 
+                                         (1)             (2)            (3)            (4)            (5)            (6)            (7) 
+                                       Pooled 
+                                                       Pooled         Bolivia       Colombia        Ghana           Kenya        Vietnam 
+                                    (country FE) 
+                                                                                                                                
+  Years of schooling               0.172***           0.230***        0.188***        0.132***      0.263***       0.099***    0.153*** 
+                                   (0.011)            (0.014)         (0.033)         (0.037)       (0.024)        (0.034)     (0.035) 
+  Age                              ‐0.001             0.016***        ‐0.007          ‐0.007        0.013**        ‐0.019*     ‐0.016** 
+                                   (0.003)            (0.004)         (0.009)         (0.007)       (0.006)        (0.010)     (0.006) 
+  Age*years of schooling           ‐0.001***          ‐0.002***       ‐0.002          ‐0.001        ‐0.003***      0.001       ‐0.000 
+                                   (0.000)            (0.000)         (0.001)         (0.001)       (0.001)        (0.001)     (0.001) 
+  Female                           ‐0.129***          ‐0.114***       ‐0.073          ‐0.019        ‐0.340***      ‐0.139***   ‐0.053 
+                                   (0.022)            (0.025)         (0.054)         (0.054)       (0.056)        (0.048)     (0.035) 
+  Colombia FE                      0.568***                                                                                     
+                                   (0.043)                                                                                      
+  Ghana FE                         ‐0.523***                                                                                    
+                                   (0.047)                                                                                      
+  Kenya FE                         ‐0.263***                                                                                    
+                                   (0.046)                                                                                      
+  Vietnam FE                       0.634***                                                                                     
+                                   (0.041)                                                                                      
+  Constant                         ‐1.227***          ‐1.902***       ‐1.228***       ‐0.574        ‐1.925***      ‐0.889**    ‐0.604 
+                                   (0.118)            (0.139)         (0.326)         (0.433)       (0.445)        (0.371)     (0.501) 
+                                                                                                                                
+  Observations                     10,627             10,627          1,550           1,878         2,221          2,487       2,491 
+  R‐squared                        0.411              0.200           0.315           0.274         0.264          0.125       0.362 
+Standard errors in parentheses. *** p<0.01, ** p<0.05, * p<0. 
+Notes: Least squares regressions weighted by sampling weights. Dependent variable: standardized reading proficiency score. Sample: population 
+with 1‐12 years of schooling. Pooled specification includes country fixed effects and gives same weight to each country.  
+Data source: World Bank (2016a) 
+ 
+
+
+
+
+                                                                                                                                            34 
+ 
+Table A4: Equivalent Years of Schooling based on the regression results  
+                      Pooled with      Pooled          Bolivia        Colombia           Ghana     Kenya    Vietnam 
+                       country FE 
+    Panel A                                               Learning gains (standard deviation) 
+    1 year               0.16            0.23           0.17              0.12             0.26    0.09      0.14 
+    2 year               0.16            0.23           0.16              0.12             0.25    0.09      0.14 
+    3 year               0.16            0.22           0.16              0.11             0.24    0.09      0.14 
+    4 year               0.16            0.22           0.16              0.11             0.24    0.09      0.14 
+    5 year               0.16            0.22           0.15              0.11             0.23    0.10      0.14 
+    6 year               0.15            0.21           0.15              0.11             0.23    0.10      0.14 
+    7 year               0.15            0.21           0.14              0.11             0.22    0.10      0.14 
+    8 year               0.15            0.20           0.14              0.10             0.21    0.10      0.14 
+    9 year               0.15            0.20           0.14              0.10             0.21    0.10      0.14 
+    10 year              0.14            0.19           0.13              0.10             0.20    0.11      0.14 
+    11 year              0.14            0.19           0.13              0.10             0.20    0.11      0.14 
+    12 year              0.14            0.19           0.12              0.10             0.19    0.11      0.14 
+    Panel B                                                              EYOS 
+    1 year                6.1            4.3            6.0               8.5              3.9     11.5       7.3 
+    2 year                6.2            4.4            6.1               8.6              4.0     11.2       7.3 
+    3 year                6.3            4.5            6.3               8.8              4.1     11.0       7.3 
+    4 year                6.3            4.5            6.5               8.9              4.2     10.8       7.3 
+    5 year                6.4            4.6            6.6               9.1              4.3     10.5       7.3 
+    6 year                6.5            4.7            6.8               9.3              4.4     10.3       7.3 
+    7 year                6.6            4.8            7.0               9.4              4.6     10.1       7.3 
+    8 year                6.7            4.9            7.2               9.6              4.7      9.9       7.3 
+    9 year                6.8            5.0            7.4               9.8              4.8      9.7       7.3 
+    10 year               6.9            5.2            7.9               10.2             5.1     9.3        7.3 
+    11 year               6.9            5.2            7.9               10.2             5.1     9.3        7.3 
+    12 year               7.0            5.3            8.1               10.4             5.3     9.2        7.3 
+    EYOS                  6.5            4.7            6.8               9.3              4.4     10.3       7.3 
+
+                                                                                                                       35 
+ 
+Table A5: EYOS of all learning interventions 
+
+                                                                                    Evaluation 
+     Country                     Intervention                        Test                           Effect Size    EYOS_STEP        Reference 
+                                                                                     Method 
+
+                                                                Structured pedagogy 
+
+                   Northern Uganda Literacy Project (NULP)       English word                                                     Kerwin and 
+     Uganda                                                                             RCT           ‐0.14          ‐0.91 
+                            NGO treatment arm                     recognition                                                   Thornton (2015) 
+
+                   Northern Uganda Literacy Project (NULP):      English word       Multivariate                                  Kerwin and 
+     Uganda                                                                                            ‐0.1          ‐0.65 
+                             Gov treatment arm                    recognition        analysis                                   Thornton (2015) 
+
+                   The Collaborative Language and Literacy 
+       Chile                                                      Vocabulary            RCT            ‐0.1          ‐0.65        Pallante 2013 
+                          Instruction Project (CLLIP) 
+
+                   Northern Uganda Literacy Project (NULP):                         Multivariate                                  Kerwin and 
+     Uganda                                                  Writing test score                       ‐0.09          ‐0.59 
+                             Gov treatment arm                                       analysis                                   Thornton (2015) 
+
+                   The Collaborative Language and Literacy         Reading 
+       Chile                                                                            RCT           ‐0.06          ‐0.39        Pallante 2013 
+                          Instruction Project (CLLIP)           comprehension 
+
+                                                                Written literacy 
+      Kenya                 Reading to Learn (RtL)                                      RCT            0.02          0.13       Lucas et al. , 2014 
+                                                                     exam 
+
+                                                                                                                                   Abeberese, 
+                    Reading materials, teacher training to 
+    Philippines                                                     Reading             RCT            0.06          0.39          Kumler and 
+                     incorporate reading into curriculum 
+                                                                                                                                  Linden, 2011 
+
+                                                                                                                                 He, Linden and 
+       India        PicTalk: Year 2, Machines and activities                            RCT            0.06          0.39 
+                                                                                                                                 Macleod, 2007 
+
+                                                                                                                                 He, Linden and 
+       India            PicTalk : Year 2, Activities only         English test          RCT            0.06          0.39 
+                                                                                                                                 Macleod, 2007 
+
+
+                                                                                                                                                   36 
+ 
+                                                                                    Evaluation 
+     Country                     Intervention                         Test                          Effect Size    EYOS_STEP       Reference 
+                                                                                     Method 
+
+                   The Pratham PicTalk programme: Year 2,                                                                        He, Linden and 
+       India                                                      English test          RCT            0.06          0.39 
+                               Machines only                                                                                     Macleod, 2007 
+
+                   Northern Uganda Literacy Project (NULP):                                                                       Kerwin and 
+     Uganda                                                        EGRA test            RCT            0.08          0.52 
+                             Gov treatment arm                                                                                  Thornton (2015) 
+
+                                                                                                                                 He, Linden and 
+       India                    PicTalk: Year 1                     English             RCT            0.08          0.52 
+                                                                                                                                 Macleod, 2007 
+
+                    Reading materials, teacher training to                                                                        Tan, Lane and 
+    Philippines                                                   Filipino test         RCT            0.09          0.59 
+                     incorporate reading into curriculum                                                                         Lassibille, 1999 
+
+                                                                Swahili passage 
+                                                                                                                                Jukes and Dubeck, 
+      Kenya         Health and Literacy Intervention (HALI)        reading              RCT            0.11          0.72 
+                                                                                                                                       2015 
+                                                                comprehension 
+
+                                                                Swahili passage 
+                                                                reading fluency                                                 Jukes and Dubeck, 
+      Kenya         Health and Literacy Intervention (HALI)                             RCT            0.13          0.85 
+                                                                  (words per                                                           2015 
+                                                                   minute) 
+
+                                                                  Normalised 
+                    The Shishuvachan programme: reading          reading level                                                   He, Linden and 
+       India                                                                            RCT            0.13          0.85 
+                    classes (teacher training) and a library    (Hindi, Marathi,                                                 Macleod, 2009 
+                                                                     Urdu) 
+
+                   The Primary Math and Reading (PRIMR)          Kiswahili high     Multivariate                                RTI International, 
+      Kenya                                                                                            0.14          0.91 
+                        Rural Expansion Programme               reading fluency      analysis)                                         2015 
+
+                   The Collaborative Language and Literacy 
+       Chile                                                     Word reading           RCT            0.14          0.91         Pallante 2013 
+                          Instruction Project (CLLIP) 
+
+
+                                                                                                                                                     37 
+ 
+                                                                                     Evaluation 
+      Country                    Intervention                        Test                            Effect Size    EYOS_STEP       Reference 
+                                                                                      Method 
+
+                                                                                                                                    Kerwin and 
+      Uganda        Northern Uganda Literacy Project (NULP)    Writing test score        DID            0.19          1.24 
+                                                                                                                                  Thornton (2015) 
+
+                                                                  Portuguese 
+       Brazil           Decentralised schooling system                                   RCT            0.19          1.24          Leme, 2010 
+                                                                  proficiency 
+
+                    The Primary Math and Reading (PRIMR)       Kiswahili reading                                                 RTI International, 
+       Kenya                                                                             DID            0.23          1.50 
+                         Rural Expansion Programme                 fluency                                                              2015 
+
+                                                                  Portuguese 
+       Brazil           Decentralised schooling system                                   RCT            0.29          1.89          Leme, 2010 
+                                                                  proficiency 
+
+                                                                                                                                    Kerwin and 
+      Uganda        Northern Uganda Literacy Project (NULP)        EGRA test             RCT            0.3           1.95 
+                                                                                                                                  Thornton (2015) 
+
+                    Synthetic Phonics: kids teached to read                                                                       Dixon, Schagen 
+                                                                                     Multivariate 
+       India         using decoding and synthetic phonics      Burt reading test                        0.48          3.12        and Seedhouse, 
+                                                                                      analysis 
+                            skills, teacher training                                                                                   2011 
+
+                                                                                                                                 Nonoyama‐Tarumi 
+     Cambodia       The School Readiness Programme (SRP)       Khmer language            RCT            0.5           3.25        and Bredenberg, 
+                                                                                                                                       2009 
+
+                    The Primary Math and Reading (PRIMR)       Kiswahili reading                                                 RTI International, 
+       Kenya                                                                             RCT            0.56          3.64 
+                         Rural Expansion Programme                 fluency                                                              2015 
+
+                    The Primary Math and Reading (PRIMR)         Kiswahili basic                                                 RTI International, 
+       Kenya                                                                             RCT            0.57          3.71 
+                         Rural Expansion Programme              reading fluency                                                         2015 
+
+    South Africa     English and Operacy programme (EOP)          English test           RCT            0.6           3.90        Mouton, 1995 
+
+
+
+                                                                                                                                                  38 
+ 
+                                                                                   Evaluation 
+    Country                  Intervention                            Test                         Effect Size    EYOS_STEP       Reference 
+                                                                                    Method 
+
+                EGRA Plus: teacher training, assessment           Reading                                                     Piper and Korda, 
+     Liberia                                                                          RCT            0.81          5.27 
+                 and supervision, provision of materials       comprehension                                                        2011 
+
+                                                            Computer‐Assisted Learning   
+
+                                                                                   Evaluation 
+    Country                  Intervention                            Test                         Effect Size    EYOS_STEP       Reference 
+                                                                                    Method 
+
+      Peru        One Laptop Per Child + applications              Grade 5            RCT           ‐0.36          ‐2.34      Quispe et al. 2013 
+
+                                                                                   Controlled 
+      India             Curriculum substitution                  Grade 2 & 3                        ‐0.11          ‐0.72      Linden et al. 2008 
+                                                                                  Before‐After 
+
+     Nepal               One Laptop Per Child                   Grade 2, 3 & 6        RCT           ‐0.11          ‐0.72        Sharma 2014 
+
+                                                                                   Controlled 
+      Peru               One Laptop Per Child                     Grade 1‐5                         ‐0.02          ‐0.13      Cristia et al. 2012 
+                                                                                  Before‐After 
+
+    Uruguay     One Laptop Per Child + Internet Access             Grade 3            RCT              0             ‐        De Melo et al. N.d 
+
+                Shared computer time during and after                                                                          Banerjee et al. 
+      India                                                        Grade 4            RCT              0             ‐ 
+                               class                                                                                               2008 
+
+     China               CAL remedial sessions                       8.5              RCT            0.01          0.07        Lai et al. 2011b 
+
+                                                                                                                              Barrera‐Osorio et 
+    Colombia                ICT in pedagogy                           12              RCT            0.03          0.20 
+                                                                                                                                  al. 2009 
+
+      Peru                  ICT in pedagogy                           7               RCT            0.04          0.26        Humpage 2013 
+
+
+
+
+                                                                                                                                                  39 
+ 
+                                                                            Evaluation 
+    Country                Intervention                        Test                         Effect Size    EYOS_STEP        Reference 
+                                                                             Method 
+
+                                                                             Controlled 
+    Ecuador      Computer lab + learning software               10                             0.06          0.39       Carillo et al. 2010 
+                                                                            Before‐After 
+
+     Peru       One Laptop Per Child + applications          Grade 6            RCT            0.07          0.46       Quispe et al. 2013 
+
+     India           Curriculum supplement                 Grade 2 & 3          RCT            0.07          0.46       Linden et al. 2009 
+
+                                                                             Controlled 
+     China       CAL sessions to minority students        Grade 3 (9‐11)                       0.13          0.85        Yang et al. 2013 
+                                                                            Before‐After 
+
+                                                       School Based Management 
+
+                                                                                                                          Carneiro et al. 
+    Senegal          School grant application             Grade 2 female        RCT           ‐0.42          ‐2.73 
+                                                                                                                              2015 
+
+                                                                                                                          Carneiro et al. 
+    Senegal          School grant application             Grade 3 female        RCT           ‐0.21          ‐1.37 
+                                                                                                                              2015 
+
+                                                                                                                          Carneiro et al. 
+    Senegal          School grant application             Grade 3 male          RCT           ‐0.14          ‐0.91 
+                                                                                                                              2015 
+
+                                                                             CBA (PSM,                                   Santibanez et al. 
+    Mexico     Grant+school plan+parent association          Grade 6                          ‐0.07          ‐0.46 
+                                                                               DID)                                            2014 
+
+    Mexico      School grant to parent association           Grade 9            RCT           ‐0.07          ‐0.46         Bando 2010 
+
+                                                                                                                          Carneiro et al. 
+    Senegal          School grant application             Grade 5 female        RCT           ‐0.06          ‐0.39 
+                                                                                                                              2015 
+
+     Niger             training+plan+grant                   Grade 2            RCT           ‐0.05          ‐0.33      Beasley et al. 2014 
+
+
+
+                                                                                                                                             40 
+ 
+                                                                               Evaluation 
+      Country                   Intervention                      Test                       Effect Size    EYOS_STEP        Reference 
+                                                                                Method 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 4 female       RCT          ‐0.05          ‐0.33 
+                                                                                                                               2015 
+
+                   School development committee+school                                                                   Aturupane et al. 
+     Sri Lanka                                                  Grade 8           RCT          ‐0.03          ‐0.20 
+                             management+plan                                                                                  2014 
+
+                   School development committee+school                                                                   Aturupane et al. 
+     Sri Lanka                                               Grade 4 female       RCT          ‐0.03          ‐0.20 
+                             management+plan                                                                                  2015 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 4 male         RCT           0.01          0.07 
+                                                                                                                               2015 
+
+    Gambia, The     training+grant+management manuals         Grade 3 & 5         RCT           0.01          0.07       Blimpo et al. 2015 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 5 male         RCT           0.01          0.07 
+                                                                                                                               2015 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 6 female       RCT           0.02          0.13 
+                                                                                                                               2015 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 6 male         RCT           0.04          0.26 
+                                                                                                                               2015 
+
+                                                                                                                           Carneiro et al. 
+      Senegal             School grant application           Grade 2 male         RCT           0.05          0.33 
+                                                                                                                               2015 
+
+                                                                               CBA (PSM,                                 Santibanez et al. 
+      Mexico        Grant+school plan+parent association        Grade 3                         0.15          0.98 
+                                                                                 DID)                                          2014 
+
+                         Community involvement+staff                           CBA (PSM, 
+    Philippines                                                 Grade 6                         0.16          1.04        Yamauchi 2014 
+                   training+school improvement plan+grant                        DID) 
+
+
+                                                                                                                                              41 
+ 
+                                                                      Evaluation 
+     Country                   Intervention                 Test                    Effect Size    EYOS_STEP        Reference 
+                                                                       Method 
+
+                     School development plan+principal                  Natural 
+    Philippines                                            Grade 4                     0.16          1.04       Khattri et al. 2010 
+                   training+grants+parental involvement               Experiment 
+
+                                                                                                                  Pradhan et al. 
+    Indonesia                   grant+plan                 Grade 4       RCT           0.2           1.30 
+                                                                                                                      2014 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+                                                                                                                                    42 
+ 
+Table A6: Net present value of increased learning (all interventions) 
+
+                                                                      Labor 
+                                                         Country     Share of     Average 
+                                                                                                        Percentage 
+                                             Effect      GNI Per     Income,      income,  Return to 
+    Country           Intervention                                                                       change in    NPV$ 
+                                             Sizes       Capita,      latest        2015    literacy 
+                                                                                                          earnings 
+                                                        2015 PPP     available      PPP 
+                                                                       year 
+
+                                                       Structured pedagogy 
+
+                Northern Uganda Literacy 
+    Uganda        Project (NULP) NGO         ‐0.14        1,780          0.25       447       0.59        ‐0.08       ‐596 
+                     treatment arm 
+
+                Northern Uganda Literacy 
+    Uganda        Project (NULP): Gov         ‐0.1        1,780          0.25       447       0.59        ‐0.06       ‐426 
+                     treatment arm 
+
+               The Collaborative Language 
+     Chile       and Literacy Instruction     ‐0.1       21,740          0.38      8,235      0.72        ‐0.07       ‐9,385 
+                     Project (CLLIP) 
+
+                Northern Uganda Literacy 
+    Uganda        Project (NULP): Gov        ‐0.09        1,780          0.25       447       0.59        ‐0.05       ‐383 
+                     treatment arm 
+
+               The Collaborative Language 
+     Chile       and Literacy Instruction    ‐0.06       21,740          0.38      8,235      0.72        ‐0.04       ‐5,631 
+                     Project (CLLIP) 
+
+    Kenya        Reading to Learn (RtL)      0.02         3,060          0.35      1,079      0.59         0.01        206 
+
+
+
+
+                                                                                                                                43 
+ 
+                                                                            Labor 
+                                                                Country    Share of     Average 
+                                                                                                              Percentage 
+                                                     Effect     GNI Per    Income,      income,  Return to 
+     Country                Intervention                                                                       change in    NPV$ 
+                                                     Sizes      Capita,     latest        2015    literacy 
+                                                                                                                earnings 
+                                                               2015 PPP    available      PPP 
+                                                                             year 
+
+                    Reading materials, teacher 
+    Philippines       training to incorporate        0.06       8,900        0.28        2,481      0.25         0.02       643 
+                     reading into curriculum 
+
+                   PicTalk: Year 2, Machines and 
+       India                                         0.06       6,020        0.29        1,769      0.51         0.03       959 
+                              activities 
+
+                     PicTalk : Year 2, Activities 
+       India                                         0.06       6,020        0.29        1,769      0.51         0.03       959 
+                                only 
+
+                       The Pratham PicTalk 
+       India           programme: Year 2,            0.06       6,020        0.29        1,769      0.51         0.03       959 
+                         Machines only 
+
+                    Northern Uganda Literacy 
+     Uganda           Project (NULP): Gov            0.08       1,780        0.25         445       0.59         0.05       339 
+                         treatment arm 
+
+       India               PicTalk: Year 1           0.08       6,020        0.29        1,769      0.51         0.04       1,279 
+
+                    Reading materials, teacher 
+    Philippines       training to incorporate        0.09       8,900        0.28        2,481      0.25         0.02       1,023 
+                     reading into curriculum 
+
+    Colombia            Teacher incentives            0.1       13,520       0.33        4,431      0.72         0.07       6,397 
+
+
+
+
+                                                                                                                                     44 
+ 
+                                                                    Labor 
+                                                        Country    Share of     Average 
+                                                                                                      Percentage 
+                                             Effect     GNI Per    Income,      income,  Return to 
+    Country           Intervention                                                                     change in    NPV$ 
+                                             Sizes      Capita,     latest        2015    literacy 
+                                                                                                        earnings 
+                                                       2015 PPP    available      PPP 
+                                                                     year 
+
+                   Health and Literacy 
+    Kenya                                    0.11       3,060        0.35        1,079      0.59         0.06       1,132 
+                   Intervention (HALI) 
+
+                  Health and Literacy 
+    Kenya                                    0.13       3,060        0.35        1,079      0.59         0.08       1,338 
+                  Intervention (HALI): 
+
+                    The Shishuvachan 
+               programme: reading classes 
+     India                                   0.13       6,020        0.29        1,769      0.51         0.07       1,792 
+                 (teacher training) and a 
+                         library 
+
+                 The Primary Math and 
+    Kenya        Reading (PRIMR) Rural       0.14       3,060        0.35        1,079      0.59         0.08       1,440 
+                 Expansion Programme 
+
+               The Collaborative Language 
+     Chile       and Literacy Instruction    0.14       21,740       0.38        8,235      0.72         0.10       13,138 
+                     Project (CLLIP) 
+
+                Northern Uganda Literacy 
+    Uganda                                   0.19       1,780        0.25         447       0.59         0.11        809 
+                     Project (NULP) 
+
+                 Decentralised schooling 
+     Brazil                                  0.19       15,020       0.44        6,552      0.72         0.14       15,966 
+                        system 
+
+
+
+
+                                                                                                                              45 
+ 
+                                                                    Labor 
+                                                        Country    Share of     Average 
+                                                                                                      Percentage 
+                                             Effect     GNI Per    Income,      income,  Return to 
+    Country           Intervention                                                                     change in    NPV$ 
+                                             Sizes      Capita,     latest        2015    literacy 
+                                                                                                        earnings 
+                                                       2015 PPP    available      PPP 
+                                                                     year 
+
+                 The Primary Math and 
+     Kenya       Reading (PRIMR) Rural       0.23       3,060        0.35        1,079      0.59         0.14       2,366 
+                 Expansion Programme 
+
+                Decentralised schooling 
+     Brazil                                  0.29       15,020       0.44        6,552      0.72         0.21       24,369 
+                       system 
+
+                Northern Uganda Literacy 
+     Uganda                                   0.3       1,780        0.25         447       0.59         0.18       1,278 
+                     Project (NULP) 
+
+                 Synthetic Phonics: kids 
+                  teached to read using 
+      India      decoding and synthetic      0.48       6,020        0.29        1,769      0.51         0.24       7,020 
+                  phonics skills, teacher 
+                        training 
+
+                  The School Readiness 
+    Cambodia                                  0.5       3,290        0.29         951       0.25         0.13       1,824 
+                    Programme (SRP) 
+
+                 The Primary Math and 
+     Kenya       Reading (PRIMR) Rural       0.56       3,060        0.35        1,079      0.59         0.33       5,762 
+                 Expansion Programme 
+
+                 The Primary Math and 
+     Kenya       Reading (PRIMR) Rural       0.57       3,060        0.35        1,079      0.59         0.34       5,865 
+                 Expansion Programme 
+
+
+                                                                                                                              46 
+ 
+                                                                            Labor 
+                                                               Country     Share of     Average 
+                                                                                                              Percentage 
+                                                    Effect     GNI Per     Income,      income,  Return to 
+      Country              Intervention                                                                        change in    NPV$ 
+                                                    Sizes      Capita,      latest        2015    literacy 
+                                                                                                                earnings 
+                                                              2015 PPP     available      PPP 
+                                                                             year 
+
+                        English and Operacy 
+    South Africa                                     0.6       12,830        0.46        5,850      0.18         0.11       11,069 
+                         programme (EOP) 
+
+                    EGRA Plus: teacher training, 
+      Liberia       assessment and supervision,     0.81        720          0.25         181       0.59         0.48       1,395 
+                       provision of materials 
+
+                                                                Computer Assisted Learning  
+
+                       One Laptop Per Child + 
+       Peru                                         ‐0.36      11,960        0.23        2,736      0.72        ‐0.26       ‐12,635 
+                            applications 
+
+       India          Curriculum substitution       ‐0.11      6,020         0.29        1,769      0.51        ‐0.06       ‐1,609 
+
+       Nepal           One Laptop Per Child         ‐0.11      2,500         0.41        1,025      0.51        ‐0.06        ‐932 
+
+       Peru            One Laptop Per Child         ‐0.02      11,960        0.23        2,736      0.72        ‐0.01        ‐642 
+
+                       One Laptop Per Child + 
+     Uruguay                                          0        20,360        0.34        6,997      0.72          ‐            ‐ 
+                          Internet Access 
+
+                    Shared computer time during 
+       India                                          0        6,020         0.29        1,769      0.51          ‐            ‐ 
+                           and after class 
+
+       China           CAL remedial sessions        0.01       14,160        0.49        6,941      0.24         0.00        274 
+
+     Colombia             ICT in pedagogy           0.03       13,520        0.33        4,431      0.72         0.02       1,756 
+
+                                                                                                                                       47 
+ 
+                                                                      Labor 
+                                                         Country     Share of     Average 
+                                                                                                        Percentage 
+                                           Effect        GNI Per     Income,      income,  Return to 
+    Country          Intervention                                                                        change in    NPV$ 
+                                           Sizes         Capita,      latest        2015    literacy 
+                                                                                                          earnings 
+                                                        2015 PPP     available      PPP 
+                                                                       year 
+
+     Peru          ICT in pedagogy         0.04          11,960        0.23        2,736      0.72         0.03       1,247 
+
+               Computer lab + learning 
+    Ecuador                                0.06          11,190        0.37        4,140      0.72         0.04       3,093 
+                     software 
+
+                One Laptop Per Child + 
+     Peru                                  0.07          11,960        0.23        2,736      0.72         0.05       2,530 
+                     applications 
+
+     India      Curriculum supplement      0.07           6,020        0.29        1,769      0.51         0.04       1,024 
+
+               CAL sessions to minority 
+     China                                 0.13          14,160        0.49        6,941      0.24         0.03       3,725 
+                      students 
+
+                                                     School Based Management 
+
+    Senegal    School grant application    ‐0.42          2,390        0.21         497       0.59        ‐0.25       ‐1,991 
+
+    Senegal    School grant application    ‐0.21          2,390        0.21         497       0.59        ‐0.12       ‐1,026 
+
+    Senegal    School grant application    ‐0.14          2,390        0.21         497       0.59        ‐0.08       ‐684 
+
+               Grant+school plan+parent 
+    Mexico                                 ‐0.07         17,150        0.28        4,738      0.72        ‐0.05       ‐4,382 
+                      association 
+
+                School grant to parent 
+    Mexico                                 ‐0.07         17,150        0.28        4,738      0.72        ‐0.05       ‐4,788 
+                     association 
+
+
+
+                                                                                                                                48 
+ 
+                                                                        Labor 
+                                                            Country    Share of     Average 
+                                                                                                          Percentage 
+                                                 Effect     GNI Per    Income,      income,  Return to 
+      Country             Intervention                                                                     change in    NPV$ 
+                                                 Sizes      Capita,     latest        2015    literacy 
+                                                                                                            earnings 
+                                                           2015 PPP    available      PPP 
+                                                                         year 
+
+      Senegal        School grant application    ‐0.06      2,390        0.21         497       0.59        ‐0.04        ‐311 
+
+       Niger           training+plan+grant       ‐0.05       950         0.15         145       0.59        ‐0.03        ‐69 
+
+      Senegal        School grant application    ‐0.05      2,390        0.21         497       0.59        ‐0.03       ‐252 
+
+                      School development 
+     Sri Lanka         committee+school          ‐0.03      11,480       0.53        6,078      0.51        ‐0.02       ‐1,800 
+                       management+plan 
+
+                      School development 
+     Sri Lanka         committee+school          ‐0.03      11,480       0.53        6,078      0.51        ‐0.02       ‐1,599 
+                       management+plan 
+
+      Senegal        School grant application    0.01       2,390        0.21         497       0.59         0.01        50 
+
+                   training+grant+management 
+    Gambia, The                                  0.01       1,580        0.25         397       0.59         0.01        40 
+                             manuals 
+
+      Senegal        School grant application    0.01       2,390        0.21         497       0.59         0.01        52 
+
+      Senegal        School grant application    0.02       2,390        0.21         497       0.59         0.01        107 
+
+      Senegal        School grant application    0.04       2,390        0.21         497       0.59         0.02        213 
+
+      Senegal        School grant application    0.05       2,390        0.21         497       0.59         0.03        237 
+
+
+                                                                                                                                  49 
+ 
+                                                                         Labor 
+                                                             Country    Share of     Average 
+                                                                                                           Percentage 
+                                                  Effect     GNI Per    Income,      income,  Return to 
+     Country              Intervention                                                                      change in    NPV$ 
+                                                  Sizes      Capita,     latest        2015    literacy 
+                                                                                                             earnings 
+                                                            2015 PPP    available      PPP 
+                                                                          year 
+
+                    Grant+school plan+parent 
+     Mexico                                       0.15       17,150       0.28        4,738      0.72         0.11       8,593 
+                           association 
+
+                            Community 
+                         involvement+staff 
+    Philippines                                   0.16       8,900        0.28        2,481      0.24         0.04       1,739 
+                   training+school improvement 
+                             plan+grant 
+
+                       School development 
+                           plan+principal 
+    Philippines                                   0.16       8,900        0.28        2,481      0.24         0.04       1,639 
+                     training+grants+parental 
+                            involvement 
+
+    Indonesia              grant+plan              0.2       10,680       0.29        3,087      0.24         0.05       2,548 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                                                                                                                  50 
+ 
+

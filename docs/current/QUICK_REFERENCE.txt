@@ -1,0 +1,118 @@
+================================================================================
+                    RWF MODEL v4.0 - QUICK REFERENCE CARD
+================================================================================
+
+📁 START HERE: README_V4_INTEGRATION.md
+
+================================================================================
+                             QUICK RESULTS
+================================================================================
+
+MODERATE SCENARIO (Primary Estimate - Urban Male, West):
+--------------------------------------------------------
+Apprenticeship NPV: ₹51.12 Lakhs  (was ₹133L in v3 - bug fixed!)
+RTE NPV:            ₹14.37 Lakhs  (was ₹17L in v3)
+
+CONSERVATIVE SCENARIO (Worst Case):
+----------------------------------
+Apprenticeship NPV: ₹20.08 Lakhs
+RTE NPV:            ₹10.36 Lakhs
+
+OPTIMISTIC SCENARIO (Best Case):
+--------------------------------
+Apprenticeship NPV: ₹122.71 Lakhs
+RTE NPV:            ₹19.95 Lakhs
+
+================================================================================
+                           QUICK COMMANDS
+================================================================================
+
+VALIDATE INTEGRATION:
+  cd rwf_model/src
+  python3 validate_v4_integration.py
+
+RUN SINGLE CALCULATION:
+  python3 -c "
+  from economic_core_v4 import *
+  calc = LifetimeNPVCalculator()
+  r = calc.calculate_lnpv(Intervention.APPRENTICESHIP, Gender.MALE, Location.URBAN, Region.WEST)
+  print(f'NPV: ₹{r[\"lnpv\"]/100000:.2f}L')
+  "
+
+RUN SCENARIO COMPARISON:
+  python3 -c "
+  from economic_core_v4 import *
+  scenarios = run_scenario_comparison(Intervention.APPRENTICESHIP, Gender.MALE, Location.URBAN, Region.WEST)
+  print(format_scenario_comparison(scenarios))
+  "
+
+VIEW RESULTS:
+  cat lnpv_results_v4.csv
+
+================================================================================
+                            KEY FILES
+================================================================================
+
+MODEL:       economic_core_v4.py          (Use this, not v3!)
+PARAMETERS:  parameter_registry_v3.py     (Updated parameters)
+RESULTS:     lnpv_results_v4.csv          (All 32 scenarios)
+VALIDATION:  validate_v4_integration.py   (All tests pass ✓)
+
+DOCS:        README_V4_INTEGRATION.md     (👈 READ THIS FIRST)
+             V4_INTEGRATION_SUMMARY.md    (Technical details)
+             BEFORE_AFTER_COMPARISON.md   (v3 vs v4)
+             RWF_CODE_CHANGELOG.md        (Complete history)
+
+================================================================================
+                          WHAT WAS FIXED
+================================================================================
+
+BUG:      Double-counting formal sector premium (4.18× → 2.0×)
+IMPACT:   Apprenticeship NPV reduced 60% (₹133L → ₹53L)
+FIX:      Benefits adjustment = 2.0/1.86 = 1.075× (not 2.25×)
+STATUS:   ✅ Validated and production-ready
+
+================================================================================
+                       PARAMETER CHANGES
+================================================================================
+
+FORMAL_MULTIPLIER:     2.25 → 2.0
+P(Formal|RTE) Con:     25%  → 30%
+P(Formal|RTE) Opt:     60%  → 50%
+Tier:                  3    → 2
+
+================================================================================
+                          VALIDATION
+================================================================================
+
+✓ Benefits adjustment = 1.075
+✓ Apprenticeship NPV = ₹53.32L (range: ₹45-65L)
+✓ RTE NPV = ₹14.37L (range: ₹10-20L)
+✓ All 32 scenarios run successfully
+✓ Results exported to CSV
+
+================================================================================
+                        REGIONAL MEANS
+================================================================================
+
+            RTE      Apprenticeship
+East:       ₹5.6L    ₹31.5L
+North:      ₹7.4L    ₹35.0L
+West:       ₹10.6L   ₹38.7L
+South:      ₹13.3L   ₹40.1L  👈 HIGHEST
+
+================================================================================
+                      FOR STAKEHOLDERS
+================================================================================
+
+CONSERVATIVE (worst case):  App ₹20L, RTE ₹10L
+MODERATE (primary):         App ₹51L, RTE ₹14L
+OPTIMISTIC (best case):     App ₹123L, RTE ₹20L
+
+MESSAGE: "We fixed a bug that overstated results by 133%.
+         Model now more conservative and defensible."
+
+================================================================================
+
+Date: December 26, 2025
+Status: ✅ COMPLETE AND VALIDATED

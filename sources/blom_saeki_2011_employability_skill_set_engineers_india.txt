@@ -1,0 +1,2769 @@
+                                        WPS5640
+
+
+Policy Research Working Paper          5640
+
+
+
+
+         Employability and Skill Set of Newly
+           Graduated Engineers in India
+                       Andreas Blom
+                       Hiroshi Saeki
+
+
+
+
+The World Bank
+South Asia Region
+Education Team
+April 2011
+Policy Research Working Paper 5640
+
+
+  Abstract
+  Skill shortage remains one of the major constraints to                             taxonomy. In contrast, communication in English has the
+  continued growth of the Indian economy. This employer                              smallest skill gap, but remains one of the most demanded
+  survey seeks to address this knowledge-gap by answering                            skills by the employers. Although employers across India
+  three questions: (i) Which skills do employers consider                            asks for the same set of soft skills, their skill demands
+  important when hiring new engineering graduates? (ii)                              differ for Professional Skills across economic sectors,
+  How satisfied are employers with the skills of engineering                         company sizes, and regions. These findings suggest that
+  graduates? and (iii) In which important skills are the                             engineering education institutions should: (i) seek to
+  engineers falling short? The results confirm a widespread                          improve the skill set of graduates; (ii) recognize the
+  dissatisfaction with the current graduates—64 percent                              importance of Soft Skills, (iii) refocus the assessments,
+  of employers hiring fresh engineering graduates are only                           teaching-learning process, and curricula away from
+  somewhat satisfied with the quality of the new hires or                            lower-order thinking skills, such as remembering and
+  worse. After classifying all skills by factor analysis, the                        understanding, toward higher-order skills, such as
+  authors find that employers perceive Soft Skills (Core                             analyzing and solving engineering problems, as well
+  Employability Skills and Communication Skills) to be                               as creativity; and (iv) interact more with employers to
+  very important. Skill gaps are particularly severe in the                          understand the particular demand for skills in that region
+  higher-order thinking skills ranked according to Bloom’s                           and sector.
+
+
+
+  This paper is a product of the Education Team, South Asia Region. It is part of a larger effort by the World Bank to provide
+  open access to its research and make a contribution to development policy discussions around the world. Policy Research
+  Working Papers are also posted on the Web at http://econ.worldbank.org. The authors may be contacted at ablom@
+  worldbank.org and hsaeki@worldbank.org.
+
+
+
+
+          The Policy Research Working Paper Series disseminates the findings of work in progress to encourage the exchange of ideas about development
+          issues. An objective of the series is to get the findings out quickly, even if the presentations are less than fully polished. The papers carry the
+          names of the authors and should be cited accordingly. The findings, interpretations, and conclusions expressed in this paper are entirely those
+          of the authors. They do not necessarily represent the views of the International Bank for Reconstruction and Development/World Bank and
+          its affiliated organizations, or those of the Executive Directors of the World Bank or the governments they represent.
+
+
+                                                        Produced by the Research Support Team
+           Employability and Skill Set of Newly Graduated Engineers in India1
+
+
+
+                                 Andreas Blom and Hiroshi Saeki2
+
+
+
+
+JEL Classification: I23, I25, J23, J24, J28, O15
+
+Keywords: Employability, Skills, Employer Survey, Satisfaction, Engineering, Higher Education,
+India
+
+
+
+
+1
+  The authors would like to thank the Federation of Indian Chambers of Commerce and Industry (FICCI) for
+its technical and implementation‘s support of the survey. The authors would like to express their gratitude to
+National Project Implementation Unit under the Ministry of Human Resource Development for its
+administrative support of the survey. The employer survey was made possible thanks to the FICCI‘s
+member companies that kindly responded to the survey. We are also grateful for comments received at the
+FICCI Higher Education Summit 2009 and at World Bank presentations. We appreciate comments received
+from colleagues notably Patrick Terenzini and Amit Dar.
+2
+  Andreas Blom (World Bank, ablom@worldbank.org), Hiroshi Saeki (World Bank, hsaeki@worldbank.org)
+1. Introduction
+
+Insufficient supply of quality skills is one of the main impediments to further economic
+growth in India. The Indian economy grew more than 8% on average over the past 5 years,
+including the year of the unprecedented financial crisis in 2009. However, the skill
+shortage is still one of the major constraints in most industries in India (World Bank,
+2009b).
+
+IT, infrastructure and power sectors where engineers play a critical role are particularly in
+difficult situations when it comes to unmet demand for skills. For instance, the exporting
+IT sector reported lack of skills as the most serious obstacle for growth, and salaries rose
+15% annually from 2003 to 2006 mainly due to the shortages of qualified workforce
+(World Bank, 2009). The road sector also faces severe shortages of qualified manpower.
+The sector needs to increase its hiring by at least 2-3 times of the 2008 level where 6,000 –
+7,000 fresh engineers and diploma holders joined the road sector workforce (World Bank,
+2008). In the power sector, the focus is also on shortages of qualified engineers. The sector
+needs more skills and knowledge at all levels of the workforce, particularly considering
+the growing concerns over environmental degradation and depletion of conventional
+energy sources (Ministry of Power, 2007). According to the widely quoted report by the
+National Association of Software and Services Companies (NASSCOM) and McKinsey in
+2005, only 25% of the engineering education graduates are employable by a multinational
+company. Many employers give concrete examples on the lack of skills of the newly
+graduated hires, which the employers link to shortcomings in the education system. Box 1
+provides one such case from a large ITES company.
+
+The higher education system has responded to the increased demand for engineers by
+massively expanding production of engineers. The number of students enrolled increased
+800 percent from 1998 to 2008, (MHRD, 2009). This quantitative expansion is widely
+perceived to have led to an average decline in the quality of the students entering, the
+teaching and, consequently, the quality of the graduating engineers (Jha et al. 2009).
+
+Despite the gravity of the situation, little research has been conducted to identify the kinds
+of skills demanded by employers and measure in which skills graduates meet employers‘
+expectation. There is an increasing demand for such information from teachers,
+administrators, and policy makers. For example, Government of India is implementing a
+program with World Bank co-finance, to improve quality of engineering education and
+increase learning outcomes of engineering education graduates. For this program and for
+other initiatives, it is critical to identify specific bottlenecks in skills demanded by
+employers, and provide detailed information and practical suggestions to overcome the
+skill shortages.
+
+With this aim, an Employer Satisfaction Survey was carried out from September to
+November 2009 as part of preparation of the Second Phase of Technical Education Quality
+Improvement Program (TEQIP-II) initiated by the Government of India and financially
+supported by the World Bank. The survey was implemented by a joint team of the
+National Project Implementation Unit (NPIU), the Federation of Indian Chambers of
+
+                                                                                            2
+Commerce and Industry (FICCI), and the World Bank in consultation with Ministry of
+Human Resource Development (MHRD), Government of India.
+
+    Box 1: A Typical Fresh Engineering Graduate Lacking Problem Solving Skill
+
+        To illustrate the typical skill gap we see in fresh engineers, let us take the case of Gopal, who after
+ completing his Bachelor‘s degree in Computer Science and Engineering with a good academic track record has
+ just joined an IT Services organization. Specifically, this group works on product engineering for a
+ semiconductor vendor who is developing highly integrated silicon and supporting software for mobile devices.
+ Gopal has undergone about 2 months of refresher training by the organization on software engineering before
+ being assigned to the project.
+        The Project manager that he reports to is in charge of delivering the layer of platform software, which
+ comprises of the Real Time Operating System and the Device Drivers for all the peripherals the mobile device
+ will support, to the customer. The project manager assigns to Gopal the task of taking over the development of a
+ device driver for one of the simpler peripherals on the device and points him to all the relevant information
+ sources. The project manager expects Gopal to work quite independently on the same and complete it with
+ minimal assistance given the fact that he has the necessary knowledge from his academic background, and the
+ device driver is for the simplest peripheral on the chip.
+          On the job, however Gopal begins to flounder. He is first of all quite stymied by the amount of
+ information he has to digest in a short span of time. He did not have the skill to filter out and read what was
+ really required for the job. The second challenge was his unfamiliarity with handling a large volume of code.
+ His academic projects had been quite small, a few hundred lines at most. He did not have the skill to abstract
+ out the entire system, and only focus on the interfaces for the device driver he had to develop. The next
+ challenge was on the design of the module. He had to pick a design which was not only efficient in the time but
+ also efficient in use of system resources as the design is for a mobile device with typically limited memory.
+ Last but not the least, the design had to be robust. When it was time to integrate and test the driver, he had to
+ really grasp the complexities of debugging an embedded system. Though his own module was quite simple, he
+ had to have the big picture of the system. He had to understand how to use the debugging tools and the features
+ it provided, to probe the system at the appropriate level. He was once again felt wanting on the required
+ problem solving skills to move ahead on the problems encountered.
+     If we reflect on this case, it is clear that the academic curriculum had the following lacunae:
+         Had not trained Gopal sufficiently on key design skills, especially handling conflicting criteria to be
+          met, and problem solving skills, and creative exploration for the same, and
+         Had not trained him on handling complexity, and key abstraction skills required to handle it.
+
+    These problems can be traced to:
+       Lack of imagination in the construction of laboratory experiments in the academic setting and also
+        probably in the evaluation patterns followed,
+       Few problem sets (examinations) for students to test design oriented problems which would have given
+        students the chance to explore the design space and appreciate the challenges, and
+       Little exposure to joint projects with industries to experience complexities in the actual work place and
+        prepare students better for a career in the relevant industries.
+                                       General Manager, Project Delivery, in a large IT company in India
+
+
+Specifically, the survey seeks answers the following three questions:
+
+   (i)   Which skills do employers consider important when hiring new engineering
+         graduates?
+   (ii) How satisfied are employers with the skills of engineering graduates?
+   (iii) In which important skills are the engineers falling short?
+
+
+                                                                                                           3
+The paper is organized as follows. The next section briefly summarizes similar studies.
+Section 3 describes the methodology of the data collection. Section 4 shows descriptive
+statistics of survey respondents. Section 5 presents major findings with analysis of the
+collected data. Finally, Section 6 summarizes and discusses implications for education
+provision and education policy in order to increase employability of engineering graduates.
+
+2. Previous Employer Surveys and Related Literature on Skills
+
+This section reviews a selected set of previous employer surveys and related literature on
+skills that guided the design of this employer survey. A number of employer surveys have
+been conducted for graduates of different academic disciplines, e.g., business
+administration, education, economics, psychology, etc. Many of these surveys aim to
+identify which skills are demanded by employers and to examine how the supply of skills
+matches labor market demand.3
+
+Noel-Levitz (a higher education consulting firm) and Utah State University developed a
+comprehensive and well designed instrument for employer satisfaction surveys. The
+objective of the survey was to measure the employer satisfaction for benchmarking
+purposes (Kleinke, 2006). Seventeen universities participated in the survey in 2004. A
+survey instrument was mailed to 297 employers of the graduates, of which 112 employers
+responded (38% response rate). The questionnaire focused on graduates‘ knowledge and
+understanding within: the field of the graduates‘ major, general skills, and specialized
+skills. Employers rated graduates‘ knowledge and skills on a five-point scale in two
+aspects: satisfaction with the specific skills of the graduate and the importance of each of
+those skills. The survey found that employers were on average ―very satisfied‖ with the
+knowledge and skills of the graduates (average rating of 4.0 on a five point scale). The
+survey instrument was found useful especially in that it asked both importance and
+satisfaction levels of knowledge and skills. This structure was incorporated in our survey
+instrument.
+Lattuca, Terenzini, and Volkwein, 2006, assessed the impact of accreditation based upon
+student learning outcomes as introduced by the Accreditation Board for Engineering and
+Technology (ABET) in the mid-1990s. The expected student learning outcomes of both
+ABET and the National Board of Accreditation (NBA) in India are similar due to common
+membership of the so-called Washington Accord, which mutually recognizes engineering
+degrees across 12 member-countries, (Washington Accord, 2007). Since many questions
+in our employer survey were drawn from the NBA‘s learning outcomes, our survey results
+are to some extent comparable with the above study‘s outcomes. Lattuca, Terenzini and
+Volkwein surveyed 1,622 employers. The employers were asked information on their
+characteristics and three basic issues: (i) the preparation of recent engineering graduates,
+(ii) whether or not the skills of the graduates had increased, and (iii) the importance
+employers attach to each of the 11 EC2000 learning outcomes. The study found that the
+majority of employers agreed that, overall, graduates were adequately or well prepared for
+
+
+3
+ In this paper, we use the term ―skills‖ in the broadest interpretation. Hence, it is not limited to skills of a
+routine nature related to a specific trade, but covers broadly and includes what some studies labels
+competences, personal attributes, personal characteristics and abilities of both cognitive and
+affective/interpersonal nature.
+                                                                                                              4
+the profession. Further, many employers reported that the skill set of the recently hired
+graduates had improved compared to those in 1990s, in particular for so-called soft skills.
+
+Academy for Education Development (AED) carried out an employer survey in Egypt,
+with the objective of providing recommendations to the Ministry of Higher Education on
+how to improve the quality of Middle Technical Colleges graduates (AED, 2008). A
+sample of 240 companies was selected based on stratified sampling technique (by size:
+small, medium, and large). AED sent surveyors to companies for personal interviews. 92
+companies fully completed the survey questionnaire (38% response rate). The survey
+found that the level of skills demanded by employers had increased, mainly because: (i)
+higher levels of technology, (ii) increasing competition, and (iii) increasing concerns about
+quality of products. The survey also indicated that companies prioritize ―soft skills‖
+including personality (honesty, punctuality, etc) and what they labeled ―basic skills‖
+(literacy, problem solving, management, etc). The AED‘s employer survey was especially
+helpful for our employer satisfaction survey to determine relevant questions of employer
+characteristics. Data availability on employers‘ characteristics enabled us to scrutinize the
+survey results disaggregated by employers‘ characteristics.
+In addition to the survey instruments above, we refer to several papers applying different
+analytical tools on data from employer surveys. Paranto and Kelker (1999) analyzed
+employers‘ satisfaction with job skills of business college graduates in a regional
+university in the US. They examined which skills employers perceived important when
+hiring business graduates. 346 employers were identified for the survey by the
+university‘s placement office. They are mostly in rural areas in the upper Midwest of the
+US, and hired business graduates during the 1990-94 period. 136 employers responded
+(39% response rates). By using factor analysis, 18 variables (skills) were reduced to four
+major factors, namely specific skills, core skills, personal characteristics, and
+communication skills (See Table 1).
+
+                              Table 1: Skills under Four Factors
+    Specific Skills             Core Skills               Personal       Communication Skills
+                                                       Characteristics
+ Database knowledge       Self confidence         Business ethics      Listening skills
+ Spreadsheet              Critical thinking       Professionalism      Speaking skills
+  knowledge                Creative thinking                             Written
+ Word processing          Interpersonal skills                           communication
+  knowledge                Leadership skills
+ Ability to adapt to      Experience with real
+  changing technology       world problems
+ Technical skills
+ Mathematical skills
+
+
+A t-test revealed that the mean importance rating of the ―Core Skills‖ is statistically
+significantly higher than that of ―Specific Skills‖. In addition, analysis of variance showed
+that there is no statistically significant difference in the importance of ―core skills‖ among
+employers of different size and different economic sectors. Hence, the survey shows that
+the importance of ―Core Skills‖ cuts across all participating firms. Paranto and Kelker
+
+                                                                                              5
+ recommended business schools that they should improve effectiveness of business
+ programs, by putting more emphasis on ―Core Skills‖.
+
+ Hill and Petty (1995) conducted a similar analysis but focused on occupational work ethics.
+ By using factor analysis, forty eight skills were grouped into four factors: interpersonal
+ skills, initiative, being dependable, and ―reversed items on instrument‖ (See Table 2). The
+ last factor was interpreted as negative perceptions, in which there are (lack of) skills such
+ as irresponsible, careless, selfish, etc. The study recommended that school curriculum
+ should address the four factors to make student skills more relevant to the workplace.
+
+
+
+                            Table 2: Work Ethics under Four Factors
+
+Factor 1: Interpersonal Skills   Factor 2: Initiative   Factor 3: Being Dependable   Factor 4: Reversed Items
+ Courteous                       perceptive            following directions        hostile
+ friendly                        productive            following regulations       rude
+ cheerful                        resourceful           dependable                  selfish
+ considerate                     initiating            reliable                    devious
+ pleasant                        ambitious             careful                     irresponsible
+ cooperative                     efficient             honest                      careless
+ helpful                         effective             punctual                    negligent
+ likeable                        enthusiastic                                       depressed
+ devoted                         dedicated                                          tardy
+ loyal                           persistent                                         apathetic
+ well groomed                    accurate
+ patient                         conscientious
+ appreciative                    independent
+ hard working                    adaptable
+ modest                          persevering
+ emotionally stable              orderly
+ stubborn
+
+ These prior works guided us in developing the survey methodology analysis for this
+ employer survey in India.
+
+ 3. Survey Methodology
+
+ FICCI and World Bank conducted an on-line employer satisfaction survey from
+ September to November, 2009. 157 employers across sectors and regions in India fully
+ completed the questionnaire. The questionnaire (Annex 3) has a list of skills that
+ engineering graduates are typically expected to possess at graduation. Employers were
+ requested to rate on a scale from 1 (not at all) to 5 (extremely) how important each skill is
+ for an engineering graduate to be an effective employee, (Importance Level). The survey
+ also asked employers to rate their satisfaction level with regard to each of the skills,
+ (Satisfaction Level).
+
+
+
+                                                                                                  6
+ 3.1 Sample Size and Sampling Strategy
+
+Originally, a stratified random sampling from FICCI‘s member database of over 3,000
+firms was considered for the Employer Satisfaction Survey. Sample size was calculated
+based on the following formula.
+
+       z 2 pq
+n 
+         e2
+
+where n is the sample size. A 90% confidence interval with margin of error 0.05 was
+applied. z is the abscissa of the normal curve that cuts off at a given significance level, i.e.,
+1.65, p (in this case 0.6) is the estimated proportion of an attribute that is present in the
+population, q is 1-p, and e is the desired level of precision, i.e., 0.05. Using this formula,
+the originally estimated sample size was about 260, and it was further proportionately
+allocated to FICCI‘s classification of 17 economic sectors.
+
+There were several difficulties in sampling. First, although the sampling method was
+originally a stratified random sampling, some member companies were directly contacted
+to participate in the survey, due to a low response rate (convenience sampling). This may
+have introduced a bias in the representativeness of the sample. Second, the web-based
+survey was opened in the last few weeks of the survey to all companies that registered.
+This slightly increased the sample size. This self-selection could also have caused a
+selection bias. Third, the sample size was not large enough to meet a 90% confidence
+interval. Due to time constraints, it was reduced from 260 to 157 companies, i.e., an 80%
+confidence interval with a margin of error of 0.05.
+
+Despite these shortcomings, the study brings value since it is the first of its kind in India.
+Further, the participation number of 157 is comparable to other employer satisfaction
+surveys. The employer satisfaction survey is expected to be conducted every two years.
+Therefore, the sampling methodologies and the survey design are expected to improve in
+future rounds, and the quality of the data will be further enhanced over time.
+
+ 3.2 Survey Design (Preparation and Implementation of the Survey)
+NPIU, FICCI and World Bank held a series of interviews with employers. Suggestions
+provided by employers were incorporated into the questionnaire. As a result, the overall
+survey design and instrument were improved over the course of pilot surveys.
+
+During the pilot surveys, the employers were asked four specific questions to improve the
+survey questionnaires and implementation. The four questions were:
+
+First, ―Who will evaluate employer’s satisfaction”? (Human resource department,
+supervisors of newly hired, or a third person). Presumably, employers are in the best
+position to identify appropriate evaluator of the fresh engineering hires. Therefore, the
+survey invitation was sent to the human resource department which decided the
+responsibility to complete the survey.
+
+
+
+                                                                                               7
+Second, ―Who will be evaluated”? (A fresh class of graduates or those who have already a
+few years‘ experiences). Given the fact that many fresh engineers change jobs within a
+year or so, external effects such as in-house training should be removed as much as
+possible in order to assess learning outcomes at institutions. It was therefore decided that
+the target population would be the fresh graduates from technical and engineering
+institutions for whom this was their first job. Hence, employers were asked not to consider
+engineers for whom this was not their first job after graduation.
+
+Third, ―At what level should the employers evaluate? (At individual level, at institutional
+level such as Indian Institutes of Technology, National Institutes of Technology,
+institutions that participated in the Technical Education Quality Improvement Program, etc,
+or by overall average of all fresh hires)‖. It was decided to send one single questionnaire
+to each company due to the administrative burden to deal with multiple questionnaires per
+different graduate group. Employers then evaluated all first-time-employed engineers
+hired over the previous four years together as one group.
+
+Fourth, ―How will the questionnaires be distributed to companies? (Online survey, email
+invitation, or paper-based questionnaire via physical mail)‖. The on-line survey was
+finally selected as the survey method because it is easy to manage and organize the data
+collected from employers. Further, on-line survey can be easily used again in the next
+round of the employer satisfaction survey in two years. FICCI randomly selected
+employers who were provided with a username and password. After logging into the
+survey, employers were asked to complete the survey and provide company characteristics.
+
+    3.3 Survey Instrument
+The questionnaire design builds upon three sources: the expected learning outcomes used
+for accreditation by the National Board of Accreditation (NBA), previous employer
+surveys, and consultations with employers. The questionnaire is divided into three
+sections; (i) Overall satisfaction level, (ii) Importance and Satisfaction of 26 different
+skills, and (iii) Employer‘s characteristics. 4 Employers were asked to evaluate both the
+importance and satisfaction levels of each of the 26 skills on a five point scale.
+
+The NBA, India‘s only official accreditation body for engineering education, has
+established 11 Program Outcomes. NBA is a provisional member of the Washington
+Accord—an international agreement between accreditation agencies for engineering
+education for 18 countries. Therefore, NBA‘s program outcomes (expected learning
+outcomes for graduates) are based upon the internationally agreed set of the skills and
+knowledge that graduates are expected to possess at the time of graduation.5 The NBA
+criteria are:
+4
+  The survey questionnaire is attached in Annex 3. The questionnaire asks about importance and satisfaction
+for 26 skills divided into two overall groups: General and Specific skills. The General skill referred mainly to
+personal characteristics while Specific skills mainly referred to those skills directly related to technical and
+engineering professions as well as communication and computer skills. The categorization of skills into
+General and Specific Skills was conducted in an a-priori manner following consultations with government
+officials, employers, and academia. Section 5 will go in detail more systematic and empirically-based
+categorization. The survey questionnaire is attached in Annex 3.
+5
+  The NBA learning outcomes and the ABET learning outcomes are very similar, but do have a few
+important differences. For example, the NBA criterion (e) asks for the graduates to ―demonstrate an ability to
+                                                                                                              8
+(a) Graduates will demonstrate knowledge of mathematics, science and engineering.
+(b) Graduates will demonstrate an ability to identify, formulate and solve engineering
+    problems.
+(c) Graduates will demonstrate an ability to design and conduct experiments, analyze and
+    interpret data.
+(d) Graduates will demonstrate an ability to design a system, component or process as per
+    needs and specifications.
+(e) Graduates will demonstrate an ability to visualize and work on laboratory and
+    multidisciplinary tasks.
+(f) Graduate will demonstrate skills to use modern engineering tools, techware and
+    equipment to analyze problems.
+(g) Graduates will demonstrate knowledge of professional and ethical responsibilities.
+(h) Graduate will be able to communicate effectively in both verbal and written form.
+(i) Graduate will show the understanding of impact of engineering solutions on the
+    society and also will be aware of contemporary issues.
+(j) Graduate will develop confidence for self-education and ability for life-long learning.
+(k) Graduate who can participate and succeed in competitive examinations.
+
+Ten out of the 11 NBA Program Outcomes were included in the questions (some in an
+abbreviated form). Thirteen skills from previous employer surveys, notably from (Kleinke,
+2006) were added. These were in particular skills often referred to as soft skills or core
+skills or employability skills, such as integrity, self-motivation, team skills etc. Further
+three specific skills were added, namely ―Basic computer‖, ―Advanced Computer‖, and
+―Customer Service Skills‖. Lastly, another three skills ―Technical Skills (programming)‖
+―Communication in English‖ and ―Entrepreneurship Skills‖, were included as per request
+of employers.
+
+Definition of skills and a common understanding of what a skill is, poses a problem for
+comparability and interpretation. Given the survey has to be relatively short to ensure an
+acceptable response rate, the questionnaire did not define each skill. In most instances, an
+additional explanation of example is provided in parenthesis. However, it is possibly that
+employers may have perceived the meaning of the skills differently. In addition, some of
+the skills are overlapping in the sense if a person possess skill a, then they are strongly
+expected also to possess an element of skill b. One such example is ―Self-motivated‖ and
+―Self-discipline‖. However, there is no widely accepted categorization of skills that are
+exhaustive and non-overlapping. Hence, an overlap is unavoidable in our view.
+
+
+
+
+work on multidisciplinary tasks‖, while the ABET criteria (d) asks for the graduates to ―function on multi-
+disciplinary teams‖. Although, the difference is subtle, the ABET criterion directly asks for team-skills,
+while the NBA does not.
+                                                                                                         9
+Obviously, each employer has different perceptions and expectations toward engineering
+graduate skills. The respondents‘ perceptions and expectations may arbitrarily influence
+the ratings of the satisfaction and importance levels because of, for instance, wording and
+orderings of questions. Therefore, many economists are skeptical about the
+meaningfulness of the answers from so-called ―subjective questions‖. We acknowledge
+this subjective element of this analysis. However a growing literature within different
+strands of economics, such as happiness and competitiveness use subjective survey data
+for econometric and/or psychometric analysis. In addition, management and marketing
+professionals employ a battery of satisfaction surveys, e.g., employee satisfaction surveys,
+customer satisfaction surveys, etc. to inform key decisions. We therefore follow the advice
+of Bertrand and Mullainathan (2001) who argues that subjective measures may be helpful
+as explanatory variables with due diligence to the interpretation of the results.
+
+4. Characteristics of Respondents
+
+This section shows descriptive statistics of the respondents (employers). The surveyed
+employers are those that hire engineering graduates. The summary of descriptive statistics
+of 157 employers is presented in Table A2-1 in Annex 2.
+
+Size: Half of respondents are large companies with more than 500 employees, while the
+other half is equally divided into medium (with between 100 and 500 employees) and
+small employers (with less than 100 employees). Given that a half of the employers in our
+sample are large companies with more than 500 employees, we may have oversampled
+large companies. As a result, the outcomes of the survey may reflect more views of the
+larger companies.
+
+Location: More than 40% of the responding employers are from the North region where
+Delhi is located, and 27% and 19% are from West and South regions, respectively. State-
+wise, Delhi dominates the sample (27%), and Maharashtra where Mumbai is located
+accounts for 19%. Other major states have a share of 38% in total; Uttar Pradesh 8.9%
+(the most populous state), Gujarat 8.9% (one of the fastest economically growing states),
+Haryana 8.3% (a large area of the state is included in the National Capital Region),
+Karnataka 7.0% (one of the economically progressive states), and Andhra Pradesh 5.1%
+(one of the top IT exporting states).
+
+Sector: The survey covers almost 20 sectors of industries. As discussed in the
+Introduction, IT, Infrastructure, and Power sectors show increasing demand of qualified
+engineering graduates. These sectors have the highest share of employers in the sample
+after ―Other‖. One third of the companies answered that their sectors do not belong to any
+of the listed sectors in the questionnaire and selected ―Other‖. This ―Other‖ is further
+disaggregated into mining, other service activities, and professional, scientific and
+technical activities by using the responses from another question ―Please specify the major
+economic activity of your firm‖.
+
+Foreign Capital: Twenty percent of the responding firms were established with foreign
+capital.
+
+
+
+                                                                                         10
+Respondents: Half of the respondents are a head/manager of a human resource department.
+About 18% are a manager of engineering graduates‘ department. Approximately 15% are
+a business owner or partner. The large share of head/manager of human resource
+department could have been a potential problem if the survey evaluated individual skill
+sets. However, the survey rated a group of new hires across the company. Therefore, the
+human resources department would be best placed to assess skills of newly hired engineers
+as a group.
+
+Consequently, the sample covered a wide range of employers across sectors, regions, size
+of companies, etc. This suggests that the results are relatively representative. However,
+the sample may not fully represent the true population, i.e., the total number of the
+employers that hire engineering graduates in India. Since we do not have detailed
+enterprise level data on who hires engineers, we cannot compare our sample with the true
+population.
+
+5. Findings
+
+This section presents the major findings. First the section presents the results of a factor
+analysis of the 25 skills rated by the employers. 6 Based on the skill groups, detail analysis
+is further conducted to respond to the three research questions raised in the introduction:
+(i) How satisfied are employers with the skills of engineering graduates? (ii) Which skills
+do employers consider important when hiring new engineering graduates? and (iii) In
+which important skills are the engineers falling short?
+
+    5.1 Grouping Skills
+We conduct a factor analysis of the 25 individual skills to group the individual skills into a
+small number of skill groups (factors).
+
+We group the skills because it is plausible that a common latent factor (skill/ability)
+partially drives the importance and satisfaction ratings of a group of individual abilities.
+For instance, employers and HR-staff often talk about the importance of ―soft skills‖.
+There is hence a notion that a set of interpersonal skills are related into one group and that
+this group of skills is important. However, ―soft skills‖ are often neither well defined nor
+backed-up by empirical evidence that the individual skills referred to as soft skills form
+one group. Factor analysis is one of the ways to test this notion of soft skills and
+empirically define the individual skills that make up ―soft skills‖. Further, the
+identification of a small number of factors allow us to identify commonalities in demand
+and supply for skills, and structures the findings and provides a limit set of overall findings.
+
+Factor analysis fits exactly the above goal of reducing the number of variables into overall
+groups. It is a statistical procedure to find the latent variables that explain attributes of
+common variables in the observed variables. Factor analysis is widely used in social
+science, especially in psychological researches and business surveys. Psychologists, for
+instance, conduct empirical researches on the relationship between personality traits and
+job performance. They examine numerous personal traits and categorize them into five
+6
+ A skill, ―Accepts responsibility for consequences of actions‖ is dropped from the analysis since the skill is
+quite similar to ―Reliability‖
+                                                                                                           11
+representative personal traits by using factor analysis. Those five personal traits are called
+―Big Five‖ that represents an overall pattern of all personality traits and recent papers have
+examined the link between these traits and income, (Borghans, Lex, Duckworth and
+Heckman 2008).
+
+By using factor analysis, 26 skills listed in the questionnaire were grouped into three
+factors using the importance ratings. Table 3 below presents the resulting groups (factors)
+of skills generated by factor analysis. Skills emboldened in Table 3 are those with more
+than 0.55 of factor loadings.7
+
+                           Table 3: Skills grouped into Three Factors
+            Factor 1                              Factor 2                               Factor 3
+    (Core Employability Skills)              (Professional Skills)                  (Communication Skills)
+     Integrity                      Identify, formulate, and solve           Written communication
+     Self-discipline                 technical/engineering problems           Design & conduct experiments,
+     Reliability                    Design a system, component, or            and analyze and interpret data
+     Self-motivated                  process to meet desired needs            Reading
+     Entrepreneurship Skills        Use appropriate/modern tools,            Communication in English
+     Teamwork                        equipment, technologies                  Technical Skills
+     Understands and takes          Apply knowledge of mathematics,          Verbal communication
+      directions for work             science, engineering                     Basic computer
+      assignments                    Customer Service Skills                  Advanced computer
+     Willingness to learn           Knowledge of contemporary issues
+     Flexibility                    Creativity
+     Empathy
+
+Table A2-2 in Annex 2 lists all skills with factor loadings that explain dimensions of each
+factor in more details. The three factors above account for more than 85% of the total
+variance.
+
+The first factor predominantly consists of personal characteristics. The skills with high
+factor loading are ―Integrity‖, ―Self-discipline‖, ―Reliability‖, ―Self-motivated‖,
+―Entrepreneurship Skills‖, ―Teamwork‖, ―Understands and takes directions for work
+assignments‖, and ―Willingness to learn‖. This factor is named Core Employability Skills,
+since these skills are not occupation specific, but cuts across occupations. Other studies
+refer to this set of skills as generic, catalytic, core and/or employability.
+
+The second factor is essentially comprised of engineering specific skills, of which the
+following are the skills with high loading; ―Identify, formulate, and solve
+technical/engineering problems‖, ―Design a system, component, or process to meet
+desired needs‖, ―Use appropriate/modern tools, equipment, technologies‖, and ―Apply
+knowledge of mathematics, science, engineering‖. Following the HR-literature and other
+employer surveys, we call this factor for ―Professional Skills‖. In the engineering
+education literature, this set of skills is also referred to as technical skills.
+
+7
+  Factor loadings are the correlation coefficients between each variable and the factor. Items with higher load
+are more relevant to the respective factor. Based on the guidelines made by Comrey and Lee (1992), items
+(skills) that load more than 0.55 are considered ―very good‖. TableA2-2 in Annex 2 shows the skills with
+the factor loadings.
+                                                                                                           12
+The third factor mixes different types of skills, e.g., communication skills, cognitive skills,
+and computer skills. The high loading skills in the third factor include ―Written
+communication‖, ―Design & conduct experiments, and analyze and interpret data‖,
+―Reading‖, and ―Communication in English‖. This factor includes skills which may not be
+directly relevant to communication, such as ―Design & conduct experiments, and analyze
+and interpret data‖. However, Table 3 and Table A2-2 show that all communication skills
+fall in the third factor with relatively higher loadings. Therefore, the third factor is named
+Communication Skill.
+
+The three names of the factors do not necessarily represent all skills in respective factors,
+but these three names do represent the majority of skills with high loadings. It should also
+be noted that naming factors is a mere poetic, theoretical, and inductive leap (Pett, Lackey,
+Sullivan, 2003). Therefore, it is important to look into the composition of these three
+factors and understand actual skills explaining each factor.
+
+The three factors obtained from factor analysis are similar to other studies using factor
+analysis. For instance, as presented in Table 1 from Section 2, Paranto and Kelker (1999)
+grouped skills into four factors, Specific, Core, Personal Characteristics, and
+Communication Skills. The factor, Core Employability Skills, corresponds to Core and
+Personal skills, and Professional Skills to Specific skills, and Communication Skills to
+Communication Skills. This similarity with empirical findings from other employer
+surveys increases our confidence of the above categorization of skills.
+
+The three skills group identified by the above factor analysis partly corroborates one of the
+most used learning classifications, the Bloom‘s taxonomy, (Bloom 1956). Bloom‘s
+taxonomy suggests the existence of three domains of learning. The term ―learning‖ is
+synonymous to the term ―skill‖ as used in this paper. The three domains are:
+
+      Cognitive skills involve knowledge and the development of intellectual skills,
+
+      Affective skills include the manner in which we deal with things emotionally, such
+       as feeling, values, appreciation, enthusiasm, motivations, and attitudes, and
+
+      Psychomotor skills encompass physical movements, coordination, and the use of
+       motor-skill areas.
+
+The types of skills that our factor analysis categorizes under the Core Employability Skills
+mostly belong to the Affective domain in Bloom‘s taxonomy (Integrity, self-discipline,
+reliability, and team-work). The types of skills categorized under the Professional Skills all
+belong to the Cognitive domain in Bloom‘s taxonomy (remembering knowledge,
+understanding, applying, analyzing, evaluating, and creating). The skills categorized under
+the third factor Communication Skills are a more mixed bag, as discussed above, and do
+not correspond to a specific domain in the Bloom‘s taxonomy. In Bloom‘s taxonomy
+communication skills are mostly classified as part of the Affective Domain. This partial
+match of our identified skills categories with the Bloom‘s taxonomy provides further
+confidence in the use of the three skills group in the rest of the paper.
+
+
+
+                                                                                            13
+ Using these three categories of skills (Core Employability, Professional Skills, and
+ Communication Skills), the remaining of this section responds to the three research
+ questions on importance, satisfaction, and skill gaps.
+
+  5.2 Importance: Which Skills Do Employers Demand in Engineering Graduates?
+ The level of importance attached to each skill reveals employers‘ valuation of, and
+ demand for, that skill. Table 4 below summarizes the importance level of each skill under
+ the three factors as perceived by the employers. Standard deviations are presented in Table
+ A2-3 in Annex 2 which also contains statistical tests for statistically significant differences
+ in importance scores as discussed below. All skills are on average rated from 3.5 (half way
+ between ―Somewhat important‖ and ―very important‖) to 4.5 (half way between ―very
+ important‖ and ―extremely important‖). Hence, all skills in the questionnaire are rated as
+ important.
+
+ Core Employability Skills show the highest level of importance on average. The high
+ importance level of reliability and teamwork is consistent with the qualitative feedback
+ from employers received during the pilot surveys. Many employers specifically look for
+ engineers who are reliable and can effectively work with team members.
+
+                       Table 4: Importance Level by Three Factor Skills
+Core Employability      Mean        Professional Skills      Mean     Communication Skills        Mean
+      Integrity          4.48       Use of modern tools       4.08   Communication in English      4.26
+     Reliability         4.42    Apply Math/Sci/Engg know.    4.07    Written Communication        4.07
+    Teamwork             4.41            Creativity           4.07            Reading              4.04
+Willingness to learn     4.40         Problem solving         3.93       Technical Skills          4.02
+ Entrepreneurship        4.35      System design to needs     3.84   Experiments/data analysis     4.01
+  Self-discipline        4.26       Contemporary issues       3.83    Verbal Communication         4.00
+  Self-motivated         4.22        Customer Service         3.51        Basic computer           3.95
+     Flexibility         4.15                                          Advanced computer           3.71
+ Understand/take
+     directions           4.14
+      Empathy             3.92
+      Average             4.27           Average              3.91           Average                  4.01
+
+
+ Employers rated Professional Skills the lowest on average among the three factor skills.
+ This may be partly because employers think that engineering related skills can be partly
+ remedied through in-house training even after graduation while Core Employability Skills
+ would require longer timeframe to be acquired.
+
+ Communication in English is ranked the most important skill under Communication Skills.
+ This could be explained by English being the preferred language in many economic
+ sectors and firms. Azam, Chin, and Prakash (2010) also find that employers demand
+ English skills. Specifically, they estimate based upon a large household survey that
+ English communication skills increase the hourly wages of men by a whopping 34%. The
+ return mainly accrues to young highly educated workers (such as engineers). As Indian
+ economic activities go global, better command of English language is desired. In addition,
+ the high ranking of Communication in English could be partially attributed to the fact that
+
+                                                                                                 14
+  there has been an increasing demand for Indian engineers in the software and information
+  technology-enabled service (ITES) sectors that are provide services in English to
+  customers in the United States and the United Kingdom (Ferrari and Dhingra, 2009). A
+  one-way analysis of variance (ANOVA) was conducted to test whether the mean
+  importance scores of Communication in English are equal between firm sizes, firms
+  with/without foreign capital, and firms in difference economic sectors. Large firms
+  consider Communication in English more important than medium and small firms. Firms
+  with foreign capital have higher importance mean scores than those without foreign capital.
+  The IT sector has relatively higher scores than other sectors. However, these results are not
+  statistically significant. The results of analysis are presented in Table A2:4 - 6 of Annex
+  2.8
+
+  A similar employer survey undertaken in the US in 2004 equally asked for the importance
+  level of skills of engineering bachelor graduates (Lattuca, Terenzini, Volkwein, 2006
+  study for ABET). The formulation of the skills is very similar if not identical for 10
+  Professional Skills.9 The two surveys allow us to examine whether US employers demands
+  the same skills as the Indian employers. In particular, we focus on whether the employers
+  share the same prioritization of skills; i.e. is the ranking of the importance similar among
+  the employers of the two countries? Table 5 ranks the importance of skills in each country
+  based upon the percentage of employers responding ―Very or Extremely Important‖ (the
+  two highest responses on a five point scale). The picture is mixed. In general, employers in
+  both countries rank team-work, applying math/science/engineering knowledge and
+  communication skills high, while raking skills related to knowledge of contemporary
+  issues, system design, and design of experiments low. However, some skills are ranked
+  differently, such as lifelong learning (valued by Indian employers and less so by US
+  employers). We cannot test whether the rankings are statistically significantly the same
+  since we do not have the underlying data for the US employer survey.
+
+            Table 5 Ranking of Importance of Skills in India compared to the US
+                        India                                                         US
+     % of                                                                                               % of
+  employers                                                                                          employers
+respond ―Very                      Skill                                   Skill                   respond ―Very
+ or Extremely                                                                                       or Extremely
+  Important‖                                                                                         Important‖
+     94%          Lifelong-learning                        Communicate effectively                      91%
+                  Understand professional and
+                                                                                                        86%
+      93%         ethical responsibilities                 Engineering problem solving
+
+  8
+    Nevertheless, there is also the possibility that the formulation of the questionnaire in English implied that
+  an English speaking person filled out the questionnaire. This could potentially have introduced a bias
+  towards increased importance of English.
+  9
+    There is a logical explanation why the two surveys asked feedback on a set of skills that were almost
+  identically formulated. The US survey sought feedback on the ABET EC2000 (a)-(k) criteria. These criteria
+  formed the basis for the formulation of the expected attributes and competences of an engineer graduate in
+  the Washington Accord. The NBA criteria used in this Indian employer survey were formulated to be
+  consistent with the Washington Accord.
+                                                                                                             15
+     93%        Teamwork                                Teamwork                                     79%
+                Apply math, science, and                Apply math, science, and
+                                                                                                     78%
+     85%        engineering know.                       engineering know.
+     84%        Communicate effectively                 Use modern engineering tools                 77%
+                                                        Understand professional and
+                                                                                                     73%
+     83%        Use modern engineering tools            ethical responsibilities
+     83%        Design and conduct experiments          Design a system to meet needs                66%
+     80%        Engineering problem solving             Lifelong-learning                            60%
+     75%        Design a system to meet needs           Design and conduct experiments               59%
+                Knowledge of Contemporary               Knowledge of Contemporary
+                                                                                                     25%
+     71%        issues                                  issues
+Source: Authors for India and Lattuca, Terenzini, Volkwein study for ABET 2006 for the US.
+Note: Year of survey for the US was 2004 and 2009 for India. The both surveys asked employers to rate the
+importance on a five-point scale. The wording of the US scale differed marginally from the Indian survey.
+Whereas the top two most importance categories in the Indian scale was "Very or Extremely", the two
+highest importance levels were termed "Highly Important or Essential".
+
+
+A similarity in the demand for skills would suggest that employers in India and the US
+share the same perception of skill set that an engineering graduate should learn. 10 This
+would support the value of having common standards in engineering education as sought
+by the accrediting bodies that are members of the Washington Accord. A similarity in
+demand would also suggest that the factors driving skill demand in the two countries:
+technologies, competitiveness, and composition of economic sectors are relatively similar
+in the two countries.
+
+Soft Skills vs. Professional Skills (Importance): Many employers emphasized the
+importance of soft skills during interviews. Also other studies have discussed that many
+employers spend significant amount of resources to provide employees with training for
+improvement in not only technical but also soft skills, for example (Wadhwa, Kim de
+Vitton, Gereffi, 2008). Therefore, we test the importance of Soft Skills relative to
+Professional Skills. When discussing soft skills, communication skills are often part of
+soft skills. Therefore, a variable Soft Skills is created by combining Core Employability
+Skills with Communication Skills variables. Then, the following assumption is statistically
+tested: ―Employers perceive Soft Skills as more important than Professional Skills‖. In
+order to verify the assumption above, a t-test is conducted with a null hypothesis that the
+mean of Soft Skills is the same as that of Professional Skills in terms of the importance
+level. In other words, do employers perceive that Soft Skills and Professional Skills are
+equally important? The result of the t-test in Table A2-8 in Annex 2 suggests that we
+reject the null hypothesis and shows that the mean of Soft Skills is significantly higher than
+that of Professional Skills in importance level. The mean of Soft Skills is 4.15 (0.03) while
+that of Professional Skills is 3.98 (0.05).11 The probability of the null hypothesis is less
+
+10
+   Although the two survey questionnaires are almost identical, the interfered comparison of skills demanded
+in the two countries may not be comparable. This is the case if the response on importance is influenced by
+the skill set of available engineers in each country. For instance, if a large share of Indian employers rate
+lifelong learning skills ―very important‖ because that skill is in short supply; while a lower share of US
+employers rate lifelong learning skills ―very important‖, because graduating engineers in the US possess this
+skills.
+11
+   The figures in the parentheses are standard deviations.
+                                                                                                          16
+than 0.001. Therefore, our data provides support for the assumption above, ―Employers
+perceive soft skills as more important than Professional Skills‖.
+
+Further, a similar analysis is conducted to test whether Core Employability Skills are
+statistically different from Professional Skills, and similarly Communication Skills from
+Professional Skills. The results are the same as above. The means of Core Employability
+Skills and Communication Skills are 4.27 (0.04) and 4.01 (0.04), respectively. Both of
+them are significantly higher than the mean of Professional Skills with the p-value of less
+than 0.001 and 0.014 in Core Employability Skills and Communication Skills, respectively.
+Hence, employers perceive both Core Employability Skills and Communication Skills more
+important than Professional Skills. Table A2-9 and A2-10 in Annex 2 present the detailed
+test information.
+
+The results of the analysis are consistent with the qualitative findings, which report that
+employers in India are trying to broaden the talent pool and develop a recruitment
+philosophy to hire for general ability and attitude rather than specialized domain and
+professional skills (Wadhwa, Kim de Vitton, Gereffi, 2008). The National Knowledge
+Commission report (2008) also emphasizes the importance of soft skills as one of the
+survival skills for individuals. One of the reasons that employers perceive Soft Skills more
+important than Professional Skills might be that stronger Soft Skills, such as willingness to
+learn, lead to continuous improvement of Professional Skills.
+
+There is a discussion to which extent institutions and teachers should aim for improved
+Core Employability (Integrity, Reliability, Teamwork, Willingness to learn etc.) and
+Communication Skills and to which extent that they can be held accountable for the
+graduates‘ skills in these skill categories, given these are to a degree acquired prior to
+higher education. Nevertheless, it is critical that engineering institutions recognize the
+importance of Soft Skills. Based upon the importance of these skill sets, it is our view that
+education institutions should actively foster the learning of Soft Skills. This would add to
+the professional skills of graduate and increase their employability and trainability.
+
+Does demand for skills vary between Economic Sectors, Firm sizes, and regions?
+The analysis so far is conducted at national level. This section analyzes the data
+disaggregated by sector, firm size and regional levels. In order to assess whether or not
+employer‘s characteristics have an impact on their perceptions of the level of importance
+in Soft and Professional Skills, the Kendall‘s rank correlation coefficient is used to
+determine whether the orderings of importance level in skills differ across sectors, size,
+and regions.
+
+The Kendall‘s rank correlation analysis is helpful when comparing the orderings of two or
+more groups. It is a non-parametric measure assessing the degree of correspondence
+between sets of rakings. A pair of variables needs to transform one rank order into the
+other. Depending on the degree of correspondence between the set of rankings, the
+Kendall‘s rank correlation coefficient lies between -1 and 1. If the value is 1, the
+agreement between two rankings is perfect (same orderings). If the value is -1, the ranking
+order is completely reversed. If the value is 0, the ordering of the two variables are
+independent. For our dataset, if the orderings of the importance level differ across sectors,
+
+                                                                                          17
+sizes, and regions, then skill demand depends upon the employer‘s characteristics (sector,
+size, and region).
+
+First, we test whether the orderings of importance level in soft and Professional Skills
+differ across sectors. Because there are some sectors that do not have sufficient sample
+size, the test takes into account only the following sectors, which have relatively larger
+samples; Automobiles, IT, Infrastructure, Mining, Oil & Gas, Other Service Sectors, and
+Power. The null hypothesis of the test is that the orderings of the importance level in skills
+in sector X and Y are different (independent). In soft skills, 18 out of 28 sector pairs with
+asterisks indicate that orderings in the level of importance are not statistically different
+from zero (Table A2-14 in Annex 2). In Professional Skills, only 4 sector pairs show that
+they are not different (Table A2-15 in Annex 2). In other words, most sectors have a
+common perception about which soft skills are important, while they value different kinds
+of Professional Skills.
+
+For instance, infrastructure sector, which is one of the sectors facing serious skill gaps,
+shows that the ordering of the importance level in Soft Skills does not differ from the other
+sectors, except from that of the Power sector. As for Professional Skills of Infrastructure,
+the ordering of the importance level statistically significantly differs from the ordering of
+other sectors (with exception of the Power and Oil&Gas sectors). For example while
+infrastructure emphasizes the importance of knowledge of math/science/engineering and
+ability to use modern tools, IT prioritizes creativity the highest. This result indicates that
+the Infrastructure sector tends to demand similar Soft Skills as other sectors. In contrast,
+the priority in Professional Skills tends to be more unique to the sector.
+
+Secondly, a similar test is conducted for firm size. The null hypothesis of the test is that
+the orderings of the importance level in skills are different by size of company. Table A2-
+16 in Annex 2 shows that the orderings of the importance level of Soft Skills do not differ
+across small, medium, and large firms. Therefore, like the analysis conducted across
+sectors, employers tend to consider the same Soft Skills important, irrespective of firm size.
+
+However, the similar analysis for Professional Skills shows a different picture (Table A2-
+17 in Annex 2). Firm size matters when it comes to demand for Professional Skills. Large
+companies with more than 500 employees ask for different Professional Skills compared
+to both medium and small firms. For instance, while large companies demand creativity
+the most, small companies look for ability to use modern tools, knowledge of
+math/science/engineering, and problem solving skills. Small and medium companies seem
+to demand the same set of skills, since there is no statistically significant difference in the
+ordering of importance level of Professional Skills.
+
+Finally, another similar test was conducted by region. The results are similar to the
+analyses above. The important Soft Skills are common to most regions while many regions
+tend to consider different priorities in Professional Skills. Table A2-18 in Annex 2 shows
+that only one pair, Central and West, indicates that the order of importance level in Soft
+Skills are not the same. All the other pairs show that the regions tend to consider similar
+Soft Skills important. As for Professional Skills, the order of importance differs across
+regions (Table A2-19). For instance, problem solving skill in North is considered
+
+                                                                                            18
+relatively more important than other Professional Skills (ranked 3rd among 7 Professional
+Skills), but that in South problem-solving is only ranked 6th.
+
+To summarize, we find that similar Soft Skills are considered important across sectors,
+regions, and firm sizes. The analysis also shows that employers tend to have different
+priorities in Professional Skills depending upon their characteristics.
+
+ 5.3 Satisfaction: To What Extent Does the Skill Set of Engineering Graduates Meet
+     Demand?
+Overall, 64% of employers are only somewhat satisfied or worse with the quality of
+engineering graduates‘ skills. 3.9% of employers rate the skills as ―Not at all satisfied‖,
+16.1% as ―Not very satisfied‖, and 43.9% as ―Somewhat satisfied‖. The average rating on
+―overall are you satisfied with the newly graduated engineer that you have hired over the
+last 4 years?‖ is only 3.15. That is slight above ―somewhat satisfied‖. The mean of the
+average satisfaction rating of each of the 26 skills is similar: 3.19, which indicates that the
+employers have responded fairly consistently on the dis-satisfaction level for both the
+overall level compared to each of the specific skills. It is noteworthy that none of the skills
+listed in the questionnaire are on average rated above 4.0, ―Very Satisfied‖, which means
+that no skill satisfies employers at the ―very‖ or ―extremely‖ level. Given that this is the
+first survey one cannot compare with either previous surveys to evaluate whether
+satisfaction has decreased over the last decade as a consequence of the massive expansion
+(800% from 1998 to 2008). This (dis-)satisfaction level is corroborated by other studies on
+skills of the Indian engineering graduates. For instance, the NASSCOM and McKinsey
+report (2005) finds that 75% of engineering graduates are not employable by multinational
+companies.
+
+Obviously, this (dis-)satisfaction level is an average. There is no doubt that India produces
+a large number of exceptionally bright engineers, as can be seen in the importance of high-
+tech entrepreneurs in the US that are of Indian origin, (Wadhwa, Rissing, Saxenian, and
+Gereffi, 2007) and the share of international publications that come from Indian
+engineering education Institutions. Also, it could be that employers have unrealistically
+high expectations regarding the potential skill level of graduates. In the US survey of
+engineering graduates, the average satisfaction rate was 4.01 equivalent to ―very satisfied‖.
+While the Indo-US difference is likely to reflect a difference in the quality of the graduates‘
+skills, it could also stem from more reasonable expectations from employers or a generally
+more positive attitude of US employers. One should be cautious in directly comparing
+subjective surveys internationally.12
+
+
+
+12
+   Satisfaction level of employers toward graduates‘ skills is not always pessimistic, at least in other
+countries. Several similar employer surveys in the US, for instance, show that employers are satisfied, in
+some cases very satisfied, with graduates‘ skills. The employer survey conducted by Noel-Levitz and Utah
+State University shows that employers are very satisfied with the graduates from Utah State University. They
+show the interest to continue to hire the graduates. Another employer survey conducted by the University of
+Texas-Pan American also shows that very few employers are dissatisfied with graduates‘ skills. Given the
+different contexts between the US and India, satisfaction level cannot be simply comparable between the two
+countries. However, employers do not always unrealistically evaluate their satisfaction level toward
+graduates‘ skills.
+                                                                                                         19
+  The dissatisfaction level of employers toward engineering graduates‘ skills confirms that a
+  significant share of graduating engineers does not meet employers‘ expected standards.
+  Even if employers demanded unrealistically high skills from graduates, there is a
+  substantial quality gap between institutions (the producers) and employers (the consumers).
+  This quality gap needs to be addressed.
+
+  Table 6 below presents the satisfaction level of each skill under the three factors. The
+  level of Core Employability Skills is relatively more satisfying than the other two skill
+  factors. It can be also seen that employers are most satisfied with Communication in
+  English. Further, knowledge of math/science/ engineering and basic computer are at the
+  highest level of satisfaction in Professional Skills. This intuitively makes sense as these
+  skills were some of the main vehicles for the initial success of the India‘s offshore IT
+  business.
+
+  In contract, satisfaction of higher-order thinking skills such as problem solving, system
+  design, and experiments/data analysis is at an alarming level—only ―somewhat satisfied”
+  on average. This result reflects the views from many, if not most, firms. During a series
+  of interviews, employers pointed out that most engineering graduates lack these higher
+  order thinking skills, especially problem solving. More detail information of satisfaction
+  level is presented in Table A2-7 in Annex 2.
+
+                         Table 6: Satisfaction Level by Three Factors
+
+Core Employability     Mean    Professional Skills    Mean      Communication Skills       Mean
+      Integrity        3.50 Apply Math/Sci/Engg know. 3.23     Communication in English    3.95
+    Teamwork           3.46    Use of modern tools    3.15          Basic computer         3.34
+ Entrepreneurship      3.44         Creativity        3.08      Written Communication      3.22
+  Self-discipline      3.37   System design to needs  2.95      Verbal Communication       3.17
+Willingness to learn   3.37    Contemporary issues    2.95         Technical Skills        3.13
+     Flexibility       3.29      Problem solving      2.87              Reading            3.08
+     Reliability       3.20     Customer Service      2.65       Advanced computer         3.03
+      Empathy          3.15                                    Experiments/data analysis   3.02
+  Self-motivated       3.12
+  Understand/take
+      directions       3.12
+      Average          3.30          Average            2.98           Average             3.24
+
+  We compare the satisfaction levels with findings from a US employer survey of
+  engineering graduates. The results of the two surveys should be interpreted with caution,
+  for two main reasons: (i) The survey questionnaires differed slightly. The US employers
+  were asked to rate five combined types of skills on a three point scale, while the Indian
+  employers were rating using a five point scale on a series of individual skills (these
+  differences were not present for the importance questions analyzed above); (ii) satisfaction
+  rates depend critically upon the respondent‘s expectations. For example, it may be that the
+  competences of the Indian and the US graduates are identical, but the Indian employers
+  have high expectations than the US employers, and the former is therefore less satisfied.
+  The results tentatively suggest that Indian employers are less satisfied with their graduates
+  compared to the US employers‘ assessment of their graduates. The Indian employers are
+
+                                                                                             20
+less satisfied than their US peers on three out of the four types of skills; notably on ―Use of
+Math, Science, and Engineering knowledge‖, ―Applying Problem Solving skills‖, and
+―Learn, Grow and Adapt‖.
+
+Figure 1 Dissatisfaction Levels between Indian and US Employers
+                    and Technica
+      and Problem- Grow, Sci, and
+
+
+                                    India                                       21%
+                   Adapt l Skills
+    ication Apply Learn, Math,
+                           Use
+
+
+
+
+                                     U.S.                8%
+                                    India                              16%
+                                     U.S.                          14%
+   Teamwo Solving
+
+
+
+
+                                    India                                                          33%
+            Skills
+
+
+
+
+                                     U.S.                                      20%
+   Commun
+
+
+
+
+                                    India                                17%
+       rk
+
+
+
+
+                                     U.S.                                              25%
+
+                                            0%   5%      10%     15%     20%         25%     30%   35%
+                                                      % of employers being dis-satisfied
+
+Source: Authors for India and Lattuca, Terenzini, Volkwein study for ABET 2006 for the US.
+Note: Year of survey for the US was 2004 and 2009 for India.
+
+Soft Skills vs. Professional Skills (Satisfaction): As in the case of importance level,
+satisfaction level of both Soft and Professional Skills is analyzed to see how well (or
+unwell) engineering graduates meet employers‘ expectation for Soft and Professional
+Skills.
+
+A t-test is conducted with a following null hypothesis: ―the mean of Soft Skills is the same
+as that of Professional Skills in terms of the satisfaction level‖. The mean satisfaction
+score of Soft Skills is 3.27 (0.05), and that of Professional Skills is 2.98 (0.06). The mean
+satisfaction score of Soft Skills is statistically significantly higher than that of Professional
+Skills. Hence, the result suggests that the null hypothesis be rejected (See Table A2-11),
+and indicates that employers are more satisfied with Soft Skills than Professional Skills.
+
+We also independently tested for the two soft skill factors (Core Employability Skills and
+Communication Skills) compared to Professional Skills. The null hypotheses are; (i) the
+mean of Core Employability Skills is the same as that of Professional Skills, and (ii) the
+mean of Communication Skills is the same as that of Professional Skills. The mean scores
+of Core Employability Skills and Communication Skills are 3.30 (0.05) and 3.24(0.05),
+respectively, compared to 2.98(0.06) for Professional Skills. Both mean scores are
+significantly higher than Professional Skills’ scores of 2.98, and the result of the two t-
+tests suggests that we reject both hypotheses (See Table A2-12 and A2-13). Hence, the
+results of analysis show that employers are more satisfied with both Core Employability
+Skills and Communication Skills than Professional Skills.
+
+
+                                                                                                         21
+  As the satisfaction level of Soft Skills is considered higher than that of Professional Skills
+  among employers, engineering graduates seem to respond relatively better to the demand
+  of Soft Skills, compared to that of Professional Skills. However, as shown earlier, the
+  overall satisfaction level for Soft Skills remains quite low; only slightly above ―somewhat
+  satisfied‖.
+
+   5.4 Skill Gaps
+  This section responds to the third question, ―In which important skills are the engineers
+  falling short?‖ This section combines the analysis of the importance ratings and the
+  satisfaction ratings to identify the specific skills that are in high demand (high importance),
+  but satisfaction rates are low. These are the skills gaps that are most urgent to address.
+
+  We calculate the skill gap as the difference between the importance level and the
+  satisfaction level. A high skill gap signals that the skill is important and that the graduates
+  do not meet expectations. Table 7 presents the skill gaps by skill factor, while Figure 2
+  displays the skill gap sorted by mean scores of importance level in descending order.
+
+                              Table 7: Skills Gaps by Three Factor Skills
+
+ Core Employability          Mean        Professional Skills     Mean     Communication Skills        Mean
+      Reliability             1.22        Problem solving         1.06   Experiments/data analysis     0.99
+   Self-motivated             1.10           Creativity           0.99            Reading              0.96
+ Willingness to learn         1.03      Use of modern tools       0.93       Technical Skills          0.89
+Understand/take directions    1.03     System design to needs     0.89    Written Communication        0.85
+       Integrity              0.98      Contemporary issues       0.88    Verbal Communication         0.83
+      Teamwork                0.95   Apply Math/Sci/Engg know.    0.85     Advanced computer           0.68
+   Entrepreneurship           0.91       Customer Service         0.85        Basic computer           0.61
+    Self-discipline           0.90                                       Communication in English      0.31
+      Flexibility             0.86
+       Empathy                0.77
+       Average                0.98           Average              0.92           Average               0.77
+
+
+
+
+                                                                                                 22
+                                   Figure 2: Skill Gaps
+
+
+
+
+There are skill gaps across the three skill factors. On average, Core Employability Skills
+contain a higher level of skills gap (0.98) compared to Professional Skills (0.92) and to
+Communication Skills (0.77). Only the skill gap for Communication Skills is statistically
+significantly different from the two others. Nevertheless, there are important skills gaps in
+all three skill groups. Hence, there is no overall skill category where the graduates
+particularly fall short. Employers ask for skill improvements across the gamut of skills.
+
+Core Employability Skills remains the factor with the largest skill gap. The importance of
+Core Employability Skills outweighs the higher satisfaction level, resulting in a higher skill
+gap in this group of skills. In particular, the largest skill gaps are Reliability (1.22) and
+Self-Motivated (1.10). We do not have a particular explanation why these two skills
+display the highest level of skills gap.
+
+Skill Gaps: Graduates Possess Strong English Communication Skills
+
+The survey finds that institutions are doing very well meeting the demand for English
+skills and that English communication is a crucially demanded skill. The skill gap in
+English communication is by far the smallest among all the skills (0.31) (Table 7 and
+Figure 2).However, the absence of skill gap does not mean that institutions should not
+focus on English. The high importance of English imply that engineering education
+
+                                                                                           23
+institutions need to continue equipping graduates with a good command of the English
+language. The importance of English communication for employability should be taken
+into account when discussing language of instruction. Several States are discussing the
+benefits of local language instruction. The government of Tamil Nadu, for instance, has
+recently introduced Tamil as a medium of instruction in civic and mechanical engineering
+courses. Further, students in some government colleges are allowed to take examinations
+either in Tamil or in English or in both. The use of local language will remove an
+important barrier for learning, since poor command of English is a barrier for many
+students, in particular from rural areas, World Bank (forthcoming). However, the
+importance that employers attach to English when hiring such should also be taken into
+account, so that the engineering graduates will be employable upon graduation. In addition,
+the critical comparative advantage of Indian engineers should not be lost during the course
+of educational reforms at institutions because the importance of the good command in
+English has been increasing in both the domestic and international markets.
+
+Skill Gaps: Higher-Order Thinking Skills Are lagging
+
+A closer assessment of the skill gaps tentatively suggests that the skill gaps are largest
+within higher-order thinking skills, and smallest among the lower-order thinking skills. To
+arrive at this finding, we map the Professional (cognitive) Skill into the Bloom‘s revised
+taxonomy of cognitive skills. This taxonomy hieratically orders the level of cognitive
+skills (Anderson and Krathwohl, 2001).
+
+           Figure 3 Bloom’s revised Taxonomy
+                                                                Using the McBearth
+                                                                action verbs that have
+                                                                been ascribed to each
+                                                                thinking level, we classify
+                                                                the Professional Skills
+     Higher-order                                               and the Engineering-
+    Thinking Skills                                             related skills that fit
+                                                                poorly        in        the
+                                                                Communication        Skills-
+                                                                factor into either higher-
+                                                                order thinking skills (the
+                                                                top three cognitive skills
+      Lower-order                                               in the revised Bloom‘s
+     Thinking Skills                                            taxonomy:        analyzing,
+                                                                evaluation, and creating)
+                                                                or     the     lower-order
+                                                                thinking     skills    (the
+                                                                bottom-three      cognitive
+                                                                skills in the revised
+                                                                Bloom‘s         taxonomy:
+
+
+
+
+                                                                                         24
+remembering, understanding and applying).13 Table 8 presents the classified skills and the
+importance and the skill gap as revealed by the employers.
+
+ Table 8 Importance and Skill gap for Higher-Order and Lower-Order Thinking Skills
+
+Higher-Order Skills                                                          Importance  Skill Gap
+ Identify, formulate, and solve technical/engineering problems                      3.93        1.08
+ Design a system, component, or process to meet desired needs                       3.84        0.89
+ Use appropriate/modern tools, equipment, technologies to the specific job          4.08        0.93
+ Creativity                                                                         4.07        0.99
+ Design & conduct experiments, and analyze and interpret data                       4.01        0.99
+     Average Higher-Order Skills                                                    3.98        0.97
+
+Lower-Order skills                                                           Importance  Skill Gap
+  Apply knowledge of mathematics, science, engineering                              4.07        0.85
+  Knowledge of contemporary issues                                                  3.83        0.88
+  Technical Skills (e.g. programming)                                               4.02        0.89
+  Basic computer (e.g. word processing)                                             3.95        0.68
+  Advanced computer (e.g. spreadsheets and databases)                               3.71        0.69
+     Average Lower-Order skills                                                     3.90        0.77
+Source: authors‘ calculation
+
+The average skill gap for higher-order thinking skills is substantially higher 0.97 compared
+to 0.77 for lower-order skills, a statistically significant difference at the 1% level. Further,
+the importance level is higher 3.98 compared to 3.90 (also statistically significant at the
+1% level). This simple analysis shows that Indian employers demand higher-order
+thinking skills. It also indicates that the graduates are better at meeting the demand for
+lower-order thinking skills, but they fall short in meeting the demand for higher-order
+thinking skills. The reasons for demanding higher-order thinking skills are likely to be a
+result of increased international and national competition, the pervasiveness of
+technologies in today‘s world, the focus on increased quality products and innovation. As
+skills acquired in school and workplace become obsolete more quickly in the globalization
+era, higher order thinking skills and an ability to learn new and more complex skills are
+indispensible to respond to accelerating technological change (Riboud and Tan, 2009).
+
+While the above is only an indicative results, it is the first empirically-based evidence that
+the Engineering education institutions and system does an inadequate job of developing
+analytical, evaluating and creative engineers. The above result highlights a crucial question
+for Indian engineering education; does the typical Indian engineering graduate sufficiently
+learn higher-order thinking skills? Or does the education model (curriculum, teaching-
+learning process and assessment) predominantly build lower-order thinking skills, such as
+13
+  Besterfiled-Sacre et al, 2000, shows how each EC2000 criteria can be dissected into skill elements that
+belong to different levels of thinking orders. By using such a detailed mapping, a more detailed
+approximation of the thinking-level of each required engineering skill could be established and the above
+analysis would rest upon a more detailed analytical foundation. However, this dissection of each EC2000
+criteria goes beyond the scope of this paper.
+                                                                                                      25
+remembering and understanding? Answering these questions require a larger employer
+survey and possibly a competence assessment of engineering graduates. 14
+
+Summary Analysis of Skill Gaps: The previous sections show that employers are likely to
+perceive Soft Skills more important than Professional Skills. However, engineering
+graduates with limited and weak Professional Skills are undesirable for employers. The
+survey results, for instance, show a clear signal to the Problem Solving that is under
+Professional Skills. As shown earlier, Problem Solving has the largest gap in Professional
+Skills and the second least satisfying skill of all skills.
+
+Wide gaps can be observed among almost all skills. This is more obvious for higher order
+skills, such as Problem Solving that falls in Professional Skills. Further, the mean scores
+of skill gaps in Professional Skills are higher than those in Soft Skills, which are 0.91 and
+0.88 points, respectively. Therefore, the importance of Professional Skills should not be
+disparaged.
+
+6. Summary Findings and Policy Implications
+Educating engineers with a comprehensive and deep set of skills that are in demand would
+be of tremendous importance for the employability of individual engineers and for the
+country‘s development. Large economic sectors, such as IT, infrastructure, power and
+water, rely critically upon engineering skills and technologies. This employer survey
+provides important new insight on which specific skills are important for employers and
+where the graduates currently fall short. In what follows, we present the main findings and
+the policy implications that we draw from each finding. However, it is important to keep
+three caveats in mind: (i) the quality improvements in education lie squarely within the
+scope of pedagogy, education policy and education management, which is outside of the
+scope of this paper; (ii) the engineers evaluated by employers should be seen as the end
+product of the entire education system, not just engineering education. The engineering
+colleges receive graduates from the secondary education system with a set of skills upon
+which they add. In particular, the Soft Skills are influenced by a prior schooling and the
+family setting; and (iii) although the sample size is fairly large compared to similar
+surveys, it is relatively small compared to the large population of Indian firms. Further, the
+survey may be biased due to a small size of convenience sampling and a possible over-
+sampling of large firms. Keeping these important caveats in mind, we limit the
+recommendations to a set of broad actions within engineering education to improve the
+skill set of future engineers.
+There is substantial dissatisfaction with the quality of graduates. 64% of employers
+are only somewhat satisfied or worse with the current engineering graduate skills. This
+confirms the finding of a number of other surveys showing that the skills set of fresh
+engineers is inadequate. Although, there are always caveats when comparing satisfaction
+surveys internationally, we find that Indian employers are less satisfied with their
+engineers compared to US employers. Obviously, the dissatisfaction suggests that renewed
+
+14
+  The same question should be posed as to graduates of other stream of higher education in India and to to
+other levels of the education system. Clark, 2001 examines the culture of pedagogy in the primary and
+secondary education system. She finds a pervasive focus of teaching and learning in India on lower order
+thinking-typified by repetition and memorization-and the lack of attention given to the development of
+higher-order thinking.
+                                                                                                       26
+efforts are necessary to raise the skill set of engineering graduates in India through an
+improvement in the quality of engineering education. We particularly recommend that
+each engineering program explicitly states and measures the desired learning outcomes
+(the skill set of their graduate). The accreditation agency, NBA, in particular could have a
+tremendously important impact if it increased the weight of graduates‘ learning outcomes
+compared to other input-oriented accreditation criteria (such as classroom and curricula).
+Also, while the results may appear gloomy, reforms and quality improvements programs
+have successfully taken place at individual state and institutional level. There are several
+success stories, see Annex 4 for the Technical Education Quality Improvement
+Programme. What is required is a scale-up of the reforms and investments at the national
+level addressing the shortcomings in the skill set of engineers.
+
+The skills set of engineers can be characterized by three overall skills factors:
+        (i) Core Employability Skills (which cover generic attitudinal and affective skills,
+              such as reliability and team-work);
+        (ii) Communication Skills (such as English skills, written and verbal
+              communication), and
+        (iii) Professional Skills (which generally covers cognitive skills related to the
+              engineering professions, such as ability to apply engineering knowledge; as
+              well as design and conduct experiments and related data analyze and
+              interpretation).
+These skill factors are similar to findings from other employer surveys. Core
+Employability Skills and Communications Skills are often referred to as soft skills. The
+factors also have important similarities with theoretical skill domains developed in the
+educational literature. These three skill factors are therefore appropriate to use for further
+analysis.
+
+All three skills factors are important- Core Employability Skills, Communication Skills
+and Professional Skills are important. Engineers that are in high demand possess all
+three skills sets. Engineering education programs therefore have to put in place a
+comprehensive quality upgrade of their programs.
+However, while Professional Skills remain important, employers consider Soft Skills
+(Core Employability Skills and Communication Skills) the most important skills.
+Employers look for engineering graduates who show integrity, are reliable, can work well
+in teams and are willing to learn.
+Further, employers across India ask for a similar set of soft skills. Irrespective of the
+size of the company, the economic sector, or the region, the above Soft Skills (integrity,
+reliability, teamwork and willingness to learn) remain the important ones.
+The policy implication is the need to improve the Soft Skills of graduates. This could come
+about by: (i) Colleges and teachers recognizing that Soft Skills are important and include
+soft skills as part of the desired learning objectives that teachers should foster in their
+students. Technical knowledge and applicability are fundamental to engineering education;
+however, they are not all. Student‘s soft skills need to be honed as well; (ii) The National
+Accreditation Board could enhance the importance given to soft skills in the Program
+Outcomes; For example, NBA does not explicitly include ―team working skills‖ as an
+expected skill for an engineering graduate; (iii) The teaching-learning process could be
+                                                                                           27
+adjusted to include more project-work in teams and possibly received grades as a team;
+and (iv) Introduce or scale-up specific courses providing students with opportunities to
+enhance their English skills, communication skills or other forms of Soft Skills, for
+example through finishing schools (courses for graduating students focusing on specific
+skills in high demand).
+The survey finds that colleges are doing very well meeting the demand for English
+skills, since the graduates are rated in English. The skill gap in English communication
+is the smallest among all the skills. Yet English communication is rated as the most
+important communication skill and higher than any technical skill. Although we
+understand the advantages of teaching in a local language, we recommend caution when
+considering changing the language of instruction from English to a regional language,
+because the change may put graduates from local language programs at a significant
+disadvantage at the job-interview.
+Graduates seem to lack higher-order thinking skills (analyzing, evaluating and
+creating). The employers think that graduates are relatively strong in lower-order thinking
+skills (knowledge and understanding), but fall short when it comes to the more complex
+tasks such as application of appropriate tools to solve a problem, and analysis and
+interpretation. Employers are less than ―Somewhat satisfied‖ with these skills. Further,
+these higher-order thinking skills are the most important Professional Skills. In short,
+memorizing textbooks for examinations is not a skill appreciated by the employers. This
+raises a question of fundamental importance, whether the Indian engineering education
+system overly trains students to memorize science and engineering knowledge, without
+adequately emphasizing the applicability, analysis and out-of-the-box thinking that
+employers look for. The Indian engineering firms increasingly require more analytical,
+adaptive, and creative engineers to upgrade the country‘s infrastructure, to respond to
+climate change and compete for higher value-added IT-orders on the global market.
+
+Our recommendations to improve higher-order thinking skills are following. First of all,
+we recommend that the question be further examined and debated given the importance.
+Secondly, if the finding is true, which several qualitative studies suggest, major initiatives
+are required to reform the system: (i) reshape assessment methods, especially exams at the
+large affiliating universities, to assess higher-order thinking skills and not measure
+memorized knowledge. This would require institutions to focus on learning rather than
+memorization and mere understanding. In order to do so, curricula should be designed in a
+way where students learn how to abstract out complex and practical issues within limited
+time; (ii) reform curricula to increase the share of tasks where the student or a team of
+students lead their own problem identification, experimenting, and solving using
+engineering knowledge and methodologies; (iii) promote teaching-learning sessions where
+students are actively learning and developing their own analytical and evaluating skills as
+compared to simply listing and taking notes. This would most likely require significantly
+increased academic autonomy of institutions, substantial professional development of the
+teacher force and recruitment, and attention to instructional skills when recruiting teachers.
+
+Employers ask for different Professional Skills depending upon their economic
+sectors, the firm size and the region. To illustrate, IT companies, in general, demand
+creativity and strong system design skills while the knowledge of mathematics, science,
+and engineering are less important. On the other hand, the infrastructure firms prioritize
+                                                                                        28
+graduates with strong ability to use modern tools and the knowledge of mathematics,
+science, and engineering, but focus less on creativity and system design skills.
+This leaves an important role for institutions to prepare their graduates to meet the demand
+for skills from different sectors. Institutions therefore have to increase their interaction
+with various kinds of employers. Hence, the institutions should customize program
+outcomes to meet the specific demand. Further, extra-curriculum activities such as
+internships and involvement of institutions with community would also help students to
+deepen the understanding of demanded skills and respond well to particular demanded
+skills.
+
+
+
+
+                                                                                         29
+References
+Academy For Educational Development, 2008.        Middle Technical College Employer
+      Survey, AED, Washington DC, USA
+
+Acock, Alan C., 2008, A Gentle Introduction to Stata, Second Edition, Stata Corp LP,
+     Texas USA
+
+Anderson, L. W., & Krathwohl, D. R. (Eds.). 2001. A taxonomy for learning, teaching and
+     assessing: A revision of Bloom's Taxonomy of educational objectives. New York:
+     Longman.
+
+Azam, Mehtabul & Aimee Chin & Nishith Prakash, 2010. The Returns to English-
+     Language Skills in India. CReAM Discussion Paper Series 1002, Centre for
+     Research and Analysis of Migration (CReAM), Department of Economics,
+     University College London, UK.
+
+Bertrand, Marianne and Sendhil Mullainathan, 2001. Do People Mean What They Say?
+      Implications For Subjective Survey Data. American Economic Review, American
+      Economic Association, Pennsylvania, USA.
+
+Biswas, Gautam, K.L. Chopra, C.S. Jha and D.V. Singh, 2010. Profile of Engineering
+     Education in India: Status, Concerns and Recommendations. Indian National
+     Academy of Engineering, Narosa Publishing House, New Delhi, Chennai, Mumbai,
+     Kolkata
+
+Bloom, B.S. (Ed.), Engelhart, M.D., Furst, E.J., Hill, W.H., & Krathwohl, D.R. 1956.
+     Taxonomy of educational objectives: The classification of educational goals.
+     Handbook 1: Cognitive domain. New York: David McKay.
+
+Borghans, Lex, Angela Lee Duckworth, James J. Heckman, Bas ter Weel, 2008. The
+     Economics And Psychology Of Personality Traits. Working Paper 13810, National
+     Bureau Of Economic Research, Massachusetts, USA.
+
+Chen, Derek H. C., Kishore Gawande, 2007, Underlying Dimensions of Knowledge
+      Assessment: Factor Analysis of the Knowledge Assessment Methodology Data,
+      World Bank Policy Research Working Paper 4216, Washington DC, USA
+
+Clark, Prema, 2001, Teaching and Learning, The Culture of Pedagogy, Sage Publications
+       India Pvt Ltd, New Delhi, India
+
+Gorsuch, Richard L., 1983, Factor Analysis (Second Edition), Lawrence ErlBaum
+     Associates, Inc. New Jersey, USA
+
+Hatcher, Larry, 1994, A Step-by-Step Approach to Using SAS for Factor Analysis and
+      Structural Equation Modeling, SAS Institute Inc., North Carolina, USA
+
+
+
+                                                                                    30
+Hester, Yvette, 1996, Mathematical Models Underlying Common Factor Analysis: An
+      Introductory Primer, Educational Resources Information Center (ERIC), USA
+
+Hill, Roger B. & Gregory C. Petty, 1995, A New Look at Selected Employability Skills: A
+       Factor Analysis of the Occupational Work Ethic, Journal of Vocational Education
+       Research; Vol. 20, No. 4, pp. 59-73
+
+Jae-on, Kim, and Charles W. Muller, 1978. Factor Analysis: Statistical Methods and
+      Practical Issues. Sage Publications, CA, USA.
+
+_________, 1978. Introduction to Factor Analysis: What It is and How to Do It. Sage
+     Publications, CA, USA.
+
+Kleinke, Joan, 2005. Noel-Levitz Employer Satisfaction Survey Utah University, Noel-
+      Levitz Inc., Iowa, USA
+
+Lattuca, Lisa R., Patrick T. Terenzini, J. Fredricks Volkwein, 2006. Engineering Change:
+      A Study of the Impact of EC2000. Center for the Study of Higher Education, The
+      Pennsylvania State University, ABET, inc., Maryland, USA.
+
+Lee, Denis M. S., Eileen M. Trauth, Douglas Farwell, 1995, Critical Skills and Knowledge
+      Requirements of IS Professionals: A Joint Academic/Industry Investigation, MIS
+      Quarterly, Vol. 19, No. 3, Management Information Systems Research Center,
+      University of Minnesota
+
+Lynch, Scott M., 2003.             Multicollinearity (Soc 504).          Available    at
+     http://www.princeton.edu/~slynch/SOC_504/multicollinearity.pdf
+
+MHRD, Ministry of Human Resource Development, 1998-2008. Annual Report. New
+   Delhi, India
+
+Ministry of Power, Government of India, 2007. Agenda for the Seminar on Requirement
+      and Availability of Highly Skilled Manpower for the Power Sector, New Delhi,
+      India
+
+NASSCOM and McKinsey, 2005. NASSCOM and McKinsey Report 2005: Extending
+    India‘s Leadership of the Global IT and BPO Industries, NASSCOM and McKinsey,
+    New Delhi, India
+
+National Board of Accreditation, 2009. Evaluation Guidelines for NBA Accreditation of
+      Undergraduate Engineering Programme. National Board of Accreditation, New
+      Delhi, India.
+
+National Knowledge Commission, 2008. Report of Working Group on Higher Education.
+      New Delhi, India
+
+Paranto, Sharon R., Mayuresh Kelker, 1999. Employer Satisfaction with Job Skills of
+      Business College Graduates and Its Impact on Hiring Behavior. Journal of
+                                                                                     31
+      Marketing for Higher Education, Vol. 9(3), The Haworth Press, Inc., New York,
+      USA.
+
+Pett, Marjorie A., Nancy R. Lackey, John J. Sullivan, 2003. Making Sense of Factor
+      Analysis, The use of factor analysis for instrument development in health care
+      search. Sage Publications, Inc., California, USA.
+
+Riboue, Michelle, Hong Tan, 2009. Improving Skills for Competitiveness, (p204-245
+     Accelerating Growth And Job Creation In South Asia), World Bank, Washington
+     DC, USA.
+
+Torres-Reyna, Oscar. Getting Started in Factor Analysis (using Stata). Available at
+      http://dss.princeton.edu/training/Factor.pdf
+
+Thompson, Phyllis E., 2007. Central Ohio Technical College, Employer Satisfaction
+    Survey & Employer Interviews. Central Ohio Technical College, Office of
+    Institutional Planning & Human Resource Development, Newark, Ohio. Available
+    at http://www.newarkcolleges.com/COTC/ResearchandPlanning/default.asp
+
+Lujan, Sylvia S., Rios, Xavier ―Andy‖, 2001. Employer Satisfaction Survey, The
+      University of Texas-Pan American, Office of Institutional Effectiveness, USA
+
+Wadhwa, Vivek, Ben Rissing, AnnaLee Saxenian, Gary Gereffi, 2007. Education,
+    Entrepreneurship and Immigration: America‘s New Immigrant Entrepreneurs, Part
+    II. Ewing Marion Kauffman Foundation; Duke School of Engineering, UC
+    Berkeley School of Information.
+
+Wadhwa, Vivek, Una Kim de Vitton, Gary Gereffi, 2008. How The Discipline Became
+    The Guru. School of Engineering at Duke University, Harvard Law School, The
+    Kauffman Foundation, USA
+
+Washington Accord, Sydney Accord, Dublin Accord, Engineer Mobility Forum,
+     Engineering Technologists, Mobility, Graduate Attributes and Professional
+     Competencies, Ver 1.1-13, June 2005
+
+World Bank, 2008. Indian Road Construction Industry, Capacity Issues, Constraints &
+     Recommendations. World Bank, Washington DC, USA.
+
+_________, 2009. Implementation Completion and Results Report (IDA-37180) on A
+     Credit for a Technical/Engineering Education Quality Improvement Project. World
+     Bank, Washington DC, USA
+
+_________, 2009. India‘s Investment Climate, Voice of Indian Business, World Bank,
+     Washington DC, USA.
+
+_________, 2010. Project Appraisal Document: Second Technical/Engineering Education
+     Quality Improvement Project. World Bank, Washington DC, USA.
+
+
+                                                                                 32
+_________, Forthcoming. Study on Strategies to Achieve Equity in Student Performance
+     in Engineering in Karnataka and Gujarat. Ed. Neera Burra. World Bank,
+     Washington DC, USA.
+
+
+
+
+                                                                                 33
+                               Annex 1: Procedures of Factor Analysis
+1. Introduction
+Factor analysis is a statistical procedure to find the latent variables (or factors) that
+explains attributes underlying common variables in the matrix. In other words, it is ―to
+identify the interrelationships among a large set of observed variables and then, through
+data reduction, to group a smaller set of these variables into dimensions or factors that
+have common characteristics (Nunnally & Bernstein, 1994)”.15 Therefore, it is sometimes
+used as a data reduction technique.
+
+Factor analysis is widely used in social science, especially in psychological researches and
+business surveys. For instance, it has been used by personality psychologists to find out
+major dimensions of people‘s personality that defines human personality. The most
+prominent is probably the ―Big Five‖ personality inventory. The Big Five factors are
+Openness, Conscientiousness, Extroversion, Agreeableness, and Neuroticism (OCEAN).
+The Big Five model has been developed over the past 50 years in personality psychology,
+and a strong consensus that these five factors represent an overall pattern of all personality
+traits has emerged since early 1990s. Factor analysis is also extensively used in business
+surveys, from employee/employer satisfaction surveys to customer satisfaction surveys, to
+marketing research, and to analysis of stock market.
+
+There are basically two types of factor analysis: exploratory and confirmatory.
+Exploratory factor analysis ―is used when the researcher does not know how many factors
+are necessary to explain the interrelationships among a set of characteristics, indicators,
+or items (Gorsuch, 1983; Pedhazur & Schmelkin, 1991; Tabachnick & Fidell, 2001)‖16
+Confirmatory factor analysis, on the other hand, is used when the researcher has a defined
+idea of the structure or the number of dimensions underlying a set of variables. Given that
+employer satisfaction survey is probably the first attempt in India, exploratory factor
+analysis was applied for the data analysis. Since this paper discusses only exploratory
+factor analysis, it will henceforth simply be named factor analysis.
+
+Factor analysis normally takes three basic steps, preparing the relevant covariance matrix,
+extracting initial factors, and rotating to a terminal solution (Kim and Mueller, 1978).
+Therefore, the rest of this annex proceeds in the following way. Section 2 examines the
+quality of correlation matrix and determines if it is factorable. Section 3 presents the
+extraction method conducted. Section 4 discusses the selection of rotation methods of the
+factor analysis. Section 5 briefly examines the internal consistency of the instrument by
+using Cronbach‘s Coeeficient alpha. Section 6 discusses naming and interpreting the
+factors and their limitations. Section 7 presents composition of factor scores.
+
+2. Examine Correlation Matrix
+Reviewing elementary characteristics of correlation matrices is critical for factor analysis
+because the quality of matrices determines whether or not the matrices are factorable.
+
+
+15
+     Marjorie A. Pett, Nancy R. Lackey, John J. Sullivan, 2003. Making Sense of Factor Analysis.
+16
+     Ibid
+                                                                                                   34
+Bartlett‘s Test of Sphericity and Kaiser-Meyer-Olkin Test (KMO) were used to evaluate
+the strength of the liner association among 25 items in the correlation matrix.17
+     a) Bartlett’s Test of Sphericity: This is to test the null hypothesis that correlation
+        matrix is an identity matrix. An identity matrix is a matrix with 0‘s on the off-
+        diagonal and a completely noncollinear, which is not factorable. The formula of
+        the test is following;
+
+                                                                              ….. (1)
+
+         where
+
+                          =calculated chi-square value for Bartlett‘s test
+                       N=sample size
+                       k=number of items or variables in the matrix
+                            =natural logarithm
+                       |R|=determinant of the correlation matrix
+
+         The outcome below suggests that we reject the hypothesis above and conclude that
+         our correlation matrix is not an identity matrix.
+
+                                Bartlett test of sphericity
+                              Chi-square          =          1875.263
+                              Degrees of freedom =                300
+                              p-value             =             0.000
+                               H0: variables are not intercorrelated
+
+     b) Kaiser-Meyer-Olkin Test (KMO): KMO is a measurement of sampling adequacy
+        that compares the magnitudes of the observed correlation coefficients to the
+        magnitudes of the partial correlation coefficients.
+
+                                                                        ….. (2)
+
+         where
+
+
+
+
+                          Kaiser-Meyer-Olkin Measure of Sampling Adequacy
+                          KMO = 0.860
+
+         Evaluation of the size of KMO is characterized by Kaizer, Meyer, and Olkin as
+         following:
+
+
+
+17
+  A skill, ―Accepts responsibility for consequences of actions‖, is dropped from the correlation matrix before
+factor analysis proceeds since the skill is quite similar to ―Reliability‖.
+                                                                                                           35
+                          Above .90 is ―Marvelous‖
+                          In the .80s is ―Meritorious‖
+                          In the .70s is ―Middling‖
+                          In the .60s is ―Mediocre‖
+                          In the .50s is ―Miserable‖
+                          Less than .40s is ―Don‘t Factor‖
+
+According to Bartlett‘s test, the test is significant (                            ), which
+indicates that the correlation matrix is not an identity matrix. The result of KMO statistics
+(.86) is ―Meritorious‖ according to Kaizer‘s criteria, suggesting that we have a sufficient
+sample size relative to the number of items in our scale. Given the results of the two tests
+above, the correlation matrix appears to be factorable.
+
+3. Extraction Method and Selection of the Number of Factors to Retain
+The main objective of the extraction in factor analysis is to determine the minimum
+number of common factors that would satisfactorily produce the correlations among the
+observed variables (Kim and Mueller, 1978). There are about 7 extraction methods;
+Principal Component Analysis (PCA), Principal Axis Factoring (PAF), Maximum
+Likelihood Methods, Unweighted Least Squares, Generalized Least Squares, Alpha
+Factoring, Image Factoring, etc. The first two methods, PCA and PAF, are served as base
+models of factor analysis and most commonly used in factor analysis. Therefore, we will
+focus on these two extraction methods, discuss differences of the two models, and then
+finally decide which method is appropriate for our analysis.
+
+Both methods are based on assumption that initial factors to be extracted from the
+specified matrix are orthogonal or uncorrelated with one another (Pett, Lackey, Sullivan,
+2003), and therefore they are a multivariate linear model.
+
+The model of PCA is defined by the following equation:
+
+                                                                  ….. (3)
+
+      where
+
+                      = standardized observed variable for k
+                      = factor loadings (or standardized regression coefficient) of k on
+                      = jth common factors
+
+The model of PAF is slightly different from PCA, and it is defined by the following
+equation:
+
+                                                                    ….. (4)
+
+      where
+
+                      = standardized observed variable for k
+                                                                                           36
+                              = factor loadings (or standardized regression coefficient) of k on
+                             = jth common factors
+                                 = factor loading of k on its unique factor
+
+As the formulas above show, the major difference between PCA and PAF is their
+approaches to deal with the variances. While PAF includes all variances; common
+variance, specific variance, and error variance, PCA partitions variances into shared
+variance and unique variance, which is composed of specific and error variance.
+
+There is no agreement among researches on which extraction method is better, and
+therefore selection of extracting method in factor analysis is not easy. Both PCA and PAF
+have advantages and disadvantages. While PCA is more commonly used by researchers
+and useful especially when reducing a number of variables with a smaller number of
+components (or factors), PAF provides a better estimate of correlations by separating out
+error variances. (Pett, Lackey, and Sullivan, 2003) As a result, PCA tends to show the
+estimate of correlations slightly higher than that of PAF. Because we do not know how
+significant error of measurement from shared variance play a role in this exercise, it would
+be safer to take into account (separate out) the error variance. Thus, PAF is selected as
+extraction method.18 Table A1-1 below shows the result of the extraction.
+
+       Table A1- 1: Factor loadings (pattern matrix) and unique variances (PAF)
+                                  Factor       Eigenvalue      Difference    Proportion    Cumulative
+                                  Factor1           8.059           5.610         0.577        0.577
+                                  Factor2           2.449           1.069         0.175        0.753
+                                  Factor3           1.379           0.485         0.099        0.851
+                                  Factor4           0.894           0.285         0.064        0.915
+                                  Factor5           0.609           0.090         0.044        0.959
+                                  Factor6           0.519           0.092         0.037        0.996
+                                  Factor7           0.427           0.090         0.031        1.027
+                                  Factor8           0.337           0.062         0.024        1.051
+                                  Factor9           0.275           0.067         0.020        1.071
+                                  Factor10          0.208           0.078         0.015        1.086
+                                  Factor11          0.130           0.033         0.009        1.095
+                                  Factor12          0.097           0.040         0.007        1.102
+                                  Factor13          0.057           0.062         0.004        1.106
+                                  Factor14         -0.004           0.009         0.000        1.106
+                                  Factor15         -0.013           0.034        -0.001        1.105
+                                  Factor16         -0.047           0.006        -0.003        1.101
+                                  Factor17         -0.053           0.027        -0.004        1.098
+                                  Factor18         -0.080           0.031        -0.006        1.092
+                                  Factor19         -0.110           0.013        -0.008        1.084
+                                  Factor20         -0.123           0.033        -0.009        1.075
+                                  Factor21         -0.156           0.020        -0.011        1.064
+                                  Factor22         -0.176           0.004        -0.013        1.051
+                                  Factor23         -0.180           0.079        -0.013        1.038
+                                  Factor24         -0.260           0.016        -0.019        1.020
+                                  Factor25         -0.276                .       -0.020        1.000
+
+
+Var    Fctr1    Fctr2    Fctr3    Fctr4      Fctr5    Fctr6     Fctr7    Fctr8    Fctr9    Fctr10   Fctr11   Fctr12   Fctr13   Uniqueness
+gi21    0.524   -0.223   -0.160    0.125     -0.159   -0.034     0.035   -0.157    0.016    0.026   -0.137    0.146    0.042     0.540
+gi22    0.678   -0.058   -0.188    0.201     -0.221    0.211    -0.016   -0.023    0.021    0.031   -0.158   -0.051   -0.014     0.337
+
+
+18
+  PCA was also tried out. However, the factors extracted by PCA seemed mixing soft and Professional
+Skills, and it was difficult to intuitively interpret the results, which is one of the important assessments of the
+extracted factors.
+                                                                                                                                     37
+gi23      0.635   -0.002   -0.072    0.299   -0.130    0.095   -0.210   -0.150   -0.041    0.092    0.088   -0.052    0.008   0.388
+gi24      0.598   -0.445    0.023   -0.217   -0.145    0.012    0.142    0.111    0.206    0.022   -0.001    0.023   -0.005   0.300
+gi25      0.596   -0.510    0.019   -0.105   -0.174    0.088    0.133   -0.053    0.016    0.085    0.073   -0.017   -0.041   0.300
+gi26      0.532   -0.486    0.170   -0.113   -0.093   -0.068   -0.103    0.135    0.200   -0.022    0.075   -0.039    0.043   0.347
+gi27      0.649   -0.398   -0.012    0.104   -0.007   -0.002    0.008    0.229   -0.201    0.050   -0.048   -0.028    0.065   0.307
+gi28      0.602   -0.062   -0.245    0.142    0.065   -0.201   -0.089    0.113   -0.131    0.153    0.059    0.111   -0.043   0.429
+gi29      0.685   -0.264    0.113   -0.013    0.165    0.091   -0.050    0.024   -0.016   -0.109   -0.067   -0.088   -0.120   0.371
+gi210     0.545   -0.298   -0.077    0.044    0.157    0.194    0.058    0.009   -0.145   -0.168    0.056    0.080   -0.019   0.482
+gi211     0.623   -0.266   -0.014    0.139    0.180   -0.238    0.067   -0.134    0.065   -0.022    0.111    0.008   -0.005   0.394
+si31      0.534    0.235   -0.323   -0.394    0.034    0.168    0.073   -0.093   -0.036   -0.003    0.020   -0.004    0.094   0.346
+si32      0.531    0.213   -0.394   -0.446    0.075    0.037   -0.105    0.000   -0.075    0.050   -0.011   -0.076   -0.040   0.285
+si33      0.561    0.341   -0.377   -0.119    0.106   -0.165    0.175    0.087    0.064   -0.025    0.006    0.026    0.022   0.330
+si34      0.609    0.415   -0.291    0.187   -0.071    0.109   -0.002    0.043    0.072   -0.045    0.055   -0.001   -0.030   0.308
+si35      0.642    0.259    0.378   -0.138   -0.238   -0.067    0.003   -0.035   -0.208   -0.039    0.078   -0.002    0.017   0.246
+si36      0.609    0.199    0.434   -0.152   -0.116   -0.196   -0.033   -0.079   -0.073    0.034   -0.035   -0.059    0.031   0.307
+si37      0.533    0.302    0.092   -0.064    0.125    0.083   -0.402    0.070    0.142    0.033    0.029    0.067    0.003   0.397
+si38      0.576    0.319    0.359   -0.112   -0.075    0.012   -0.016    0.133   -0.015   -0.161   -0.066    0.116   -0.033   0.357
+si39      0.263    0.193    0.404   -0.058    0.205    0.223    0.045   -0.045    0.081    0.208   -0.043    0.055    0.016   0.577
+si310     0.354    0.120    0.243    0.098    0.294    0.073    0.229    0.104   -0.046    0.158   -0.006   -0.033   -0.016   0.609
+si311     0.352    0.448    0.066    0.349   -0.035    0.176    0.127    0.130    0.061   -0.085    0.080   -0.049    0.072   0.459
+si312     0.646    0.339    0.115    0.039   -0.010   -0.040    0.153   -0.253    0.072   -0.021    0.025    0.012   -0.058   0.354
+si313     0.566    0.349   -0.084    0.156    0.017   -0.319    0.008    0.068    0.071    0.002   -0.114   -0.073   -0.002   0.397
+si314     0.527   -0.365    0.067    0.057    0.354   -0.035   -0.102   -0.160    0.002   -0.115   -0.063   -0.032    0.087   0.393
+
+
+After determining the extraction method, the number of factors to retain should be decided.
+There are mainly three approaches:
+
+Eigenvalues19 with more than 1.0. One of the ways to determine the number of factors to
+retain is to select factors whose eigenvalues are more than 1.00 (Kaiser-Guttman rule).
+Given this rule, it suggests that Factor 1, 2, and 3 in the Table A1-1 should be selected.
+
+Percent of Variance Extracted. Another way is to examine the cumulative figures (the
+last column of the top table in Table A1-1) and set a threshold where the figures reach
+between 75 – 80%. The figures are accumulation of ―proportion‖ (next column on the left
+of ―cumulative‖). The figures in proportion are calculated by dividing eigenvalue in a
+given factor by the summation of the eigenvalues (13.962). For instance, the first
+proportion 0.5772 is computed as following: 8.05851/13.962=0.5772 (rounded). This
+suggests retaining the first two factors (Factor 1 and 2).
+
+Scree Plot. The third method for determining the number of factors to retain is the Scree
+Plot. This is visualization of the first method (eigenvalues), and Cattell (1966) suggests
+retaining factors whose dropping level of eigenvalues is higher than that of going across in
+the Scree Plot. In Figure A1-1 below, the first three factors show significant drops
+compared to others which are more or less flat. Therefore, this method also recommends
+retaining the first three factors. Given these three methods, it is determined that our factor
+analysis model will keep three factors (Factor 1, 2, and 3) for further analysis.
+
+
+
+
+19
+     Eigenvalue is the amount of variance explained by each factor.
+                                                                                                                                  38
+                             Figure A1- 1: Scree Plot of Eigenvalues
+
+
+
+
+4. Rotating Methods
+Unrotated factors, e.g., Table A1-1 are often very difficult to have meaningful
+interpretations. In order to make the unrotated factors more interpretable, those factors are
+usually rotated for further analysis. Therefore, rotating factor is the next step after
+determining the number of factors to be retained. Detail explanations of rotation are
+beyond the scope of this paper, but the paper briefly explains the method applied for the
+analysis and the reason why the method was selected.
+
+There are basically two rotating methods, orthogonal and oblique factor rotations. While
+the former is assumed that the generated factors are independent of each other
+(uncorrelated), the latter is supposed to have some correlations between the factors. (Pett,
+Lackey, and Sullivan, 2003) Especially in social science, it is unrealistic to assume that
+the generated factors are completely independent. For instance in our study, Factor 1 has
+higher correlations with core employability skills, Factor 2 shows more correlations with
+Professional Skills, and Factor 3 is more related to communication skills.20 It intuitively
+makes sense to assume that these three generated factors in our analysis (Core
+Employability Skills, Professional Skills, and Communication Skills) may have some
+
+
+
+
+20
+  Table A1-1 does not clearly show this result. This is precisely why rotation is needed. Table 6 in Annex 2
+shows more meaningful and interpretable results.
+                                                                                                         39
+correlations, however little. Therefore, the oblique factor rotation method was selected for
+our analysis.21
+
+5. Interpreting and naming Factors
+The amount of the factor loadings for each skill is helpful for interpreting factors. It is
+widely accepted that factor loadings less than 0.40 can be disregarded for interpretation of
+the factors. Therefore, Table A2-2 in Annex 2 shows the rotated factors which are sorted
+from highest to lowest and more than 0.40 in factor loadings.
+
+The highest and the majority of factor loadings in Factor 1 are skills that are related to core
+employability skills e.g., integrity, self-discipline, reliability, etc. Factor 2, on the other
+hand, is dominated by Professional Skills with a few core employability skills whose
+factor loading is relatively low. All three communication skills fall in Factor 3, and there
+are skills related to the cognitive ability such as reading and analyzing and interpreting
+data.
+
+Taking into account these interpretations of the factors, each factor is named as follows:
+Core employability skills (Factor 1), Professional Skills (Factor 2), and Communication
+Skills (Factor 3).
+
+However, as briefly described in the main text, naming factors requires careful thoughts.
+It should be noted that the extracted factors do not necessarily truly exist in the real world,
+and they are hypothetically created. Therefore, the names of factors subjectively describe
+the multi dimensions of each factor.
+
+6. Evaluation of the Internal Consistency of the Instrument (Cronbach’s Coefficient
+   Alpha)
+Before fully completing the factor analysis, it is important to assess the internal
+consistency of the instrument. Cronbach‘s coefficient alpha is commonly used to measure
+reliability of the instrument, and the formula is given as follows:
+
+
+
+
+               where
+
+                               = coefficient alpha
+                               = number of items in the scale
+                                  = sum of the variances of the items
+                                =variance of the scales‘ composite score
+
+21
+   There are several different rotating methods under the oblique method. Promax is used for rotating factors.
+It is one of the representative oblique methods and is widely used in social surveys. It is especially helpful
+for large data sets.
+                                                                                                          40
+      Table A1-2 below presents alpha coefficients for the twenty five skills of the employer
+      satisfaction survey. The reliability estimates presented in the last column ranged
+      from .911 to .918 with a total scale coefficient alpha equal to .916. Since an >.8 is
+      considered good reliability, the result of evaluating the internal consistency shows that our
+      instrument is reliable enough.
+
+                      Table A1- 2: Internal Consistency (Cronbach’s Coefficient)
+                                                                                                    average
+                                                                            item-test item-rest inter-item
+                              Skills                            Obs   Sign correlation correlation covariance alpha
+Flexibility                                                     153     +     0.532       0.483      0.165 0.914
+Creativity                                                      153     +     0.669       0.624      0.159 0.911
+Empathy                                                         153     +     0.651       0.606      0.160 0.911
+Reliability                                                     153     +     0.602       0.557      0.162 0.913
+Integrity                                                       153     +     0.587       0.544      0.163 0.913
+Self-discipline                                                 153     +     0.535       0.485      0.164 0.914
+Self-motivated                                                  153     +     0.665       0.626      0.161 0.912
+Knowledge of contemporary issues                                153     +     0.596       0.542      0.161 0.913
+Teamwork                                                        153     +     0.696       0.660      0.161 0.911
+Willingness to learn                                            153     +     0.578       0.535      0.164 0.914
+Understands and takes directions for work assignments           153     +     0.653       0.608      0.160 0.912
+Apply knowledge of mathematics, science, engineering            150     +     0.577       0.525      0.162 0.913
+Use appropriate/modern tools, equipment, technologies           150     +     0.551       0.499      0.163 0.914
+Identify, formulate, and solve technical/engineering problems   150     +     0.613       0.561      0.160 0.913
+Design a system, component, or process to meet desired needs    150     +     0.649       0.600      0.159 0.912
+Design & conduct experiments, and analyze and interpret data    150     +     0.665       0.626      0.161 0.912
+Written communication                                           150     +     0.629       0.588      0.162 0.912
+Verbal communication                                            150     +     0.548       0.500      0.164 0.914
+Reading                                                         150     +     0.606       0.559      0.162 0.913
+Communication in English                                        150     +     0.308       0.253      0.171 0.917
+Basic computer                                                  150     +     0.432       0.374      0.167 0.916
+Advanced computer                                               150     +     0.407       0.332      0.166 0.918
+Technical Skills                                                150     +     0.683       0.640      0.158 0.911
+Customer Service Skills                                         150     +     0.607       0.549      0.159 0.913
+Entrepreneurship Skills                                         151     +     0.541       0.499      0.166 0.914
+Test scale                                                                                           0.162 0.916
+
+
+
+
+                                                                                                        41
+                              Annex 2: Tables and Figures
+
+Table A2- 1: Descriptive Statistics of Companies by Size, Region, States, Sector, and
+                                     Respondents
+         Variable                                           N          %
+         Size
+          Large (Over 500 employees)                        79        50.3
+          Medium (Between 100 and 500 employees)            37        23.6
+          Small (Under 100 employees)                       39        24.8
+          No response                                       2         1.3
+         Total                                              157       100
+         Region a
+          Central                                           6         3.8
+          East                                              12        7.6
+          North                                             66        42.0
+          South                                             30        19.1
+          West                                              43        27.4
+         Total                                              157       100
+         States b
+          Andhra Pradesh                                    8         5.1
+          Bihar                                             1         0.6
+          Goa                                               1         0.6
+          Gujarat                                           14        8.9
+          Haryana                                           13        8.3
+          Jharkhand                                         2         1.3
+          Karnataka                                         11        7.0
+          Maharashtra                                       29        18.5
+          New Delhi                                         43        27.4
+          Orissa                                            1         0.6
+          Rajasthan                                         3         1.9
+          Tamil Nadu                                        6         3.8
+          Uttar Pradesh                                     14        8.9
+          West Bengal                                       7         4.5
+          No response                                       4         2.6
+         Total                                              157       100
+         Sector
+          Automobiles                                       7         4.5
+          Biotech                                           4         2.6
+          Cement                                            1         0.6
+          Food Processing                                   6         3.8
+          IT                                                16        10.2
+          Industrial Electronics                            6         3.8
+          Infrastructure                                    11        7.0
+
+                                                                                   42
+  Irrigation, Diary, Fertilizer, Agriculture   2     1.3
+  Oil & Gas                                    7     4.5
+  Other                                        53    33.8
+  Paper                                        3     1.9
+  Pharmaceutical                               3     1.9
+  Power                                        20    12.7
+  Real Estate                                  2     1.3
+  Refinery, Chemicals                          6     3.8
+  Steel                                        5     3.2
+  Telecom                                      3     1.9
+  Textile                                      2     1.3
+ Total                                         157   100
+ Firm Established with Foreign Capital
+  Yes                                          31    19.8
+  No                                           112   71.3
+  Don‘t know                                   10    6.4
+  No response                                  4     2.6
+ Total                                         157   100
+
+ Respondents
+   Board Member                                5     3.2
+   Business owner/partner                      23    14.6
+   Colleagues of graduate‘s department         1     0.6
+   GM - communications                         2     1.3
+   Head/Manager of Human Resource departme     79    50.3
+   Manger of graduate`s department             28    17.8
+   President/V. President/Executives           13    8.3
+   Other                                       2     1.3
+   No response                                 4     2.5
+ Total                                         157   100
+a. Regions where headquarters locate
+b. States where headquarters locate
+
+
+
+
+                                                            43
+                         Table A2- 2: Factor Pattern Matrix for Skills
+                                                                       Core
+                                                                                Profession Communic
+                                                                   Employabi                                     22
+                               Skills                                            al Skills   ation    Uniqueness
+                                                                    lity Skills
+                                                                                (Factor 2) (Factor 3)
+                                                                   (Factor 1)
+ Integrity                                                              0.83                                0.38
+ Self-discipline                                                        0.78                                0.45
+ Reliability                                                            0.76                                0.44
+ Self-motivated                                                         0.74                                0.42
+ Entrepreneurship Skills                                                0.65                                0.58
+ Teamwork                                                               0.63                                0.45
+ Understands and takes directions for work assignments                  0.59                                0.54
+ Willingness to learn                                                   0.58                                0.61
+ Flexibility                                                            0.49                                0.65
+ Empathy                                                                0.33                                0.59
+ Identify, formulate, and solve technical/engineering problems                      0.80                    0.43
+ Design a system, component, or process to meet desired needs                       0.77                    0.37
+ Use appropriate/modern tools, equipment, technologies                              0.73                    0.52
+ Apply knowledge of mathematics, science, engineering                               0.67                    0.55
+ Customer Service Skills                                                            0.51                    0.55
+ Knowledge of contemporary issues                                                   0.45                    0.57
+ Creativity                                                                         0.42                    0.50
+ Written communication                                                                        0.74          0.40
+ Design & conduct experiments, and analyze and interpret data                                 0.73          0.38
+ Reading                                                                                      0.72          0.44
+ Communication in English                                                                     0.59          0.73
+ Technical Skills                                                                             0.50          0.45
+ Verbal communication                                                                         0.42          0.62
+ Basic computer                                                                               0.42          0.80
+ Advanced computer                                                                            0.41          0.67
+Extracted Method: Principle Axis Factoring
+Rotation Method: Promax
+
+                                   Table A2- 3: Importance Level
+                               Skills                    N         Mean       Std. Dev.
+                   Integrity                              153        4.48           0.66
+                   Reliability                            153        4.42           0.69
+                   Teamwork                               153        4.41           0.66
+                   Willingness to learn                   153        4.40           0.64
+                   Entrepreneurship                       151        4.35           0.59
+                   Self-discipline                        153        4.26           0.71
+                   Communication in English               150        4.26           0.62
+                   Self-motivated                         153        4.22           0.69
+                   Flexibility                            153        4.15           0.68
+                   Understand/take directions             153        4.14           0.77
+                   Responsibility                         150        4.11           0.68
+22
+  ―Uniqueness is the variance that is ‗unique‘ to the variable and not shared with other variables.‖ (Torres-
+Reyna)
+                                                                                                         44
+          Use of modern tools              150        4.08       0.74
+          Apply Knowledge Math/Sci/Engg    150        4.07       0.76
+          Creativity                       153        4.07       0.77
+          Written Communication            150        4.07       0.67
+          Reading                          150        4.04       0.72
+          Technical Skills                 150        4.02       0.79
+          Experiments/data analysis        150        4.01       0.69
+          Verbal Communication             150        4.00       0.68
+          Basic computer                   150        3.95       0.71
+          Problem solving                  150        3.93       0.81
+          Empathy                          153        3.92       0.75
+          System design                    150        3.84       0.82
+          Contemporary issues              153        3.83       0.76
+          Advanced computer                150        3.71       0.89
+          Customer Service                 150        3.51       0.89
+
+
+Table A2- 4: ANOVA – Importance Mean Scores of Communication in English
+                           (Company Size)
+             |          Summary of simean
+ company_size|        Mean   Std. Dev.       Freq.
+ ------------+------------------------------------
+       Large |   4.3506494   .57961498          77
+      Medium |   4.0833333   .73192505          36
+       Small |   4.2571429   .56061191          35
+ ------------+------------------------------------
+       Total |   4.2635135   .62118481         148
+
+                         Analysis of Variance
+     Source              SS         df      MS            F     Prob > F
+ ------------------------------------------------------------------------
+ Between groups      1.75479115      2   .877395577      2.31     0.1025
+  Within groups      54.9681818    145   .379090909
+ ------------------------------------------------------------------------
+     Total            56.722973    147   .385870564
+
+ Bartlett's test for equal variances:     chi2(2) =     3.4147   Prob>chi2 = 0.181
+
+
+Table A2- 5: ANOVA – Importance Mean Scores of Communication in English
+                           (Foreign Capital)
+
+ foreign_cap |          Summary of simean
+        ital |        Mean   Std. Dev.       Freq.
+ ------------+------------------------------------
+   Dont know |           4   .81649658          10
+          No |   4.2641509   .62185417         106
+         Yes |   4.3666667   .55605342          30
+ ------------+------------------------------------
+       Total |   4.2671233   .62467753         146
+
+                         Analysis of Variance
+     Source              SS         df      MS            F     Prob > F
+ ------------------------------------------------------------------------
+ Between groups      1.01175153      2   .505875765      1.30     0.2753
+  Within groups      55.5704403    143   .388604477
+
+                                                                                45
+ ------------------------------------------------------------------------
+     Total           56.5821918    145   .390222012
+
+ Bartlett's test for equal variances:        chi2(2) =     2.2316   Prob>chi2 = 0.328
+
+Table A2- 6: ANOVA – Importance Mean Scores of Communication in English
+                               (Sector)
+
+                                   |          Summary of simean
+                           sector2 |        Mean   Std. Dev.       Freq.
+ ----------------------------------+------------------------------------
+                       Automobiles |           4   .57735027           7
+                                IT |   4.3333333   .48795004          15
+            Industrial Electronics |         4.5   .54772256           6
+                    Infrastructure |   3.9090909   .53935989          11
+ Mining and quarrying Manufacturin |   4.3571429   .49724516          14
+                         Oil & Gas |   4.2857143   .75592895           7
+          Other service activities |   4.0714286   .61572793          14
+                             Power |   4.3888889   .60768499          18
+ ----------------------------------+------------------------------------
+                             Total |   4.2391304   .58119931          92
+
+                         Analysis of Variance
+     Source              SS         df      MS            F     Prob > F
+ ------------------------------------------------------------------------
+ Between groups      3.14749984      7   .449642835      1.37     0.2292
+  Within groups      27.5916306     84   .328471793
+ ------------------------------------------------------------------------
+     Total           30.7391304     91   .337792642
+
+ Bartlett's test for equal variances:        chi2(7) =     2.4924   Prob>chi2 = 0.928
+
+
+
+                           Table A2- 7: Satisfaction Level
+                       Skills                  N         Mean   Std. Dev.
+        Communication in English              150        3.95     0.68
+        Integrity                             153        3.50     0.88
+        Teamwork                              153        3.46     0.81
+        Entrepreneurship                      151        3.44     0.72
+        Self-discipline                       153        3.37     0.86
+        Willingness to learn                  153        3.37     0.91
+        Basic computer                        150        3.34     0.95
+        Flexibility                           153        3.29     0.77
+        Responsibility                        150        3.25     0.88
+        Apply knowledge Math/Sci/Engg         150        3.23     0.84
+        Written Communication                 150        3.22     0.89
+        Reliability                           153        3.20     0.93
+        Verbal Communication                  150        3.17     0.83
+        Empathy                               153        3.15     0.81
+        Use of modern tools                   150        3.15     0.85
+        Technical Skills                      150        3.13     0.82
+        Self-motivated                        153        3.12     0.79
+        Understand/take directions            153        3.12     0.95
+        Reading                               150        3.08     0.92
+        Creativity                            153        3.08     0.92
+                                                                                   46
+                Advanced computer                         150        3.03         0.93
+                Experiments/data analysis                 150        3.02         0.90
+                System design                             150        2.95         0.96
+                Contemporary issues                       153        2.95         0.86
+                Problem solving                           150        2.87         0.96
+                Customer Service                          150        2.65         0.93
+
+
+   Table A2- 8: T-test for differences in importance means of Soft and Professional
+                                          Skills
+Paired t test
+------------------------------------------------------------------------------
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meansoft |     153    4.154193    .0344562    .4261991    4.086118     4.222268
+meantech |     153    3.894958    .0469839    .5811589    3.802132     3.987784
+---------+--------------------------------------------------------------------
+    diff |     153    .2592348    .0366064    .4527964    .1869118     .3315579
+------------------------------------------------------------------------------
+     mean(diff) = mean(meansoft - meantech)                        t =   7.0817
+ Ho: mean(diff) = 0                              degrees of freedom =       152
+
+ Ha: mean(diff) < 0                   Ha: mean(diff) != 0                      Ha: mean(diff) > 0
+ Pr(T < t) = 1.0000                 Pr(|T| > |t|) = 0.0000                     Pr(T > t) = 0.0000
+Note: meansoft refers to the mean of soft skills in importance level while meantech refers to that of
+Professional Skills.
+
+
+Table A2- 9: T-test for differences in importance means of Core Employability Skills
+                                and Professional Skills
+Paired t test
+------------------------------------------------------------------------------
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meancore |     153    4.274437    .0398547    .4929755    4.195696    4.353178
+meantech |     153    3.894958    .0469839    .5811589    3.802132    3.987784
+---------+--------------------------------------------------------------------
+    diff |     153    .3794792    .0423813    .5242274    .2957468    .4632116
+------------------------------------------------------------------------------
+     mean(diff) = mean(meancore - meantech1)                     t =   8.9539
+ Ho: mean(diff) = 0                              degrees of freedom =      152
+
+ Ha: mean(diff) < 0                   Ha: mean(diff) != 0                      Ha: mean(diff) > 0
+ Pr(T < t) = 1.0000                 Pr(|T| > |t|) = 0.0000                     Pr(T > t) = 0.0000
+
+Note: meancore refers to the mean of Core Employability Skills in importance level while meantech refers to
+that of Professional Skills.
+
+
+   Table A2- 10: T-test for differences in importance means of Communication and
+                                   Professional Skills
+Paired t test
+------------------------------------------------------------------------------
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meancomm |     150      4.0075    .0394174    .4827629    3.929611    4.085389
+                                                                                                        47
+meantech |     150    3.909524    .0466064     .570809    3.817429     4.001619
+---------+--------------------------------------------------------------------
+    diff |     150    .0979762    .0396727     .485889    .0195825     .1763699
+------------------------------------------------------------------------------
+     mean(diff) = mean(meancomm - meantech1)                       t =   2.4696
+ Ho: mean(diff) = 0                              degrees of freedom =       149
+
+ Ha: mean(diff) < 0                    Ha: mean(diff) != 0                      Ha: mean(diff) > 0
+ Pr(T < t) = 0.9927                  Pr(|T| > |t|) = 0.0147                     Pr(T > t) = 0.0073
+
+Note: meancomm refers to the mean of Communication in importance level while meantech refers to that of
+Professional Skills.
+
+
+  Table A2- 11: T-test for differences in satisfaction means of Soft and Professional
+                                         Skills
+Paired t test
+------------------------------------------------------------------------------
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meansoft |     153    3.271729     .046479     .574914      3.1799     3.363557
+meantech |     153    2.980859     .057682    .7134867    2.866897     3.094821
+---------+--------------------------------------------------------------------
+    diff |     153    .2908698    .0299241    .3701408    .2317489     .3499907
+------------------------------------------------------------------------------
+     mean(diff) = mean(meansoft - meantech)                        t =   9.7202
+ Ho: mean(diff) = 0                              degrees of freedom =       152
+
+ Ha: mean(diff) < 0                    Ha: mean(diff) != 0                      Ha: mean(diff) > 0
+ Pr(T < t) = 1.0000                  Pr(|T| > |t|) = 0.0000                     Pr(T > t) = 0.0000
+Note: meansoft refers to the mean of soft skills in satisfaction level while meantech refers to that of
+Professional Skills.
+
+
+   Table A2- 12: T-test for differences in satisfaction means of Core Employability
+                             Skills and Professional Skills
+Paired t test
+------------------------------------------------------------------------------
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meancore |     153    3.301017    .0495818    .6132927    3.203058    3.398975
+meantech |     153    2.980859     .057682    .7134867    2.866897    3.094821
+---------+--------------------------------------------------------------------
+    diff |     153    .3201577    .0331495     .410037    .2546644     .385651
+------------------------------------------------------------------------------
+     mean(diff) = mean(meancore - meantech)                      t =   9.6580
+ Ho: mean(diff) = 0                              degrees of freedom =      152
+
+ Ha: mean(diff) < 0                    Ha: mean(diff) != 0                      Ha: mean(diff) > 0
+ Pr(T < t) = 1.0000                  Pr(|T| > |t|) = 0.0000                     Pr(T > t) = 0.0000
+Note: meancore refers to the mean of Core Employability Skills in satisfaction level while meantech refers to
+that of Professional Skills
+
+
+   Table A2- 13: T-test for differences in importance means of Communication and
+                                   Professional Skills
+Paired t test
+------------------------------------------------------------------------------
+
+                                                                                                          48
+Variable |     Obs        Mean    Std. Err.   Std. Dev.   [95% Conf. Interval]
+---------+--------------------------------------------------------------------
+meancomm |     150    3.241667    .0506069     .619805    3.141667     3.341667
+meantech |     150     2.98381    .0583687    .7148678    2.868472     3.099147
+---------+--------------------------------------------------------------------
+    diff |     150    .2578571    .0373474    .4574104    .1840582     .3316561
+------------------------------------------------------------------------------
+     mean(diff) = mean(meancomm - meantech)                        t =   6.9043
+ Ho: mean(diff) = 0                              degrees of freedom =       149
+
+ Ha: mean(diff) < 0                    Ha: mean(diff) != 0                         Ha: mean(diff) > 0
+ Pr(T < t) = 1.0000                  Pr(|T| > |t|) = 0.0000                        Pr(T > t) = 0.0
+Note: meancomm refers to the mean of Communication in satisfaction level while meantech refers to that of
+Professional Skills.
+
+
+               Table A2- 14: Kendall’s Rank Correlation by Sector (Soft Skills)
+
+                 ITsoft    Powersoft      Autosoft     IEsoft      Infsoft     OGsoft      MMsoft      OSsoft
+ ITsoft          1
+ Powersoft       0.3754*   1
+                 0.0387
+ Autosoft        0.2204    0.118          1
+                 0.2533    0.5541
+ IEsoft          0.2196    0.5361*        0.3715       1
+                 0.2549    0.0047         0.0631
+ Infsoft         0.4055*   0.3104         0.7053*      0.3919*     1
+                 0.0261    0.0911         0.0002       0.0406
+ OGsoft          0.4188*   0.3918*        0.4140*      0.3360      0.4088*     1
+                 0.0247    0.0363         0.0346       0.0876      0.0297
+ MMsoft          0.3643*   0.2966         0.3935*      0.3106      0.4097*     0.3873*     1
+                 0.0463    0.1071         0.0401       0.1068      0.0258      0.0398
+ OSsoft          0.3089    0.2959         0.7811*      0.5363*     0.5746*     0.4909*     0.5178*     1
+                0.097      0.1131        0.0001      0.0056      0.002        0.0099      0.0054
+Upper row: tau-B, Lower row: p-value of z scores
+*Significant at 5%
+ITsoft: IT, Powersoft: Power, Autosoft: Automobiles, IEsoft: Industrial Electronics, Infsoft: Infrastructure,
+OGsoft: Oil&Gas, MMsoft: Mining and quarrying Manufacturing, OSsoft: Other service activities.
+
+           Table A2- 15: Kendall’s Rank Correlation by Sector (Professional Skills)
+
+                 ITtech    Powert~h      Autotech     IEtech      Inftech     OGtech      MMtech      OStech
+ ITtech          1
+ Powertech       0.1952    1
+                 0.6486
+ Autotech        0.2712    0.0529        1
+                 0.5211    1
+ IEtech          0.5590    0.6547        0.0606       1
+                 0.1438    0.0769        1
+
+                                                                                                           49
+ Inftech       0.1952      0.8095*       0.0529       0.6547      1
+               0.6486      0.0163        1            0.0769
+ OGtech        0.3904      0.7143*       0.0529       0.8729*     0.7143*     1
+               0.2876      0.0355        1            0.0159      0.0355
+ MMtech        0.5798      0.2057        0.2858       0.4125      0.3086      0.3086      1
+               0.113       0.638         0.5084       0.3155      0.433       0.433
+ OStech        0.5500      0.1952        0.4339       0.5590      0.1952      0.4880      0.0527      1
+                0.1245    0.6486        0.2615     0.1438       0.6486       0.1716       1
+Upper row: tau-B, Lower row: p-value of z scores
+*Significant at 5%
+ITtech: IT, Powertech: Power, Autotech: Automobiles, IEtech: Industrial Electronics, Inftech: Infrastructure,
+OGtech: Oil&Gas, MMtech: Mining and quarrying Manufacturing, OStech: Other service activities.
+
+      Table A2- 16: Kendall’s Rank Correlation by Size of Company (Soft Skills)
+                                   |      Ssoft      Msoft      Lsoft
+                      -------------+---------------------------------
+                             Ssoft |     1.0000
+                                   |
+                                   |
+                             Msoft |     0.5533*    1.0000
+                                   |     0.0018
+                                   |
+                             Lsoft |     0.5762*    0.6821*    1.0000
+                                   |     0.0011     0.0001
+                                   |
+                     Upper row: tau-B, Lower row: p-value of z scores
+                     *Significant at 5%
+                     Ssoft: Small Company, Msoft: Medium Company, Lsoft: Large Company.
+
+
+ Table A2- 17: Kendall’s Rank Correlation by Size of Company (Professional Skills)
+                                   |      Stech      Mtech      Ltech
+                      -------------+---------------------------------
+                             Stech |     1.0000
+                                   |
+                                   |
+                             Mtech |     0.8230*    1.0000
+                                   |     0.0187
+                                   |
+                             Ltech |     0.3086     0.4286     1.0000
+                                   |     0.4330     0.2296
+                                   |
+                     Upper row: tau-B, Lower row: p-value of z scores
+                     *Significant at 5%
+                     Stech: Small Company, Mtech: Medium Company, Ltech: Large Company.
+
+
+            Table A2- 18: Kendall’s Rank Correlation by Region (Soft Skills)
+                    |      Csoft      Esoft      Nsoft      Ssoft      Wsoft
+       -------------+-------------------------------------------------------
+              Csoft |     1.0000
+                    |
+                    |
+              Esoft |     0.4678*    1.0000
+                    |     0.0135
+                                                                                                          50
+             |
+       Nsoft |     0.4624*    0.6421*    1.0000
+             |     0.0126     0.0003
+             |
+       Ssoft |     0.4512*    0.5171*    0.6954*                        1.0000
+             |     0.0155     0.0041     0.0001
+             |
+       Wsoft |     0.3497     0.5900*    0.6865*                        0.5449*   1.0000
+             |     0.0612     0.0010     0.0001                         0.0021
+          Upper row: tau-B, Lower row: p-value of z                     scores
+          *Significant at 5%
+          Csoft: Central, Esoft: East, Nsoft: North, Ssoft: South, Wsoft: West
+
+
+Table A2- 19: Kendall’s Rank Correlation by Region (Professional Skills)
+             |      Ctech      Etech      Ntech      Stech      Wtech
+-------------+-------------------------------------------------------
+       Ctech |     1.0000
+             |
+             |
+       Etech |     0.6928     1.0000
+             |     0.0678
+             |
+       Ntech |     0.5071     0.7807*    1.0000
+             |     0.1884     0.0227
+             |
+       Stech |     0.5774     0.4500     0.3904     1.0000
+             |     0.1352     0.2191     0.2876
+             |
+       Wtech |     0.5071     0.7807*    0.6190     0.5855     1.0000
+             |     0.1884     0.0227     0.0715     0.0947
+             |
+          Upper row: tau-B, Lower row: p-value of z scores
+          *Significant at 5%
+          Ctech: Central, Etech: East, Ntech: North, Stech: South, Wtech: West
+
+
+
+
+                                                                                           51
+                                 Annex 3: Employer Satisfaction Questionnaire
+
+                            Questionnaires for Employer Satisfaction Survey
+
+
+1. OVERALL SATISFACTION
+
+
+
+
+                                                                                                       Somewhat
+                                                                                    Extremely
+
+
+
+
+                                                                                                                             Not at all
+                                                                                                                  Not Very
+                                                                                                Very
+Overall, are you satisfied with the newly graduated engineers that you have hired
+in the last 4 years (only consider hires for whom this was their first job after
+graduation)
+
+
+
+
+                                                                                                                                          52
+2. GENERAL SKILLS
+  Rate IMPORTANCE for successful                                                                                                        Rate SATISFACTION with this
+        performance of the job                                                                                                               employee’s qualities
+
+
+                     Somewhat
+
+
+
+
+                                                                                                                                                    Somewhat
+  Extremely
+
+
+
+
+                                                                                                                                 Extremely
+                                                                                   CRITERIA
+
+
+
+
+                                           Not at all
+
+
+
+
+                                                                                                                                                                          Not at all
+                                Not Very
+
+
+
+
+                                                                                                                                                               Not Very
+              Very
+
+
+
+
+                                                                                                                                             Very
+                                                                                      Flexibility
+                                                                               (responds well to change)
+                                                                                      Creativity
+                                                                      (identifies new approaches to problems)
+                                                                                       Empathy
+                                                             (understands the situations, feelings, or motives of others)
+                                                                                      Reliability
+                                                               (can be depended on to complete work assignments)
+                                                                                       Integrity
+                                                        (understands/applies professional and ethical principles to decisions)
+                                                                                    Self-discipline
+                                                                        (exhibits control of personal behavior)
+                                                                                    Self-motivated
+
+                                                                       Knowledge of contemporary issues
+
+                                                                                  Teamwork
+                                                                         (interpersonal relationships)
+                                                                             Willingness to learn
+                                                                              (Life-long learning)
+                                                            Understands and takes directions for work assignments
+
+                                                              Accepts responsibility for consequences of actions
+
+ COMMENTS
+
+
+
+
+                                                                                                                                                                                       53
+3. SPECIFIC SKILLS
+  Rate IMPORTANCE for successful                                                                                                   Rate SATISFACTION with this
+        performance of the job                                                                                                       employee’s general skills
+
+                                                                                 CRITERIA
+                     Somewhat
+
+
+
+
+                                                                                                                                               Somewhat
+  Extremely
+
+
+
+
+                                                                                                                           Extremely
+                                           Not at all
+
+
+
+
+                                                                                                                                                                     Not at all
+                                Not Very
+
+
+
+
+                                                                                                                                                          Not Very
+              Very
+
+
+
+
+                                                                                                                                       Very
+                                                        Ability to apply knowledge of mathematics, science, engineering
+                                                         Ability to use appropriate and modern tools, equipment, and
+                                                                        technologies specific to their jobs
+                                                                                (other than computers)
+                                                         Ability to identify, formulate, and solve technical/engineering
+                                                                                       problems
+                                                          Ability to design a system, component, or process to meet
+                                                                                    desired needs
+                                                        Ability to design and conduct experiments, as well as to analyze
+                                                                                  and interpret data
+                                                                            Written communication
+
+                                                                            Verbal communication
+
+                                                                                    Reading
+
+                                                                          Communication in English
+                                                                                  Basic computer
+                                                                              (e.g., word-processing)
+                                                                               Advanced computer
+                                                                         (e.g., spreadsheets, databases)
+                                                                                  Technical Skills
+                                                                                (e.g., programming)
+                                                                            Customer Service Skills
+
+                                                                            Entrepreneurship Skills
+
+ COMMENTS
+
+
+                                                                                                                                                                                  54
+4. CHARACTERISTIC OF EMPLOYER
+A. What is the legal status of the firm?     B. Was your firm established with      C. What is the approximate size of your            D. Which states/union
+                                                participation of foreign capital?      company?                                           territories does your
+  1. Joint Stock Company                                                                                                                  headquarter locate? (the
+  2. Joint stock company with state          1. Yes                                 1. Large (over 500 employees)                         biggest branch for
+     participation                           2. No                                  2. Medium (between 100 and 500 employees)             multinational companies)
+  3. Corporation represented in stock        3. Don’t know                          3. Small (under 100 employees)
+     exchange
+  4. Limited liability partnership LLP
+  5. Production Cooperative
+  6. Private entrepreneur/family business
+  7. State enterprise (various types)
+  8. Other (Specify)
+
+
+
+
+E. What is your job title?                                                             F. How many employees were hired last year?
+
+  1. Board member
+  2. Manger of graduate’s department
+  3. Supervisor of graduate’s department
+  4. Colleagues of graduate’s department
+  5. Head/Manager of Human Resource department
+  6. Business owner/partner
+  7. Other (please specify)
+
+
+
+G. Please specify the major economic activity of your firm
+                                                                                    11. Real estate activities
+ 1.    Agriculture, forestry and fishing                                            12. Professional, scientific and technical activities
+ 2.    Mining and quarrying Manufacturing                                           13. Administrative and support service activities
+ 3.    Electricity, gas, steam and air conditioning supply                          14. Public administration and defense; compulsory social security
+ 4.    Water supply; sewerage, waste management and remediation activities          15. Education
+ 5.    Construction                                                                 16. Human health and social work activities
+ 6.    Wholesale and retail trade; repair of motor vehicles and motorcycles         17. Arts, entertainment and recreation
+ 7.    Transportation and storage                                                   18. Other service activities
+ 8.    Accommodation and food service activities                                    19. Activities of households as employers; undifferentiated goods- and services-
+ 9.    Information and communication                                                    producing activities of households for own use
+ 10.   Financial and insurance activities                                           20. Activities of extraterritorial organizations and bodies
+
+
+
+
+                                                                                                                                                                       55
+H. Which sector does your company belong to                    J. Which region does your company fall in
+
+    1.    Oil & Gas                                            1. East
+    2.    Power                                                2. West
+    3.    Automobiles                                          3. Central
+    4.    Steel                                                4. North
+    5.    Pharma                                               5. South
+    6.    Industrial Electronics
+    7.    IT
+    8.    Infrastructure
+    9.    Food Processing
+    10.   Cement
+    11.   Biotech
+    12.   Paper
+    13.   Real Estate
+    14.   Telecom
+    15.   Irrigation, Dairy
+    16.   Refinery, Chemicals
+    17.   Other
+
+I. What is the annual turnover of your company in Rs crores?
+
+    1. Less than 100 cr
+    2. Between 100-500 cr
+    3. 500-1000 cr
+
+
+
+
+                                                                                                           56 | P a g e
+             Annex 4. TEQIP Institutions as Leaders in Technical Education
+Some of the survey results may look gloomy. However, reforms and investment into quality,
+learning outcomes, and employability have been implemented successfully at the state and
+institutional level. One such example is the Technical Education Quality Improvement
+Program (TEQIP). This employer survey was conducted as part of the preparation process for
+the second phase of TEQIP (TEQIP-II). The authors of this Working Paper are the Task
+Team Leader and a team member of TEQIP-II.
+TEQIP is a national program of the Government of India (GoI) with co-financing from the
+World Bank and a key part of the 11th Five-Year Plan of the GoI. It envisages a long-term
+(about 10-12 years) development of the technical education in the country and implements in
+three phases for transformation of the technical education system.
+To spearhead a set of reforms and investments, Government of India competitively selected
+127 promising institutions as future leaders of the technical/engineering sector in the country,
+in addition to India Institutes of Technology. This first phase of TEQIP was successfully
+completed in 2009 with strong results in improved employability of students and quality of
+education:
+a) More than 40 of the supported institution gained academic autonomy which allowed them
+   to continuously improve curriculum, teaching and assessment according to demand for
+   skills and newest research,
+b) Campus placement rates nearly doubled for undergraduate students from 41% to76% and
+   more than doubled from 25% to 56% for post-graduate students,
+c) Course offerings were restructured, modernized and vastly expanded in line with
+   employer expectations.
+d) Ninety-three percent of 811 Bachelor courses were accredited or in the process of
+   accreditation
+e) 220,000 students from disadvantaged backgrounds were assisted through provision of
+   remedial teaching, workshops and establishment of ―book banks.‖
+f) Enrolment in Master and PhD programs increased 50% and 69% respectively from 2002,
+g) 30,000 faculty and 13,000 staff underwent training and professional development.
+h) Professional publications increased from 3,800 to 6,328 per year,
+i) Patents obtained and applied for increased from 22 to 34 per year, and 86 per year,
+j) More than 1,887 programs were conducted to support the local community and workers
+   benefitting nearly 180,000 people and transferring 1,228 technologies to the community.
+Given the success, a second phase of TEQIP was launched in 2010 to scale-up reforms and
+investments. About 120 new institutions to the program will be competitively selected to
+improve learning outcomes and employability of graduates taking into account the findings of
+this paper as well as feedback from local employers and strategic institutional development
+plans. Further, approximately 80 institutions will be competitively selected to scale-up post-
+graduate education and improving research, development, and innovation.
+
+
+                                                                                    57 | P a g e
+When implemented broadly and consistently across the country, the above reforms and other
+government initiatives will improve upon the skills gaps identified in this employer survey.
+Further, the TEQIP program will continue to monitor employer satisfaction in order to track
+employer satisfaction and ensure feedback into the engineering education system.
+
+
+
+
+                                                                                58 | P a g e
+

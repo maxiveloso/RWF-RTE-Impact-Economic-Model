@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(python test_connection.py:*)",
+      "Bash(python process_local_pdfs.py:*)",
+      "Bash(python:*)",
+      "Bash(tee:*)",
+      "Bash(cat:*)",
+      "Bash(pkill:*)",
+      "Bash(rm:*)",
+      "Bash(ls:*)",
+      "Bash(chmod:*)",
+      "Bash(cd:*)",
+      "Bash(brew install:*)",
+      "Bash(timeout 120 python:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(awk:*)",
+      "Bash(pip show:*)",
+      "Bash(pip3 show:*)",
+      "Bash(conda list:*)",
+      "Bash(/opt/anaconda3/bin/conda install:*)",
+      "Bash(/opt/anaconda3/bin/python3 -m pip install:*)",
+      "Bash(/opt/anaconda3/bin/python check_database_structure.py)",
+      "Bash(/opt/anaconda3/bin/python update_all_sources_from_csv.py)",
+      "Bash(/opt/anaconda3/bin/python build_sources_catalog.py)",
+      "Bash(/opt/anaconda3/bin/python -m pip install:*)",
+      "Bash(/opt/anaconda3/bin/python3:*)",
+      "Bash(/opt/anaconda3/bin/pip show:*)",
+      "Bash(/opt/anaconda3/bin/pip install:*)",
+      "Bash(/opt/anaconda3/bin/python:*)",
+      "Bash(export SUPABASE_URL=https://msytuetfqdchbehzichh.supabase.co)",
+      "Bash(export:*)",
+      "Bash(tree:*)"
+    ]
+  }
+}

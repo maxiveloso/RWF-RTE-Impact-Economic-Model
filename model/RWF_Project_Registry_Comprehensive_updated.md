@@ -1,16 +1,22 @@
 # **RWF ECONOMIC IMPACT MODEL \- COMPREHENSIVE PROJECT REGISTRY**
 
-## **Single Source of Truth | Version 2.3 | February 3, 2026**
+## **Single Source of Truth | Version 2.4 | February 5, 2026**
 
 > **Note**: This document focuses on **methodology, decisions, and rationale**. For chronological **code changes and updates**, see [PROJECT_CHANGELOG.md](../PROJECT_CHANGELOG.md).
 
-> **Latest Update (Feb 3, 2026)**: Dual BCR Analysis implementation
+> **Latest Update (Feb 5, 2026)**: BCR Checklist Enhancements
+> - **20-year time horizon added**: Default sensitivity now includes [20, 30, 35, 40] years
+> - **Net-of-tax sensitivity**: New `tax_adjustment` parameter (1.0=gross, 0.85-0.90=net)
+> - **`run_tax_sensitivity()` method**: Dedicated tax sensitivity analysis
+> - **Gross/net documentation**: Explicit docstring clarifying earnings treatment
+> - **BCR checklist**: 4/5 items addressed (societal perspective deferred to future)
+
+> **Previous Update (Feb 3, 2026)**: Dual BCR Analysis implementation
 > - **Dual BCR Framework**: Two ROI perspectives (Full Investment vs RWF-only)
 > - **Cost parameters added**: RTE_COST_RWF_ONLY (₹4k), RTE_COST_TOTAL (₹1.04L), APPRENTICE_COST_RWF_ONLY (₹6k), APPRENTICE_COST_TOTAL (₹1.58L)
 > - **DualBCRCalculator class**: New module for dual BCR calculations with sensitivity analysis
 > - **Results**: RTE avg BCR Full=14.3×, RWF-only=372×; Apprenticeship avg BCR Full=23×, RWF-only=606×
 > - **Unlock multiplier**: RTE 26× (₹1 RWF → ₹26 total), Apprenticeship 39.6×
-> - **PowerPoint updated**: 2 new slides added (Dual BCR Analysis, BCR Sensitivity)
 
 > **Previous Update (Jan 20, 2026)**: Major model restructuring per Anand guidance (Dec 2025). Key changes:
 > - **P_FORMAL_RTE = 30%** (NEW): Separate parameter for RTE formal sector entry (vs national baseline 9.1%)
@@ -534,13 +540,40 @@ For upfront costs: PV(costs) ≈ cost_per_beneficiary (Year 0)
 
 **Key Finding:** Even at 8% discount rate (conservative), all BCRs remain well above the 3:1 threshold.
 
+### **BCR Checklist Enhancements (Feb 5, 2026):**
+
+| Checklist Item | Status | Implementation |
+|----------------|--------|----------------|
+| 20-year time horizon | ✅ Done | Default `time_horizons = [20, 30, 35, 40]` |
+| Explicit gross vs net | ✅ Done | Documented in DualBCRCalculator docstring |
+| Numerator/denominator clarity | ✅ Done | BCR = PV(incremental earnings) / Upfront costs |
+| Net-of-tax sensitivity | ✅ Done | `tax_adjustment` param (0.85-0.90 for net) |
+| Full societal perspective | ⏸️ Future | Requires fiscal data (tax revenue, welfare) |
+
+**Earnings Treatment:**
+- Model uses **GROSS pre-tax earnings** (Mincer wage equation standard)
+- Consistent with human capital literature and PLFS wage data
+- For net-of-tax sensitivity, use `tax_adjustment=0.85` (≈15% effective tax)
+
+**Tax Sensitivity Example (Apprenticeship, Urban Male West):**
+
+| Earnings Basis | BCR (Full) | BCR (RWF-only) |
+|----------------|------------|----------------|
+| Gross (default) | 33.7× | 889× |
+| Net (~10% tax) | 30.3× | 800× |
+| Net (~15% tax) | 28.6× | 756× |
+
 **ARTEFACTO/OUTPUT:**
 
 * `parameter_registry_v3.py`: RTE_COST_RWF_ONLY, RTE_COST_TOTAL, APPRENTICE_COST_RWF_ONLY, APPRENTICE_COST_TOTAL
-* `economic_core_v4.py`: DualBCRCalculator class, run_dual_bcr_analysis() function
+* `economic_core_v4.py`: DualBCRCalculator class with:
+  - `calculate_dual_bcr()` - Single scenario calculation
+  - `run_sensitivity_analysis()` - With `tax_adjustment` parameter
+  - `run_tax_sensitivity()` - Dedicated tax analysis method
+  - `calculate_all_scenarios()` - All 32 demographic scenarios
 * `generate_presentation.py`: Slides 13-14 (Dual BCR Analysis, BCR Sensitivity)
 
-**ESTADO:** Complete
+**ESTADO:** Complete (Feb 5, 2026)
 
 ---
 

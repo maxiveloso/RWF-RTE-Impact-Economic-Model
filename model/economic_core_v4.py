@@ -1892,6 +1892,13 @@ class DualBCRCalculator:
     For simplicity, costs are assumed upfront (Year 0), so:
         PV(costs) ≈ cost_per_beneficiary (no discounting needed)
 
+    EARNINGS TREATMENT (Feb 2026):
+        - Model uses GROSS pre-tax earnings (Mincer wage equation standard)
+        - This is consistent with human capital literature and PLFS wage data
+        - For net-of-tax sensitivity, use tax_adjustment parameter (0.85-0.90)
+        - Numerator: PV of incremental lifetime earnings (treatment - control)
+        - Denominator: Program costs (upfront, no discounting)
+
     Added: February 2026 per task requirements
     """
 
@@ -1992,7 +1999,8 @@ class DualBCRCalculator:
         discount_rates: List[float] = None,
         time_horizons: List[int] = None,
         rwf_costs: List[float] = None,
-        total_costs: List[float] = None
+        total_costs: List[float] = None,
+        tax_adjustment: float = 1.0
     ) -> Dict:
         """
         Run sensitivity analysis across discount rates and time horizons.
@@ -2001,9 +2009,11 @@ class DualBCRCalculator:
             intervention: RTE or APPRENTICESHIP
             gender, location, region: Demographics for baseline
             discount_rates: List of rates to test (default: [0.03, 0.05, 0.08])
-            time_horizons: List of years to test (default: [30, 40, 50])
+            time_horizons: List of years to test (default: [20, 30, 35, 40])
             rwf_costs: List of RWF costs to test
             total_costs: List of total costs to test
+            tax_adjustment: Multiplier for net-of-tax analysis (default: 1.0 = gross)
+                           Use 0.85-0.90 for approximate net-of-tax earnings
 
         Returns:
             Dict with sensitivity matrices
@@ -2012,7 +2022,7 @@ class DualBCRCalculator:
         if discount_rates is None:
             discount_rates = [0.03, 0.05, 0.08]  # Low, Central, High
         if time_horizons is None:
-            time_horizons = [30, 35, 40]  # Years of working life
+            time_horizons = [20, 30, 35, 40]  # Years of working life (incl. 20yr per checklist)
         if rwf_costs is None:
             rwf_costs = [self.DEFAULT_COSTS[intervention]['rwf_only']]
         if total_costs is None:
@@ -2021,6 +2031,8 @@ class DualBCRCalculator:
         results = {
             'intervention': intervention.value,
             'demographic': f"{gender.value}_{location.value}_{region.value}",
+            'tax_adjustment': tax_adjustment,
+            'earnings_basis': 'gross' if tax_adjustment == 1.0 else f'net (adj={tax_adjustment})',
             'discount_rate_sensitivity': [],
             'time_horizon_sensitivity': [],
             'cost_sensitivity': [],
@@ -2032,11 +2044,17 @@ class DualBCRCalculator:
                 intervention, gender, location, region,
                 discount_rate=rate
             )
+            # Apply tax adjustment to LNPV
+            adj_lnpv = result['lnpv'] * tax_adjustment
+            adj_bcr_full = adj_lnpv / result['total_cost'] if result['total_cost'] > 0 else 0
+            adj_bcr_rwf = adj_lnpv / result['rwf_cost'] if result['rwf_cost'] > 0 else 0
+
             results['discount_rate_sensitivity'].append({
                 'discount_rate': rate,
-                'lnpv': result['lnpv'],
-                'bcr_full': result['bcr_full'],
-                'bcr_rwf_only': result['bcr_rwf_only'],
+                'lnpv': adj_lnpv,
+                'lnpv_gross': result['lnpv'],
+                'bcr_full': adj_bcr_full,
+                'bcr_rwf_only': adj_bcr_rwf,
             })
 
         # Sensitivity across time horizons
@@ -2049,11 +2067,17 @@ class DualBCRCalculator:
             result = modified_calc.calculate_dual_bcr(
                 intervention, gender, location, region
             )
+            # Apply tax adjustment
+            adj_lnpv = result['lnpv'] * tax_adjustment
+            adj_bcr_full = adj_lnpv / result['total_cost'] if result['total_cost'] > 0 else 0
+            adj_bcr_rwf = adj_lnpv / result['rwf_cost'] if result['rwf_cost'] > 0 else 0
+
             results['time_horizon_sensitivity'].append({
                 'time_horizon_years': horizon,
-                'lnpv': result['lnpv'],
-                'bcr_full': result['bcr_full'],
-                'bcr_rwf_only': result['bcr_rwf_only'],
+                'lnpv': adj_lnpv,
+                'lnpv_gross': result['lnpv'],
+                'bcr_full': adj_bcr_full,
+                'bcr_rwf_only': adj_bcr_rwf,
             })
 
         # Sensitivity across cost inputs
@@ -2063,13 +2087,69 @@ class DualBCRCalculator:
                     intervention, gender, location, region,
                     rwf_cost=rwf_cost, total_cost=total_cost
                 )
+                # Apply tax adjustment
+                adj_lnpv = result['lnpv'] * tax_adjustment
+                adj_bcr_full = adj_lnpv / total_cost if total_cost > 0 else 0
+                adj_bcr_rwf = adj_lnpv / rwf_cost if rwf_cost > 0 else 0
+
                 results['cost_sensitivity'].append({
                     'rwf_cost': rwf_cost,
                     'total_cost': total_cost,
-                    'lnpv': result['lnpv'],
-                    'bcr_full': result['bcr_full'],
-                    'bcr_rwf_only': result['bcr_rwf_only'],
+                    'lnpv': adj_lnpv,
+                    'lnpv_gross': result['lnpv'],
+                    'bcr_full': adj_bcr_full,
+                    'bcr_rwf_only': adj_bcr_rwf,
                 })
+
+        return results
+
+    def run_tax_sensitivity(
+        self,
+        intervention: Intervention,
+        gender: Gender = Gender.MALE,
+        location: Location = Location.URBAN,
+        region: Region = Region.WEST,
+        tax_adjustments: List[float] = None
+    ) -> Dict:
+        """
+        Run sensitivity analysis across tax adjustment scenarios.
+
+        Compares gross vs net-of-tax earnings impact on BCR.
+
+        Args:
+            intervention: RTE or APPRENTICESHIP
+            gender, location, region: Demographics for baseline
+            tax_adjustments: List of multipliers (default: [1.0, 0.90, 0.85])
+                            1.0 = gross earnings, 0.85 = ~15% effective tax
+
+        Returns:
+            Dict with tax sensitivity results
+        """
+        if tax_adjustments is None:
+            tax_adjustments = [1.0, 0.90, 0.85]
+
+        # Get baseline gross LNPV
+        baseline = self.calculate_dual_bcr(intervention, gender, location, region)
+
+        results = {
+            'intervention': intervention.value,
+            'demographic': f"{gender.value}_{location.value}_{region.value}",
+            'lnpv_gross': baseline['lnpv'],
+            'tax_sensitivity': []
+        }
+
+        for adj in tax_adjustments:
+            adj_lnpv = baseline['lnpv'] * adj
+            adj_bcr_full = adj_lnpv / baseline['total_cost'] if baseline['total_cost'] > 0 else 0
+            adj_bcr_rwf = adj_lnpv / baseline['rwf_cost'] if baseline['rwf_cost'] > 0 else 0
+
+            results['tax_sensitivity'].append({
+                'tax_adjustment': adj,
+                'earnings_basis': 'gross' if adj == 1.0 else f'net (~{int((1-adj)*100)}% tax)',
+                'lnpv': adj_lnpv,
+                'bcr_full': adj_bcr_full,
+                'bcr_rwf_only': adj_bcr_rwf,
+            })
 
         return results
 
